@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-06-12T22:44:31.501428+00:00",
+  "profile_count": 13,
+  "tickers_with_warnings": [],
+  "tickers_with_missing_fields": [
+    "RKLB",
+    "LUNR",
+    "ASTS",
+    "GSAT",
+    "VSAT",
+    "RDW",
+    "BKSY",
+    "PL",
+    "MRCY",
+    "SATS"
+  ],
+  "warnings": {},
+  "missing_fields": {
+    "RKLB": [
+      "market_data.pe_ratio"
+    ],
+    "LUNR": [
+      "market_data.pe_ratio"
+    ],
+    "ASTS": [
+      "market_data.pe_ratio"
+    ],
+    "GSAT": [
+      "market_data.pe_ratio"
+    ],
+    "VSAT": [
+      "market_data.pe_ratio"
+    ],
+    "RDW": [
+      "market_data.pe_ratio"
+    ],
+    "BKSY": [
+      "market_data.pe_ratio"
+    ],
+    "PL": [
+      "market_data.pe_ratio"
+    ],
+    "MRCY": [
+      "market_data.pe_ratio"
+    ],
+    "SATS": [
+      "market_data.pe_ratio"
+    ]
+  },
+  "field_population": {
+    "current_price": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "market_cap": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "shares_outstanding": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "enterprise_value": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "total_cash": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "total_debt": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "net_debt": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "trailing_revenue": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "revenue_ttm": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "gross_margin": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "free_cash_flow": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "ev_to_sales": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "price_to_sales": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "pe_ratio": {
+      "present_count": 3,
+      "missing_count": 10,
+      "present_tickers": [
+        "IRDM",
+        "SPIR",
+        "KTOS"
+      ],
+      "missing_tickers": [
+        "RKLB",
+        "LUNR",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "PL",
+        "MRCY",
+        "SATS"
+      ]
+    },
+    "ev_to_ebitda": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "fifty_two_week_high": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "fifty_two_week_low": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "price_change_1m": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "price_change_3m": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "price_change_6m": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "price_change_12m": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "distance_from_52w_high": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    },
+    "distance_from_52w_low": {
+      "present_count": 13,
+      "missing_count": 0,
+      "present_tickers": [
+        "RKLB",
+        "LUNR",
+        "IRDM",
+        "ASTS",
+        "GSAT",
+        "VSAT",
+        "RDW",
+        "BKSY",
+        "SPIR",
+        "PL",
+        "MRCY",
+        "KTOS",
+        "SATS"
+      ],
+      "missing_tickers": []
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:19.105464+00:00",
+  "filing": {
+    "accessionNumber": "0000927003-26-000014",
+    "filingDate": "2026-05-04",
+    "reportDate": "2026-03-31",
+    "acceptanceDateTime": "2026-05-04T16:11:55.000Z",
+    "act": "34",
+    "form": "10-Q",
+    "fileNumber": "000-26966",
+    "filmNumber": "26937707",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 8119952,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "aeis-20260331x10q.htm",
+    "primaryDocDescription": "10-Q",
+    "ticker": "AEIS",
+    "cik": "0000927003",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000092700326000014/aeis-20260331x10q.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000092700326000014/aeis-20260331x10q.htm",
+  "cached_file_path": "data_cache/sec_filings/AEIS/10-Q_2026-05-04_000092700326000014_aeis-20260331x10q.htm"
+}

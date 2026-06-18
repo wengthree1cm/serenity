@@ -1,0 +1,119 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "03B_LEADER_FUTURE_OPTIONALITY",
+  "warnings": [
+    "Future optionality is scenario analysis only and is not treated as current commercial validation."
+  ],
+  "leader_future_optionality": [
+    {
+      "anchor_company": "Hyperscale cloud leaders",
+      "ticker": "various",
+      "future_business_line": "behind-the-meter or dedicated power campuses",
+      "evidence_level": "F2",
+      "current_status": "Technically plausible; company-specific procurement evidence not established in this run.",
+      "why_it_could_matter": "Could pull demand toward generators, switchgear, microgrids, storage, and interconnection equipment.",
+      "required_enablers": [
+        "permitting",
+        "fuel/power supply",
+        "switchgear",
+        "generation equipment",
+        "grid interconnection"
+      ],
+      "future_value_chain": [
+        {
+          "segment": "on-site generation and microgrids",
+          "role": "firm power source",
+          "why_it_becomes_important_if_scenario_happens": "Could bypass grid interconnection delays.",
+          "supply_constraints": [
+            "permitting",
+            "equipment lead times"
+          ],
+          "possible_public_company_candidates": [
+            "GNRC",
+            "FLNC"
+          ],
+          "evidence_strength": "low",
+          "current_commercial_validation": "weak",
+          "missing_evidence": [
+            "signed hyperscaler contracts",
+            "project revenue",
+            "backlog"
+          ]
+        }
+      ],
+      "scenario_probability": "medium",
+      "time_horizon": "2-5 years",
+      "should_pass_to_chokepoint_scoring": false,
+      "reason": "F2 only; keep as scenario watchlist."
+    }
+  ],
+  "scenario_chokepoint_candidates": [
+    {
+      "segment": "thermal management and liquid cooling",
+      "linked_future_business_lines": [
+        "higher-density AI racks"
+      ],
+      "evidence_level": "F3",
+      "why_it_could_be_a_chokepoint": "AI rack density increases heat-removal complexity.",
+      "public_company_candidates": [
+        "MOD"
+      ],
+      "main_scoring_path": "pass_to_04",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "nits, fan walls, rear-door heat exchangers, coolant distribution units (\u201cCDU\u201d) and immersion solutions. In addition, the Data Centers business sells modular data center solutions, replacement parts, maintenance service and control solutions for building management controls and systems. Market demand for data usage and ",
+          "why_it_matters": "Contains filing evidence for liquid cooling relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "contract/customer detail",
+        "segment margin"
+      ]
+    },
+    {
+      "segment": "on-site generation and microgrids",
+      "linked_future_business_lines": [
+        "behind-the-meter power"
+      ],
+      "evidence_level": "F2",
+      "why_it_could_be_a_chokepoint": "Grid delays could force private firm power.",
+      "public_company_candidates": [
+        "GNRC",
+        "FLNC"
+      ],
+      "main_scoring_path": "scenario_watchlist_only",
+      "evidence": [
+        {
+          "evidence_type": "inference",
+          "summary": "Scenario inferred from grid stress and power availability concerns.",
+          "source": "theme research"
+        }
+      ],
+      "missing_evidence": [
+        "signed projects",
+        "backlog"
+      ]
+    }
+  ],
+  "do_not_overweight_warnings": [
+    "Do not treat behind-the-meter power as current revenue for GNRC or FLNC without contracts."
+  ]
+}

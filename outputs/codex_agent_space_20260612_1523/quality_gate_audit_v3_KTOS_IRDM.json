@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "audit_type": "quality_gate_v3_KTOS_IRDM",
+  "generated_at": "2026-06-12T23:06:29.208004+00:00",
+  "overall_quality_gate": "closer_but_not_investment_grade",
+  "overall_reason": "Commercial Validation Connector v1 materially improves KTOS and IRDM evidence, but both still need exact segment revenue, backlog/customer quantification, and ownership/crowding data before investment-grade use.",
+  "company_audits": [
+    {
+      "ticker": "KTOS",
+      "current_rating": "Watchlist",
+      "evidence_strength_score": 78,
+      "data_completeness_score": 74,
+      "valuation_confidence_score": 70,
+      "commercial_validation_confidence_score": 68,
+      "crowding_confidence_score": 62,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Watchlist; not High Priority Research",
+      "reason": "KTOS has enough filing-based commercial evidence to keep Watchlist: backlog/opportunity-pipeline language, future program/contract award preparation, and satellite communications/microwave electronics references. High Priority remains blocked by stretched valuation, negative free cash flow, and missing satellite-ground-specific backlog, contract values, segment revenue, and customer concentration."
+    },
+    {
+      "ticker": "IRDM",
+      "current_rating": "Watchlist",
+      "evidence_strength_score": 80,
+      "data_completeness_score": 76,
+      "valuation_confidence_score": 68,
+      "commercial_validation_confidence_score": 72,
+      "crowding_confidence_score": 52,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Watchlist; frame as defensive/stable infrastructure",
+      "reason": "IRDM has strong commercial validation for satellite communications infrastructure through U.S. government contract evidence and LEO communications utility. It should stay Watchlist, but the thesis is more defensive/stable than a high-upside chokepoint; backlog and segment revenue evidence remain missing."
+    }
+  ],
+  "specific_answers": {
+    "KTOS_enough_validation": "Yes, enough to keep provisional Watchlist.",
+    "KTOS_high_priority": "No. Evidence is stronger but not enough for High Priority Research.",
+    "KTOS_missing": "Named satellite-ground contracts, contract values, backlog by relevant segment, satellite/ground segment revenue, and customer concentration.",
+    "IRDM_commercially_validated": "Yes, as satellite communications infrastructure.",
+    "IRDM_thesis_character": "More defensive/stable than high-upside chokepoint.",
+    "IRDM_rating": "Stay provisional Watchlist, not High Priority Research."
+  },
+  "biggest_remaining_blockers": [
+    "segment revenue",
+    "relevant backlog dollars",
+    "named customer contracts and award values",
+    "customer concentration by program",
+    "ownership and short interest",
+    "earnings-call management commentary"
+  ]
+}

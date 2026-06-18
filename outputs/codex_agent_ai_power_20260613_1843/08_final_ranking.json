@@ -1,0 +1,333 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "09_FINAL_RANKING",
+  "warnings": [
+    "No Buy/Sell/Hold recommendations. No company is High Priority Research because the run remains evidence-gated by segment-specific proof and crowding."
+  ],
+  "final_rankings": [
+    {
+      "rank": 1,
+      "ticker": "MYRG",
+      "company_name": "MYR GROUP\u00a0INC.",
+      "segment_name": "Electrical contracting, substation, and grid interconnection services",
+      "final_score": 78,
+      "classification": "Watchlist",
+      "one_sentence_thesis": "MYRG is a focused electrical contractor with utility T&D and C&I/data-center adjacency, positive FCF, and less extreme sales multiples than the most crowded equipment names.",
+      "key_evidence": [
+        "ts. Commercial and Industrial segment. We have provided electrical contracting services for commercial and industrial construction since 1912. Our C&I segment provides services such as the design, installation, maintenance and repair of commercial and industrial wiring, the installation of intelligent transportation sy",
+        "th a competitive advantage over smaller or less financially secure competitors. At times we may also be required to provide a letter of credit in connection with services provided to our customers. From time to time we guarantee the obligations of our subsidiaries, including obligations under certain contracts with cus",
+        "Market data: market cap $6.94B, EV/Sales 1.788, FCF $227.8M."
+      ],
+      "key_risks": [
+        "segment-specific data-center backlog missing",
+        "project execution and labor risk",
+        "12m price momentum indicates partial repricing"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog by customer/end market",
+        "large-load interconnection project exposure",
+        "margin durability in C&I and T&D"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "POWL",
+      "company_name": "Powell Industries, Inc.",
+      "segment_name": "Custom medium-voltage switchgear, power control rooms, and e-houses",
+      "final_score": 77,
+      "classification": "Wait for Pullback",
+      "one_sentence_thesis": "POWL has the strongest filing-level evidence for backlog, switchgear/power systems, and data-center diversification, but valuation and momentum show substantial repricing.",
+      "key_evidence": [
+        "polypropylene, fertilizer, methanol, and related petrochemical applications. In the electric utility market, we serve both the power generation and distribution end markets. Increasing global electricity demand and the focus on reliable and safe electrical distribution are driving substantial investments in global infr",
+        "d, all references to \u201cwe,\u201d \u201cus,\u201d \u201cour,\u201d \u201cPowell\u201d or \u201cthe Company\u201d include Powell Industries, Inc. and its consolidated subsidiaries. This Annual Report on Form 10-K (Annual Report) contains \u201cforward-looking statements\u201d within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the S",
+        "Market data: market cap $10.74B, EV/Sales 9.006, FCF $142.2M."
+      ],
+      "key_risks": [
+        "EV/Sales and P/S near 9x",
+        "12m price change above 370%",
+        "data-center-specific customer concentration missing"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog dollars",
+        "lead times and pricing power",
+        "customer mix and margin sustainability"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "segment_name": "Thermal management and liquid-cooling infrastructure",
+      "final_score": 75,
+      "classification": "Wait for Pullback",
+      "one_sentence_thesis": "MOD has hard filing evidence that Data Centers are 35% of fiscal 2026 net sales and offers CDUs/rear-door/immersion-adjacent solutions, but FCF is negative and valuation/momentum are stretched.",
+      "key_evidence": [
+        "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+        ", Porsche, Scania, and International); and Volvo (including Mack Trucks and Renault Trucks). In addition, our Climate Solutions segment includes significant sales to three customers of our Data Centers business, with which we are party to confidentiality agreements. Generally, we supply products to our customers on the",
+        "Market data: market cap $14.50B, EV/Sales 4.719, FCF $-101.5M."
+      ],
+      "key_risks": [
+        "negative FCF",
+        "high P/E/EV multiples",
+        "customer names and segment margin missing"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center customer concentration",
+        "segment margins",
+        "liquid cooling revenue mix"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "ATKR",
+      "company_name": "Atkore Inc.",
+      "segment_name": "Cable, conduit, raceway, and electrical infrastructure materials",
+      "final_score": 71,
+      "classification": "Watchlist",
+      "one_sentence_thesis": "ATKR is cheaper and cash-generative with electrical infrastructure exposure, but data-center-specific validation is weaker and the products may be more commoditized.",
+      "key_evidence": [
+        "mers through a single order across our broad product portfolio coupled with services like our ReliaRoutes hub-and-spoke fixed trucking lanes and technologies like our mobile app to track orders and schedule pickups. We primarily sell and distribute our products through electrical, industrial and specialty distributors ",
+        "60,758 $ 737,098 $ ( 396,667 ) $ 340,431 During fiscal 2025, the Company recorded non-cash impairment charges totaling $ 129,907 , primarily related to customer relationships. Refer to Note 14, \u201cFair Value Measurements\u201d for further discussion of the Company\u2019s impairment review. As a result of the asset impairment charg",
+        "Market data: market cap $2.68B, EV/Sales 1.097, FCF $255.0M."
+      ],
+      "key_risks": [
+        "P/E missing from market data",
+        "broad distributor exposure",
+        "less clear chokepoint power"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "mega-project/data-center product mix",
+        "margin normalization",
+        "data-center channel demand"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "BDC",
+      "company_name": "BELDEN INC.",
+      "segment_name": "Data center network and physical infrastructure connectivity",
+      "final_score": 70,
+      "classification": "Watchlist",
+      "one_sentence_thesis": "BDC has direct data center and Smart Infrastructure evidence with reasonable valuation versus crowded power names, but it is more network/connectivity than core power infrastructure.",
+      "key_evidence": [
+        "ss, accelerated convergence of information technology systems with operational technology (IT/OT), and edge and data analytics. Segments As of December 31, 2025, we operated our business under two segments \u2013 Smart Infrastructure Solutions and Automation Solutions. A discussion of the segments is included below. In 2026",
+        "adjust our pricing for fluctuations in commodity prices, we can experience short-term favorable or unfavorable variances. When the costs of raw materials increase, we are generally able to recover these costs through higher pricing of our finished products. The majority of our products are sold through distribution, an",
+        "Market data: market cap $4.48B, EV/Sales 2.004, FCF $81.4M."
+      ],
+      "key_risks": [
+        "not pure power infrastructure",
+        "segment transition/realignment",
+        "modest price momentum may reflect weaker growth"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center revenue/margins",
+        "AI data center versus general network exposure",
+        "customer concentration"
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "IESC",
+      "company_name": "IES Holdings, Inc.",
+      "segment_name": "Electrical contracting and infrastructure solutions",
+      "final_score": 69,
+      "classification": "Watchlist",
+      "one_sentence_thesis": "IESC has data-center and electrical services exposure with positive FCF, but valuation and price momentum are already high and exact data-center backlog is missing.",
+      "key_evidence": [
+        "lder, borrowing availability or cash position, or any forward-looking statements to reflect events or circumstances that may arise after the date of this report. Forward-looking statements are provided in this Annual Report on Form 10-K pursuant to the safe harbor established under the Private Securities Litigation Ref",
+        "including mergers, acquisitions and dispositions. She began her legal career with the law firm of Sullivan & Cromwell LLP after receiving her J.D. from Harvard Law School and B.A. from Duke University. Matthew M. Allen , 51, has served as the Chief Technical Officer of the Company since July 2024. Previously, he was Vi",
+        "Market data: market cap $14.94B, EV/Sales 4.07, FCF $271.9M."
+      ],
+      "key_risks": [
+        "near 52-week high",
+        "EV/Sales over 4x for services business",
+        "segment revenue missing"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog and customer mix",
+        "project margins",
+        "labor capacity"
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "AEIS",
+      "company_name": "ADVANCED ENERGY INDUSTRIES INC",
+      "segment_name": "High-density power conversion",
+      "final_score": 66,
+      "classification": "Wait for Pullback",
+      "one_sentence_thesis": "AEIS has power-conversion relevance and AI/energy-efficiency exposure, but market data shows high valuation and direct data-center commercial validation is incomplete.",
+      "key_evidence": [
+        "the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Our products enable customers to reduce or optimize their energy consumption th",
+        ", and we generally do not have long-term purchase commitments from our customers. As a result, we are limited in our ability to predict the level of future revenue or commitments from our current customers, which may diminish our ability to allocate labor, materials, and equipment in the manufacturing process effective",
+        "Market data: market cap $14.18B, EV/Sales 7.065, FCF $49.2M."
+      ],
+      "key_risks": [
+        "EV/Sales over 7x",
+        "P/E over 70x",
+        "direct AI data-center revenue not isolated"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "AI/data-center revenue",
+        "design wins",
+        "margin and FCF conversion"
+      ]
+    },
+    {
+      "rank": 8,
+      "ticker": "VICR",
+      "company_name": "VICOR CORPORATION",
+      "segment_name": "Vertical power delivery and high-density power modules",
+      "final_score": 64,
+      "classification": "Wait for Pullback",
+      "one_sentence_thesis": "VICR has technically relevant vertical power delivery for AI accelerators, but valuation is extremely stretched and commercial validation is not yet enough for a core thesis.",
+      "key_evidence": [
+        "ue proposition is supported by a compelling TCO, representing the cost of acquiring and operating a power system over its useful life, driven by competitive product pricing, high reliability, and demonstrably lower electricity costs. Our earliest market focus was on telecommunications infrastructure, which uses a stand",
+        "microprocessor input/output I/O pins on the top side of the motherboard, thereby 5 Table of Contents improving I/O speed and memory access, which are a priority for GPUs and AI ASICs in AI applications. We continue the development of our vertical power delivery solutions. Our proprietary technologies enable us to offer",
+        "Market data: market cap $13.85B, EV/Sales 31.519, FCF $9.0M."
+      ],
+      "key_risks": [
+        "EV/Sales above 30x",
+        "P/E above 100x",
+        "large price repricing",
+        "customer concentration/design-win details missing"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "AI accelerator customer contracts",
+        "volume ramp and margins",
+        "competitive substitution risk"
+      ]
+    },
+    {
+      "rank": 9,
+      "ticker": "GNRC",
+      "company_name": "GENERAC HOLDINGS INC.",
+      "segment_name": "Backup generation and microgrids",
+      "final_score": 58,
+      "classification": "Observe",
+      "one_sentence_thesis": "GNRC could benefit if data centers adopt more backup/on-site power, but current evidence is more scenario optionality than proven AI data-center revenue.",
+      "key_evidence": [
+        "t the demand for certain of our products; or (ii) result in a withdrawal or reduction of grants previously awarded to the Company; \u25cf increase in product and other liability claims, warranty costs, recalls, or other claims; \u25cf significant legal proceedings, claims, fines, penalties, tax assessments, lawsuits or governmen",
+        "t end of period $ 265,530 $ 187,464 See notes to condensed consolidated financial statements. 4 Table of Contents Generac Holdings Inc. Notes to Condensed Consolidated Financial Statements ( U.S. Dollars in Thousands, Except Share and Per Share Data) (Unaudited) 1. Description of Business and Basis of Presentation Foun",
+        "Market data: market cap $15.44B, EV/Sales 3.831, FCF $115.3M."
+      ],
+      "key_risks": [
+        "P/E/EV multiples high",
+        "data-center revenue/backlog missing",
+        "permitting/emissions risk"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center generator orders",
+        "microgrid customer contracts",
+        "C&I margin mix"
+      ]
+    },
+    {
+      "rank": 10,
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy, Inc.",
+      "segment_name": "Grid storage and flexibility",
+      "final_score": 55,
+      "classification": "Observe",
+      "one_sentence_thesis": "FLNC has grid-storage relevance to power-constrained loads, but direct AI data-center validation is weak and FCF remains negative.",
+      "key_evidence": [
+        "e underlying raw materials, including lithium as well as softening demand from the electric vehicle (\u201cEV\u201d) sector. The market for energy storage continues to rapidly evolve and while we believe lithium-ion battery costs will continue to decline over the long-term, they may not decline or decline at the rates we expect.",
+        "lity to compete, liquidity and access to capital, the timing of future revenue recognition, future capital expenditures and debt service obligations, the Company\u2019s expected growth and demand for our energy storage solutions, services, and digital application offerings and the industry generally, relationships with new ",
+        "Market data: market cap $4.37B, EV/Sales 1.259, FCF $-133.7M."
+      ],
+      "key_risks": [
+        "negative FCF",
+        "storage market competition",
+        "data-center revenue not proven"
+      ],
+      "near_term_catalysts": [
+        "data-center backlog disclosure",
+        "guidance update",
+        "large customer or contract disclosure",
+        "margin/cash-flow improvement"
+      ],
+      "what_to_verify_next": [
+        "data-center/storage contracts",
+        "backlog quality",
+        "gross margin and cash conversion"
+      ]
+    }
+  ],
+  "classification_summary": {
+    "High Priority Research": [],
+    "Watchlist": [
+      "MYRG",
+      "ATKR",
+      "BDC",
+      "IESC"
+    ],
+    "Wait for Pullback": [
+      "POWL",
+      "MOD",
+      "AEIS",
+      "VICR"
+    ],
+    "Observe": [
+      "GNRC",
+      "FLNC"
+    ],
+    "Reject": []
+  },
+  "summary": "No High Priority Research candidates. MYRG is the recommended first deep-dive target because it combines electrical/interconnection relevance, positive FCF, and less extreme valuation than more crowded equipment names."
+}

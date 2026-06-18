@@ -1,0 +1,295 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "04_CHOKEPOINT_SCORING",
+  "warnings": [
+    "Scores remain evidence-gated because market crowding is high and customer-level proof is incomplete."
+  ],
+  "scored_segments": [
+    {
+      "segment_id": "S1",
+      "segment_name": "Custom medium-voltage switchgear, power control rooms, and e-houses",
+      "chokepoint_score": 83,
+      "score_breakdown": {
+        "downstream_necessity": 19,
+        "supplier_scarcity": 13,
+        "customer_switching_cost": 13,
+        "capacity_expansion_difficulty": 13,
+        "technical_certification_barrier": 13,
+        "margin_pricing_power_potential": 9,
+        "market_underappreciation_potential": 3
+      },
+      "why_it_may_be_a_chokepoint": "Distributes and controls power from utility/substation or on-site generation into data center electrical systems. Engineering capacity, project qualification, factory slots, testing, long customer cycles.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "bulkhead to 1,150 feet to support increased schedule flexibility and multiple ship lanes for the varied needs and project timelines of our customers. The incremental capacity is initially expected to support the Company\u2019s oil and gas customers but can be utilized to support each of our market sectors. Construction is e",
+          "why_it_matters": "Contains filing evidence for switchgear relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "polypropylene, fertilizer, methanol, and related petrochemical applications. In the electric utility market, we serve both the power generation and distribution end markets. Increasing global electricity demand and the focus on reliable and safe electrical distribution are driving substantial investments in global infr",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "continue"
+    },
+    {
+      "segment_id": "S2",
+      "segment_name": "Electrical contracting, substation, and grid interconnection services",
+      "chokepoint_score": 73,
+      "score_breakdown": {
+        "downstream_necessity": 18,
+        "supplier_scarcity": 11,
+        "customer_switching_cost": 11,
+        "capacity_expansion_difficulty": 11,
+        "technical_certification_barrier": 9,
+        "margin_pricing_power_potential": 7,
+        "market_underappreciation_potential": 6
+      },
+      "why_it_may_be_a_chokepoint": "Designs, installs, and maintains electrical systems connecting campuses to utility and C&I power infrastructure. Skilled labor, safety record, project execution capacity, bonding, customer qualification.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "ts. Commercial and Industrial segment. We have provided electrical contracting services for commercial and industrial construction since 1912. Our C&I segment provides services such as the design, installation, maintenance and repair of commercial and industrial wiring, the installation of intelligent transportation sy",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "ess, economic, competitive, regulatory and other risks, contingencies and uncertainties, most of which are difficult to predict, and many of which are beyond our control. These and other important factors, including those discussed in Item 1A \u2014 \u201cRisk Factors\u201d of this report, and in any risk factors or cautionary statem",
+          "why_it_matters": "Contains filing evidence for electrical relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "continue"
+    },
+    {
+      "segment_id": "S3",
+      "segment_name": "Thermal management and liquid-cooling infrastructure",
+      "chokepoint_score": 77,
+      "score_breakdown": {
+        "downstream_necessity": 18,
+        "supplier_scarcity": 12,
+        "customer_switching_cost": 11,
+        "capacity_expansion_difficulty": 12,
+        "technical_certification_barrier": 13,
+        "margin_pricing_power_potential": 8,
+        "market_underappreciation_potential": 3
+      },
+      "why_it_may_be_a_chokepoint": "Removes heat from high-density AI racks and supports uptime/power efficiency. Engineering know-how, product qualification, global service, customer-specific designs.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "nits, fan walls, rear-door heat exchangers, coolant distribution units (\u201cCDU\u201d) and immersion solutions. In addition, the Data Centers business sells modular data center solutions, replacement parts, maintenance service and control solutions for building management controls and systems. Market demand for data usage and ",
+          "why_it_matters": "Contains filing evidence for liquid cooling relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "continue"
+    },
+    {
+      "segment_id": "S4",
+      "segment_name": "High-density power conversion and vertical power delivery",
+      "chokepoint_score": 79,
+      "score_breakdown": {
+        "downstream_necessity": 17,
+        "supplier_scarcity": 12,
+        "customer_switching_cost": 14,
+        "capacity_expansion_difficulty": 11,
+        "technical_certification_barrier": 15,
+        "margin_pricing_power_potential": 8,
+        "market_underappreciation_potential": 2
+      },
+      "why_it_may_be_a_chokepoint": "Converts and delivers power close to GPUs, AI ASICs, and rack/server systems. Power electronics IP, qualification with compute OEMs, thermal/electrical design complexity.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "microprocessor input/output I/O pins on the top side of the motherboard, thereby 5 Table of Contents improving I/O speed and memory access, which are a priority for GPUs and AI ASICs in AI applications. We continue the development of our vertical power delivery solutions. Our proprietary technologies enable us to offer",
+          "why_it_matters": "Contains filing evidence for datacenter relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "iled by us with the Securities and Exchange Commission (\"SEC\") include forward-looking statements regarding future events and our future results that are subject to the safe harbor afforded under the Private Securities Litigation Reform Act of 1995 and other safe harbors afforded under the Securities Act of 1933 and th",
+          "why_it_matters": "Contains filing evidence for AI relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "continue"
+    },
+    {
+      "segment_id": "S5",
+      "segment_name": "Backup generation, on-site power, and microgrids",
+      "chokepoint_score": 58,
+      "score_breakdown": {
+        "downstream_necessity": 15,
+        "supplier_scarcity": 9,
+        "customer_switching_cost": 8,
+        "capacity_expansion_difficulty": 8,
+        "technical_certification_barrier": 8,
+        "margin_pricing_power_potential": 6,
+        "market_underappreciation_potential": 4
+      },
+      "why_it_may_be_a_chokepoint": "Provides resilience and potentially faster power access where grid interconnection is constrained. Generator supply, emissions/permitting, fuel logistics, integration complexity.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "GNRC 10-K_2026-02-18",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+          "source_date": "2026-02-18",
+          "summary": "ors, which we believe represents a cleaner fuel compared to diesel, to develop solutions for applications beyond standby power, allowing us to participate in multi-purpose microgrid projects for C&I customers. As the traditional centralized utility model evolves over time, we believe that a more decarbonized, digitized",
+          "why_it_matters": "Contains filing evidence for backup power relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "GNRC 10-K_2026-02-18",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+          "source_date": "2026-02-18",
+          "summary": "enter, telecom, rental, and industrial markets. The Company\u2019s broad portfolio of energy technology offerings for homes and businesses enables its mission to Power a Smarter World and lead the evolution to more resilient, efficient, and innovative energy solutions. We have a long history of providing power generation pr",
+          "why_it_matters": "Contains filing evidence for generator relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "observe"
+    },
+    {
+      "segment_id": "S6",
+      "segment_name": "Grid-scale storage and power flexibility software",
+      "chokepoint_score": 53,
+      "score_breakdown": {
+        "downstream_necessity": 13,
+        "supplier_scarcity": 7,
+        "customer_switching_cost": 8,
+        "capacity_expansion_difficulty": 7,
+        "technical_certification_barrier": 8,
+        "margin_pricing_power_potential": 5,
+        "market_underappreciation_potential": 5
+      },
+      "why_it_may_be_a_chokepoint": "Can firm renewable power, manage grid constraints, and provide peak shaving or grid services near large loads. Battery supply, project finance, interconnection, software/control reliability.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "e underlying raw materials, including lithium as well as softening demand from the electric vehicle (\u201cEV\u201d) sector. The market for energy storage continues to rapidly evolve and while we believe lithium-ion battery costs will continue to decline over the long-term, they may not decline or decline at the rates we expect.",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "sset with improvements in both service productivity and with 6 enhanced predictive maintenance, and the opportunity to reduce the overall carbon footprint of the portfolio by optimizing various asset types. As described above, we believe there are multiple key factors driving continued growth in the energy storage sect",
+          "why_it_matters": "Contains filing evidence for power relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "reject"
+    },
+    {
+      "segment_id": "S7",
+      "segment_name": "Cable, conduit, raceway, and network infrastructure",
+      "chokepoint_score": 40,
+      "score_breakdown": {
+        "downstream_necessity": 12,
+        "supplier_scarcity": 5,
+        "customer_switching_cost": 5,
+        "capacity_expansion_difficulty": 5,
+        "technical_certification_barrier": 5,
+        "margin_pricing_power_potential": 3,
+        "market_underappreciation_potential": 5
+      },
+      "why_it_may_be_a_chokepoint": "Supplies physical pathways, cable, connectivity, racks/enclosures, and related infrastructure for data centers. More capacity exists than in custom switchgear, but distribution reach and product breadth matter.",
+      "why_it_may_not_be_a_chokepoint": "Crowding is high and some demand may be captured by mega-cap leaders or commoditized suppliers.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "ss, accelerated convergence of information technology systems with operational technology (IT/OT), and edge and data analytics. Segments As of December 31, 2025, we operated our business under two segments \u2013 Smart Infrastructure Solutions and Automation Solutions. A discussion of the segments is included below. In 2026",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "oduct lines include copper cable and connectivity solutions, fiber cable and connectivity solutions, interconnect panels, racks and enclosures, and secure, high performance signal extension and matrix switching systems. Smart Infrastructure Solutions provides true end-to-end fiber and copper network systems, which are ",
+          "why_it_matters": "Contains filing evidence for power relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "recommended_action": "reject"
+    }
+  ],
+  "top_chokepoint_segments": [
+    "Custom medium-voltage switchgear, power control rooms, and e-houses",
+    "Electrical contracting, substation, and grid interconnection services",
+    "Thermal management and liquid-cooling infrastructure",
+    "High-density power conversion and vertical power delivery"
+  ],
+  "segments_rejected": [
+    "Grid-scale storage and power flexibility software",
+    "Cable, conduit, raceway, and network infrastructure"
+  ],
+  "summary": "The strongest segments are custom switchgear/power control rooms, thermal management, high-density power conversion, and electrical contracting/interconnection."
+}

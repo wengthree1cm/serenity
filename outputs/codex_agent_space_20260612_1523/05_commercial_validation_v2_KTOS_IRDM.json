@@ -1,0 +1,253 @@
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T23:06:29.208004+00:00",
+  "skill_name": "05_COMMERCIAL_VALIDATION_v2_KTOS_IRDM",
+  "warnings": [
+    "This is a targeted KTOS/IRDM refresh only. It uses SEC filing text retrieval and Market Data Connector v2; it does not add press-release or earnings-call transcript evidence beyond retrieved recent 8-Ks."
+  ],
+  "validated_companies": [
+    {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 78,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "Latest retrieved KTOS 10-K/10-Q text contains backlog and opportunity-pipeline references, including record backlog language and investments tied to current backlog and potential future program/contract awards.",
+          "source": "commercial_validation_KTOS_IRDM.json:backlog_evidence / contract_award_evidence",
+          "source_filings": [
+            [
+              "10-K",
+              "2026-02-23"
+            ],
+            [
+              "10-Q",
+              "2026-05-06"
+            ],
+            [
+              "8-K",
+              "2026-05-15"
+            ],
+            [
+              "8-K",
+              "2026-05-06"
+            ],
+            [
+              "8-K",
+              "2026-03-25"
+            ]
+          ],
+          "why_it_matters": "Backlog and award pipeline language directly supports commercial validation, although not all of it is isolated to satellite ground systems."
+        },
+        {
+          "evidence": "Retrieved KTOS filing text references high-growth markets including microwave electronics and satellite communications.",
+          "source": "commercial_validation_KTOS_IRDM.json:customer_concentration_evidence / management_commentary_evidence",
+          "source_filings": [
+            [
+              "10-K",
+              "2026-02-23"
+            ],
+            [
+              "10-Q",
+              "2026-05-06"
+            ],
+            [
+              "8-K",
+              "2026-05-15"
+            ],
+            [
+              "8-K",
+              "2026-05-06"
+            ],
+            [
+              "8-K",
+              "2026-03-25"
+            ]
+          ],
+          "why_it_matters": "This is directly relevant to the space/defense satellite infrastructure thesis."
+        },
+        {
+          "evidence": "Market Data Connector v2 reports market_cap, EV, EV/Sales, P/S, cash, debt, net debt, free cash flow, and price momentum for KTOS.",
+          "source": "company_profiles_v2.json:market_data",
+          "why_it_matters": "Valuation and balance sheet are now grounded rather than missing."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-23",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/KTOS/10-K_2026-02-23_000106925826000013_ktos-20251228.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        },
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-23",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/KTOS/10-K_2026-02-23_000106925826000013_ktos-20251228.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        },
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-23",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/KTOS/10-K_2026-02-23_000106925826000013_ktos-20251228.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "KTOS has enough commercial evidence to remain Watchlist, but not enough for High Priority Research because satellite-ground-specific backlog, named awards, and segment revenue remain incomplete.",
+          "supporting_evidence": [
+            "record backlog language",
+            "program/contract award pipeline language",
+            "satellite communications and microwave electronics references",
+            "valuation v2 fields"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named satellite-ground customer contracts",
+        "contract values tied specifically to satellite/ground systems",
+        "backlog amount by relevant segment",
+        "segment revenue for satellite communications / ground systems",
+        "customer concentration quantified by relevant program"
+      ],
+      "validation_summary": "KTOS commercial validation improved meaningfully. It should remain provisional Watchlist, but High Priority Research remains blocked by valuation and segment-specific evidence gaps.",
+      "rating_before_valuation": "Watchlist",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "segment_name": "Satellite network operators and connectivity capacity",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 76,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "IRDM retrieved 10-K text describes a multi-year fixed-price U.S. government EMSS contract for satellite airtime services and recent ECS3 contract value language.",
+          "source": "commercial_validation_KTOS_IRDM.json:contract_award_evidence",
+          "source_filings": [
+            [
+              "10-K",
+              "2026-02-12"
+            ],
+            [
+              "10-Q",
+              "2026-04-23"
+            ],
+            [
+              "8-K",
+              "2026-05-20"
+            ],
+            [
+              "8-K",
+              "2026-05-14"
+            ],
+            [
+              "8-K",
+              "2026-04-23"
+            ]
+          ],
+          "why_it_matters": "This is direct primary-source commercial validation for government satellite communications demand."
+        },
+        {
+          "evidence": "IRDM retrieved filing text describes specialized, reliable, weather-resilient communications services in remote regions and additional hosted payload services such as Aireon.",
+          "source": "commercial_validation_KTOS_IRDM.json:management_commentary_evidence",
+          "source_filings": [
+            [
+              "10-K",
+              "2026-02-12"
+            ],
+            [
+              "10-Q",
+              "2026-04-23"
+            ],
+            [
+              "8-K",
+              "2026-05-20"
+            ],
+            [
+              "8-K",
+              "2026-05-14"
+            ],
+            [
+              "8-K",
+              "2026-04-23"
+            ]
+          ],
+          "why_it_matters": "This validates satellite communications infrastructure utility, though it is more stable/defensive than a hidden supply-chain chokepoint."
+        },
+        {
+          "evidence": "Market Data Connector v2 reports positive free cash flow, P/E, EV/EBITDA, EV/Sales, high net debt, market cap, and price momentum for IRDM.",
+          "source": "company_profiles_v2.json:market_data",
+          "why_it_matters": "The financial and valuation view is now grounded."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-12",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        },
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-12",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        },
+        {
+          "source_type": "10-K",
+          "source_date": "2026-02-12",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+          "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+          "concise_paraphrase": "Retrieved filing text contains the term 'customer' in a potentially relevant passage.",
+          "evidence_strength": "high",
+          "relevance_to_space_theme": "medium"
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "IRDM is commercially validated as satellite communications infrastructure, but the thesis is more defensive/stable than a high-upside chokepoint because it is an operating network/service model rather than a scarce component or ground-systems supplier.",
+          "supporting_evidence": [
+            "EMSS contract language",
+            "ECS3 contract language",
+            "hosted payload/services language",
+            "positive market-data profile"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "backlog evidence not found in retrieved filings",
+        "segment revenue evidence not found in retrieved filings",
+        "customer concentration quantified by contract/program",
+        "ownership and short interest",
+        "evidence that IRDM is a bottleneck supplier rather than stable infrastructure operator"
+      ],
+      "validation_summary": "IRDM commercial validation improved. It can stay provisional Watchlist, but as a defensive/stable satellite communications infrastructure name rather than a high-upside chokepoint.",
+      "rating_before_valuation": "Watchlist",
+      "continue_to_valuation": true
+    }
+  ],
+  "source_evidence_file": "data/commercial_validation_KTOS_IRDM.json",
+  "summary": "KTOS and IRDM both now have stronger primary-source commercial validation. KTOS is closer to the target chokepoint theme; IRDM is more commercially validated as infrastructure but less clearly a scarce chokepoint."
+}

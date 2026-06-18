@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:28.548682+00:00",
+  "filing": {
+    "accessionNumber": "0001104659-26-066291",
+    "filingDate": "2026-05-26",
+    "reportDate": "2026-05-26",
+    "acceptanceDateTime": "2026-05-26T16:23:40.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-01373",
+    "filmNumber": "261020240",
+    "items": "2.02,9.01",
+    "core_type": "XBRL",
+    "size": 5042441,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "mod-20260526x8k.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "MOD",
+    "cik": "0000067347",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066291/mod-20260526x8k.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066291/mod-20260526x8k.htm",
+  "cached_file_path": "data_cache/sec_filings/MOD/8-K_2026-05-26_000110465926066291_mod-20260526x8k.htm"
+}

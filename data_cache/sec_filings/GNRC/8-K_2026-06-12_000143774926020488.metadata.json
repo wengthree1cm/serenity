@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:24.843743+00:00",
+  "filing": {
+    "accessionNumber": "0001437749-26-020488",
+    "filingDate": "2026-06-12",
+    "reportDate": "2026-06-11",
+    "acceptanceDateTime": "2026-06-12T16:27:19.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-34627",
+    "filmNumber": "261087168",
+    "items": "5.07",
+    "core_type": "XBRL",
+    "size": 170246,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "gnrc20260612_8k.htm",
+    "primaryDocDescription": "FORM 8-K",
+    "ticker": "GNRC",
+    "cik": "0001474735",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926020488/gnrc20260612_8k.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926020488/gnrc20260612_8k.htm",
+  "cached_file_path": "data_cache/sec_filings/GNRC/8-K_2026-06-12_000143774926020488_gnrc20260612_8k.htm"
+}

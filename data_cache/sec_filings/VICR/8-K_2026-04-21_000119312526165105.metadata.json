@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:20.554107+00:00",
+  "filing": {
+    "accessionNumber": "0001193125-26-165105",
+    "filingDate": "2026-04-21",
+    "reportDate": "2026-04-21",
+    "acceptanceDateTime": "2026-04-21T07:20:08.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "000-18277",
+    "filmNumber": "26876715",
+    "items": "2.02,9.01",
+    "core_type": "XBRL",
+    "size": 208013,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "d139425d8k.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "VICR",
+    "cik": "0000751978",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526165105/d139425d8k.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526165105/d139425d8k.htm",
+  "cached_file_path": "data_cache/sec_filings/VICR/8-K_2026-04-21_000119312526165105_d139425d8k.htm"
+}

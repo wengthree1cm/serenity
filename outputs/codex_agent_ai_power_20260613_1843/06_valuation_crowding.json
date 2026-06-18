@@ -1,0 +1,892 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "07_FINANCIAL_VALUATION_CROWDING",
+  "warnings": [
+    "All price, market cap, EV, valuation, debt, FCF, and momentum claims use company_profiles.json."
+  ],
+  "valuation_results": [
+    {
+      "ticker": "MYRG",
+      "company_name": "MYR GROUP\u00a0INC.",
+      "classification": "Watchlist",
+      "valuation_status": "reasonable",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 6940322304,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 6838652416,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 3824648960,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 227822624,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 1.788,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 1.8146299,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 49.250828,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 26.171,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 1.021314,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 1.727952,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.08043985063233676,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=1.788; P/S=1.8146299; FCF=$227.8M; 12m price change=172.8%."
+    },
+    {
+      "ticker": "POWL",
+      "company_name": "Powell Industries, Inc.",
+      "classification": "Wait for Pullback",
+      "valuation_status": "very_stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 10738228224,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 10195294208,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 1132055040,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 142181632,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 9.006,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 9.485606,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 57.45614,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 43.975,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 1.696377,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 3.707213,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.1013719512195122,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=9.006; P/S=9.485606; FCF=$142.2M; 12m price change=370.7%."
+    },
+    {
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "classification": "Wait for Pullback",
+      "valuation_status": "stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 14497932288,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 15012833280,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 3181100032,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": -101450000,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 4.719,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 4.557522,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 122.0,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 33.473,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.92943,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 1.928937,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.15081206496519722,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=4.719; P/S=4.557522; FCF=$-101.5M; 12m price change=192.9%."
+    },
+    {
+      "ticker": "ATKR",
+      "company_name": "Atkore Inc.",
+      "classification": "Watchlist",
+      "valuation_status": "reasonable",
+      "crowding_status": "low",
+      "repricing_status": "partially_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 2676730880,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 3153264128,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 2873980928,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 254971008,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 1.097,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 0.931367,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": null,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "low",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 11.016,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.22747,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 0.192389,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.12078527062999114,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:03+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=1.097; P/S=0.931367; FCF=$255.0M; 12m price change=19.2%."
+    },
+    {
+      "ticker": "BDC",
+      "company_name": "BELDEN INC.",
+      "classification": "Watchlist",
+      "valuation_status": "reasonable",
+      "crowding_status": "low",
+      "repricing_status": "partially_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 4480122368,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 5585143296,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 2786707968,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 81421504,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 2.004,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 1.6076756,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 19.367002,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 12.551,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": -0.053558,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 0.071036,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.2809550596912307,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=2.004; P/S=1.6076756; FCF=$81.4M; 12m price change=7.1%."
+    },
+    {
+      "ticker": "IESC",
+      "company_name": "IES Holdings, Inc.",
+      "classification": "Watchlist",
+      "valuation_status": "stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 14939529216,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 14788838400,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 3633202944,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 271936992,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 4.07,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 4.1119447,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 39.990932,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 30.815,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.653684,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 1.863148,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.023658854166666615,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=4.07; P/S=4.1119447; FCF=$271.9M; 12m price change=186.3%."
+    },
+    {
+      "ticker": "AEIS",
+      "company_name": "ADVANCED ENERGY INDUSTRIES INC",
+      "classification": "Wait for Pullback",
+      "valuation_status": "stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 14178576384,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 13460324352,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 1905200000,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 49237500,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 7.065,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 7.442041,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 73.520744,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 45.628,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.63402,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 1.885749,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.10836855877616745,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=7.065; P/S=7.442041; FCF=$49.2M; 12m price change=188.6%."
+    },
+    {
+      "ticker": "VICR",
+      "company_name": "VICOR CORPORATION",
+      "classification": "Wait for Pullback",
+      "valuation_status": "very_stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 13846263808,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 13449430016,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 426702016,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 9039375,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 31.519,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 32.449493,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 101.93623,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 167.971,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 2.177843,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 5.959221,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.16060128768410292,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=31.519; P/S=32.449493; FCF=$9.0M; 12m price change=595.9%."
+    },
+    {
+      "ticker": "GNRC",
+      "company_name": "GENERAC HOLDINGS INC.",
+      "classification": "Observe",
+      "valuation_status": "stretched",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 15444786176,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 16573331456,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 4326390784,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": 115297624,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 3.831,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 3.5699008,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": 81.987495,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": 31.418,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.656,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 1.103592,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.10816506900537083,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:02+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=3.831; P/S=3.5699008; FCF=$115.3M; 12m price change=110.4%."
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy, Inc.",
+      "classification": "Observe",
+      "valuation_status": "reasonable",
+      "crowding_status": "high",
+      "repricing_status": "mostly_repriced",
+      "market_data": {
+        "market_cap": {
+          "value": 4370006016,
+          "source": "yahoo_quote_summary.price.marketCap",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "enterprise_value": {
+          "value": 3253693440,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "trailing_revenue": {
+          "value": 2584549120,
+          "source": "yahoo_quote_summary.financialData.totalRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "free_cash_flow": {
+          "value": -133672128,
+          "source": "yahoo_quote_summary.financialData.freeCashflow",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "ev_to_sales": {
+          "value": 1.259,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_to_sales": {
+          "value": 1.6908195,
+          "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "pe_ratio": {
+          "value": null,
+          "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "low",
+          "computation_note": null
+        },
+        "ev_to_ebitda": {
+          "value": -176.333,
+          "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "high",
+          "computation_note": null
+        },
+        "price_change_6m": {
+          "value": 0.101766,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "price_change_12m": {
+          "value": 3.732535,
+          "source": "yahoo_chart.close_history",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": null
+        },
+        "distance_from_52w_high": {
+          "value": -0.29245001492091904,
+          "source": "computed",
+          "as_of_date": "2026-06-12T20:00:01+00:00",
+          "confidence": "medium",
+          "computation_note": "(current_price - 52_week_high) / 52_week_high"
+        }
+      },
+      "valuation_comment": "EV/Sales=1.259; P/S=1.6908195; FCF=$-133.7M; 12m price change=373.3%."
+    }
+  ],
+  "summary": "Market data is populated for all 10 candidates. The run is constrained less by missing market data than by crowding and missing segment-level commercial evidence."
+}

@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:24.728101+00:00",
+  "filing": {
+    "accessionNumber": "0001437749-26-014882",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-03-31",
+    "acceptanceDateTime": "2026-05-05T16:16:13.000Z",
+    "act": "34",
+    "form": "10-Q",
+    "fileNumber": "001-34627",
+    "filmNumber": "26943421",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 8257275,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 1,
+    "primaryDocument": "gnrc20260331_10q.htm",
+    "primaryDocDescription": "FORM 10-Q",
+    "ticker": "GNRC",
+    "cik": "0001474735",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926014882/gnrc20260331_10q.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926014882/gnrc20260331_10q.htm",
+  "cached_file_path": "data_cache/sec_filings/GNRC/10-Q_2026-05-05_000143774926014882_gnrc20260331_10q.htm"
+}

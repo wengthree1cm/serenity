@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-12T23:04:32.578886+00:00",
+  "filing": {
+    "accessionNumber": "0001418819-26-000009",
+    "filingDate": "2026-02-12",
+    "reportDate": "2025-12-31",
+    "acceptanceDateTime": "2026-02-12T12:01:42.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-33963",
+    "filmNumber": "26623359",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 10181356,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "irdm-20251231.htm",
+    "primaryDocDescription": "10-K",
+    "ticker": "IRDM",
+    "cik": "0001418819",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+  "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm"
+}

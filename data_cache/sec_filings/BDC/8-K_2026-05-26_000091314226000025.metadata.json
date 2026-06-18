@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:23.733576+00:00",
+  "filing": {
+    "accessionNumber": "0000913142-26-000025",
+    "filingDate": "2026-05-26",
+    "reportDate": "2026-05-21",
+    "acceptanceDateTime": "2026-05-26T19:52:21.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-12561",
+    "filmNumber": "261019520",
+    "items": "5.07",
+    "core_type": "XBRL",
+    "size": 173737,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "bdc-20260521.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "BDC",
+    "cik": "0000913142",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000025/bdc-20260521.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000025/bdc-20260521.htm",
+  "cached_file_path": "data_cache/sec_filings/BDC/8-K_2026-05-26_000091314226000025_bdc-20260521.htm"
+}

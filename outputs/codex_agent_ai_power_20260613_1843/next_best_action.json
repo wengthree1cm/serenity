@@ -1,0 +1,131 @@
+{
+  "existing_run_folder": "outputs/codex_agent_ai_power_20260613_1843",
+  "recommended_action": "Run company deep dive",
+  "target_ticker": "MYRG",
+  "second_ticker": null,
+  "reason": "Recommend a company deep dive on MYRG. The run has several Watchlist names, but MYRG is the clear first-ranked Watchlist candidate: it ranked #1 overall with a 78 final score, has populated market data, positive free cash flow in company_profiles.json, and sits in the electrical contracting/substation/grid-interconnection segment. The quality gate is evidence-gated rather than connector-blocked, so the next useful action is to resolve MYRG-specific missing evidence such as data-center backlog, customer/contracts, segment exposure, margins, and customer concentration.",
+  "required_prompt_file": "codex_prompts/RUN_COMPANY_DEEP_DIVE.md",
+  "exact_short_command": "Run codex_prompts/RUN_COMPANY_DEEP_DIVE.md\n\nexisting_run_folder = outputs/codex_agent_ai_power_20260613_1843\nticker = MYRG",
+  "inputs_inspected": [
+    "final_report.md",
+    "08_final_ranking.json",
+    "quality_gate_audit.json",
+    "data/company_profiles.json",
+    "data/commercial_validation_ai_power.json"
+  ],
+  "missing_inputs": [],
+  "decision_factors": {
+    "category_distribution": {
+      "High Priority Research": [],
+      "Watchlist": [
+        "MYRG",
+        "ATKR",
+        "BDC",
+        "IESC"
+      ],
+      "Wait for Pullback": [
+        "POWL",
+        "MOD",
+        "AEIS",
+        "VICR"
+      ],
+      "Observe": [
+        "GNRC",
+        "FLNC"
+      ],
+      "Reject": []
+    },
+    "watchlist_candidates": [
+      {
+        "ticker": "MYRG",
+        "rank": 1,
+        "final_score": 78
+      },
+      {
+        "ticker": "ATKR",
+        "rank": 4,
+        "final_score": 71
+      },
+      {
+        "ticker": "BDC",
+        "rank": 5,
+        "final_score": 70
+      },
+      {
+        "ticker": "IESC",
+        "rank": 6,
+        "final_score": 69
+      }
+    ],
+    "wait_for_pullback_candidates": [
+      {
+        "ticker": "POWL",
+        "rank": 2,
+        "final_score": 77
+      },
+      {
+        "ticker": "MOD",
+        "rank": 3,
+        "final_score": 75
+      },
+      {
+        "ticker": "AEIS",
+        "rank": 7,
+        "final_score": 66
+      },
+      {
+        "ticker": "VICR",
+        "rank": 8,
+        "final_score": 64
+      }
+    ],
+    "observe_or_reject_candidates": [
+      {
+        "ticker": "GNRC",
+        "rank": 9,
+        "final_score": 58
+      },
+      {
+        "ticker": "FLNC",
+        "rank": 10,
+        "final_score": 55
+      }
+    ],
+    "market_data_completeness": "Market data is sufficiently complete for next research: 10/10 have market cap, EV, revenue, FCF, EV/Sales, P/S, EV/EBITDA, 6m and 12m performance; P/E is missing only for ATKR and FLNC.",
+    "commercial_validation_completeness": "Commercial validation is incomplete but not connector-blocking. The missing fields are specific enough for a MYRG deep dive: data-center-specific backlog, contracts/customers, segment revenue, segment margins, and customer concentration.",
+    "quality_gate_status": "evidence_gated_not_investment_grade",
+    "top_missing_evidence": [
+      "data-center-specific backlog",
+      "named customer/contracts",
+      "segment revenue by data center/power infrastructure exposure",
+      "segment margins",
+      "customer concentration",
+      "ownership and short interest",
+      "lead times/order visibility",
+      "peer/historical valuation context"
+    ]
+  },
+  "alternatives_considered": [
+    {
+      "action": "Run two-company comparison",
+      "decision": "defer",
+      "reason": "Comparison is premature because MYRG does not yet have a single-company deep dive, and the closest alternatives are either Wait for Pullback names with valuation/crowding issues or lower-ranked Watchlist names."
+    },
+    {
+      "action": "Run sector closeout",
+      "decision": "defer",
+      "reason": "The run is not ready for closeout because the recommended manual research priority from final_report.md has not been executed."
+    },
+    {
+      "action": "Improve data connectors before deeper research",
+      "decision": "defer",
+      "reason": "Market data is populated for nearly all required fields. Commercial validation gaps are better addressed first through a MYRG filing/customer deep dive rather than connector work."
+    },
+    {
+      "action": "Stop because evidence quality is too weak",
+      "decision": "reject",
+      "reason": "The run has multiple Watchlist candidates and populated market data, so evidence quality is not too weak to continue."
+    }
+  ],
+  "generated_at": "2026-06-14T02:06:59.260919+00:00"
+}

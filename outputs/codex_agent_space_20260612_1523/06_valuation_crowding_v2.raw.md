@@ -1,0 +1,1358 @@
+# 06 Valuation Crowding v2
+
+```json
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:47:24.248809+00:00",
+  "skill_name": "07_FINANCIAL_VALUATION_CROWDING_v2",
+  "warnings": [
+    "This refresh reruns only valuation/crowding using company_profiles_v2.json. Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing. P/E is marked not meaningful where unavailable due to negative or non-meaningful earnings."
+  ],
+  "valuation_results": [
+    {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 10829279232,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 9743524864,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.22886999,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": -106725000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": -1278900032,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 1464300032,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 185400000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 1415200000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 6.885,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 7.652119,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": 119.994,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "field": "pe_ratio",
+        "value": 339.70587,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": 0.10021,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": -0.340226,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": -0.222327,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 0.382902,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.5690298507462687,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 0.4807692307692308,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "stretched",
+      "crowding_status": "medium",
+      "balance_sheet_risk": "low",
+      "repricing_status": "partially_repriced",
+      "valuation_score": 42,
+      "crowding_score": 58,
+      "summary": "KTOS now has usable valuation data: market cap about 10.83B, EV about 9.74B, EV/Sales 6.885, P/S 7.652, P/E about 339.7, EV/EBITDA about 119.99, negative free cash flow, and net cash. Valuation is stretched, but 6-month price change is negative and 12-month price change is moderate relative to the most repriced peers.",
+      "rating_after_valuation": "Watchlist",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=10829279232; enterprise_value=9743524864; trailing_revenue=1415200000; gross_margin=0.22886999; free_cash_flow=-106725000; net_debt=-1278900032; ev_to_sales=6.885; price_to_sales=7.652119; pe_ratio=339.70587; ev_to_ebitda=119.994; price_change_6m=-0.222327; price_change_12m=0.382902; distance_from_52w_high=-0.5690298507462687; distance_from_52w_low=0.4807692307692308",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corp",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 3007651072,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 3446226688,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.12858,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": -71324128,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": -12618000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 144506000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 131888000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 370958016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 9.29,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 8.107794,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": -19.316,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": 0.319372,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.576642,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 1.194485,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": -0.207547,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.43243243243243246,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 2.1047227926078027,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "stretched",
+      "crowding_status": "medium",
+      "balance_sheet_risk": "medium",
+      "repricing_status": "partially_repriced",
+      "valuation_score": 38,
+      "crowding_score": 40,
+      "summary": "RDW has market cap about 3.01B, EV about 3.45B, EV/Sales 9.29, P/S 8.108, negative EV/EBITDA, negative free cash flow, and P/E is not meaningful. The 6-month price change is about 119%, so valuation and momentum do not support a Watchlist rating without backlog/customer evidence.",
+      "rating_after_valuation": "Observe",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=3007651072; enterprise_value=3446226688; trailing_revenue=370958016; gross_margin=0.12858; free_cash_flow=-71324128; net_debt=-12618000; ev_to_sales=9.29; price_to_sales=8.107794; pe_ratio=not_meaningful; ev_to_ebitda=-19.316; price_change_6m=1.194485; price_change_12m=-0.207547; distance_from_52w_high=-0.43243243243243246; distance_from_52w_low=2.1047227926078027",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "MRCY",
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 7223207424,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 7489036288,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.28683,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": 97339000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": 324672000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 331800000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 656472000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 966945984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 7.745,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 7.470125,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": 78.179,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": 0.300541,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.53915,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 0.614982,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 1.270668,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.008807033762355919,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 1.4676923076923076,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "stretched",
+      "crowding_status": "high",
+      "balance_sheet_risk": "medium",
+      "repricing_status": "mostly_repriced",
+      "valuation_score": 40,
+      "crowding_score": 32,
+      "summary": "MRCY has market cap about 7.22B, EV about 7.49B, EV/Sales 7.745, P/S 7.47, EV/EBITDA 78.179, P/E not meaningful, positive free cash flow, and net debt. Price momentum is strong, with 12-month price change about 127% and distance from 52-week high about -0.9%, so crowding/repricing risk is high.",
+      "rating_after_valuation": "Observe",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=7223207424; enterprise_value=7489036288; trailing_revenue=966945984; gross_margin=0.28683; free_cash_flow=97339000; net_debt=324672000; ev_to_sales=7.745; price_to_sales=7.470125; pe_ratio=not_meaningful; ev_to_ebitda=78.179; price_change_6m=0.614982; price_change_12m=1.270668; distance_from_52w_high=-0.008807033762355919; distance_from_52w_low=1.4676923076923076",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 5003036672,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 6954182656,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.7157,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": 252985376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": 1677311008,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 111644000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 1788955008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 875838016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 7.94,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 5.7122855,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": 15.856,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "field": "pe_ratio",
+        "value": 47.797977,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": 0.098167,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.903459,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 1.688636,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 0.652235,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.12093628088426525,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 2.023642172523962,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "reasonable",
+      "crowding_status": "medium",
+      "balance_sheet_risk": "medium",
+      "repricing_status": "partially_repriced",
+      "valuation_score": 60,
+      "crowding_score": 45,
+      "summary": "IRDM has market cap about 5.00B, EV about 6.95B, EV/Sales 7.94, P/S 5.712, P/E about 47.8, EV/EBITDA 15.856, positive free cash flow, and high net debt. Financial data is materially better than the first run, but the 6-month price change is about 169% and segment chokepoint purity remains weaker than KTOS/RDW/MRCY.",
+      "rating_after_valuation": "Watchlist",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=5003036672; enterprise_value=6954182656; trailing_revenue=875838016; gross_margin=0.7157; free_cash_flow=252985376; net_debt=1677311008; ev_to_sales=7.94; price_to_sales=5.7122855; pe_ratio=47.797977; ev_to_ebitda=15.856; price_change_6m=1.688636; price_change_12m=0.652235; distance_from_52w_high=-0.12093628088426525; distance_from_52w_low=2.023642172523962",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corp",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 63975190528,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 65184362496,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.36556,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": -214999376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": -1244681040,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 1383351040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 138670000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 679577984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 95.919,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 94.13959,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": -395.462,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": -0.175272,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.496711,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 0.847861,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 3.029516,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.3219205298013245,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 3.056656101426308,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "very_stretched",
+      "crowding_status": "high",
+      "balance_sheet_risk": "low",
+      "repricing_status": "mostly_repriced",
+      "valuation_score": 12,
+      "crowding_score": 12,
+      "summary": "RKLB has market cap about 63.98B, EV about 65.18B, EV/Sales 95.919, P/S 94.14, negative EV/EBITDA, negative free cash flow, P/E not meaningful, and 12-month price change about 303%. Net debt is negative, but valuation and momentum are too stretched for a stronger research classification.",
+      "rating_after_valuation": "Wait for Pullback",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=63975190528; enterprise_value=65184362496; trailing_revenue=679577984; gross_margin=0.36556; free_cash_flow=-214999376; net_debt=-1244681040; ev_to_sales=95.919; price_to_sales=94.13959; pe_ratio=not_meaningful; ev_to_ebitda=-395.462; price_change_6m=0.847861; price_change_12m=3.029516; distance_from_52w_high=-0.3219205298013245; distance_from_52w_low=3.056656101426308",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 1203074432,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 1430195712,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.69291,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": -56810752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": 95383992,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 115521000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 210904992,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 97805000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 14.623,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 12.300746,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": -61.337,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": -0.212151,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.371985,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 0.850457,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 1.977043,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.3869137670196672,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 2.001851851851852,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "very_stretched",
+      "crowding_status": "high",
+      "balance_sheet_risk": "medium",
+      "repricing_status": "mostly_repriced",
+      "valuation_score": 20,
+      "crowding_score": 18,
+      "summary": "BKSY has market cap about 1.20B, EV about 1.43B, EV/Sales 14.623, P/S 12.301, negative EV/EBITDA, negative free cash flow, P/E not meaningful, and 12-month price change about 198%. The valuation is demanding for still-weak commercial validation.",
+      "rating_after_valuation": "Observe",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=1203074432; enterprise_value=1430195712; trailing_revenue=97805000; gross_margin=0.69291; free_cash_flow=-56810752; net_debt=95383992; ev_to_sales=14.623; price_to_sales=12.300746; pe_ratio=not_meaningful; ev_to_ebitda=-61.337; price_change_6m=0.850457; price_change_12m=1.977043; distance_from_52w_high=-0.3869137670196672; distance_from_52w_low=2.001851851851852",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 11101938688,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 11935474688,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.55579,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": 84853752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": -242800000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 730835008,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 488035008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 335612000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 35.563,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 33.079685,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": -230.775,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": -0.235395,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.256555,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 0.725762,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 4.800745,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.3981839258114374,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 5.357142857142857,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "very_stretched",
+      "crowding_status": "high",
+      "balance_sheet_risk": "low",
+      "repricing_status": "mostly_repriced",
+      "valuation_score": 16,
+      "crowding_score": 8,
+      "summary": "PL has market cap about 11.10B, EV about 11.94B, EV/Sales 35.563, P/S 33.08, negative EV/EBITDA, P/E not meaningful, and 12-month price change about 480%. Free cash flow and net cash are positives, but valuation and momentum are too stretched without stronger customer/backlog evidence.",
+      "rating_after_valuation": "Observe",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=11101938688; enterprise_value=11935474688; trailing_revenue=335612000; gross_margin=0.55579; free_cash_flow=84853752; net_debt=-242800000; ev_to_sales=35.563; price_to_sales=33.079685; pe_ratio=not_meaningful; ev_to_ebitda=-230.775; price_change_6m=0.725762; price_change_12m=4.800745; distance_from_52w_high=-0.3981839258114374; distance_from_52w_low=5.357142857142857",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    },
+    {
+      "ticker": "VSAT",
+      "company_name": "VIASAT INC",
+      "market_cap": {
+        "field": "market_cap",
+        "value": 9583043584,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "field": "enterprise_value",
+        "value": 15191620608,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_growth": "unknown",
+      "gross_margin": {
+        "field": "gross_margin",
+        "value": 0.33042,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "operating_margin": "unknown",
+      "free_cash_flow": {
+        "field": "free_cash_flow",
+        "value": 254796880,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "field": "net_debt",
+        "value": 5192731136,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "total_cash": {
+        "field": "total_cash",
+        "value": 1746834944,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "field": "total_debt",
+        "value": 6939566080,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "field": "revenue_ttm",
+        "value": 4640280064,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_sales": {
+        "field": "ev_to_sales",
+        "value": 3.274,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "field": "price_to_sales",
+        "value": 2.0651865,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_ebitda": {
+        "field": "ev_to_ebitda",
+        "value": 10.687,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": "not meaningful because earnings are negative or Yahoo did not provide a meaningful trailing P/E",
+      "price_change_1m": {
+        "field": "price_change_1m",
+        "value": -0.005809,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "field": "price_change_3m",
+        "value": 0.520806,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "field": "price_change_6m",
+        "value": 0.984446,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "field": "price_change_12m",
+        "value": 4.569047,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "field": "distance_from_52w_high",
+        "value": -0.21850985633144007,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "field": "distance_from_52w_low",
+        "value": 5.133741258741259,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      },
+      "analyst_coverage": "unknown",
+      "institutional_ownership": "unknown",
+      "short_interest": "unknown",
+      "valuation_status": "reasonable",
+      "crowding_status": "high",
+      "balance_sheet_risk": "high",
+      "repricing_status": "mostly_repriced",
+      "valuation_score": 55,
+      "crowding_score": 12,
+      "summary": "VSAT has market cap about 9.58B, EV about 15.19B, EV/Sales 3.274, P/S 2.065, EV/EBITDA 10.687, positive free cash flow, and high net debt of about 5.19B. Valuation is less extreme than other space names, but 12-month price change about 457% and leverage keep it in Observe.",
+      "rating_after_valuation": "Observe",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=9583043584; enterprise_value=15191620608; trailing_revenue=4640280064; gross_margin=0.33042; free_cash_flow=254796880; net_debt=5192731136; ev_to_sales=3.274; price_to_sales=2.0651865; pe_ratio=not_meaningful; ev_to_ebitda=10.687; price_change_6m=0.984446; price_change_12m=4.569047; distance_from_52w_high=-0.21850985633144007; distance_from_52w_low=5.133741258741259",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, analyst coverage, institutional ownership, and short interest remain unavailable.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ]
+    }
+  ],
+  "summary": "Market Data Connector v2 fixes the prior market-cap/EV/multiple blocker. It makes RKLB, PL, BKSY, MRCY, and parts of RDW look valuation- or momentum-constrained; KTOS remains provisional Watchlist; IRDM can return to provisional Watchlist on stronger financial completeness, though its chokepoint purity remains weaker."
+}
+```

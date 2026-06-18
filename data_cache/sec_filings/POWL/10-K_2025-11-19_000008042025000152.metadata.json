@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:17.844970+00:00",
+  "filing": {
+    "accessionNumber": "0000080420-25-000152",
+    "filingDate": "2025-11-19",
+    "reportDate": "2025-09-30",
+    "acceptanceDateTime": "2025-11-19T12:40:55.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-12488",
+    "filmNumber": "251497890",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 9767700,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "powl-20250930.htm",
+    "primaryDocDescription": "10-K",
+    "ticker": "POWL",
+    "cik": "0000080420",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+  "cached_file_path": "data_cache/sec_filings/POWL/10-K_2025-11-19_000008042025000152_powl-20250930.htm"
+}

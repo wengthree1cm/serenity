@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-06-12T15:23:58.299032",
+  "seed_universe": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data/seed_universes/space_us_public.json",
+  "profile_count": 13,
+  "tickers_with_warnings": [],
+  "tickers_with_missing_fields": [
+    "RKLB",
+    "LUNR",
+    "IRDM",
+    "ASTS",
+    "GSAT",
+    "VSAT",
+    "RDW",
+    "BKSY",
+    "SPIR",
+    "PL",
+    "MRCY",
+    "KTOS",
+    "SATS"
+  ],
+  "warnings": {},
+  "missing_fields": {
+    "RKLB": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "LUNR": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "IRDM": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "ASTS": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "GSAT": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "VSAT": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "RDW": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "BKSY": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "SPIR": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "PL": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "MRCY": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "KTOS": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "SATS": [
+      "yahoo_quote_snapshot.market_cap"
+    ]
+  }
+}

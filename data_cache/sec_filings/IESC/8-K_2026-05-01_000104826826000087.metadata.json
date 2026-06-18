@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:25.858734+00:00",
+  "filing": {
+    "accessionNumber": "0001048268-26-000087",
+    "filingDate": "2026-05-01",
+    "reportDate": "2026-05-01",
+    "acceptanceDateTime": "2026-05-01T07:50:05.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-13783",
+    "filmNumber": "26928940",
+    "items": "2.02,7.01,9.01",
+    "core_type": "XBRL",
+    "size": 896159,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "iesc-20260501.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "IESC",
+    "cik": "0001048268",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000087/iesc-20260501.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000087/iesc-20260501.htm",
+  "cached_file_path": "data_cache/sec_filings/IESC/8-K_2026-05-01_000104826826000087_iesc-20260501.htm"
+}

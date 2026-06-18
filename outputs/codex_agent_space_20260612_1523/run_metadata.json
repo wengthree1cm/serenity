@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "run_type": "codex_agent",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "market": "US stocks",
+  "market_cap_min": 300000000,
+  "market_cap_max": 20000000000,
+  "max_companies": 8,
+  "use_live_data": true,
+  "seed_universe": "data/seed_universes/space_us_public.json",
+  "generated_at": "2026-06-12T22:27:44.719749+00:00",
+  "output_folder": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/outputs/codex_agent_space_20260612_1523",
+  "skills_read": [
+    "gpt/00_SYSTEM_PRINCIPLES.md",
+    "gpt/02_THEME_RESEARCH.md",
+    "gpt/03_VALUE_CHAIN_DECOMPOSITION.md",
+    "gpt/04_CHOKEPOINT_SCORING.md",
+    "gpt/05_COMPANY_DISCOVERY.md",
+    "gpt/06_COMMERCIAL_VALIDATION.md",
+    "gpt/07_FINANCIAL_VALUATION_CROWDING.md",
+    "gpt/08_BEAR_CASE.md",
+    "gpt/09_FINAL_RANKING.md",
+    "gpt/10_REPORT_WRITER.md",
+    "gpt/99_OUTPUT_FORMATS.md"
+  ],
+  "steps": [
+    {
+      "file": "01_theme_research.json",
+      "status": "completed"
+    },
+    {
+      "file": "02_value_chain.json",
+      "status": "completed"
+    },
+    {
+      "file": "03_chokepoint_scores.json",
+      "status": "completed"
+    },
+    {
+      "file": "04_company_discovery.json",
+      "status": "completed"
+    },
+    {
+      "file": "05_commercial_validation.json",
+      "status": "completed"
+    },
+    {
+      "file": "06_valuation_crowding.json",
+      "status": "completed"
+    },
+    {
+      "file": "07_bear_case.json",
+      "status": "completed"
+    },
+    {
+      "file": "08_final_ranking.json",
+      "status": "completed"
+    },
+    {
+      "file": "final_report.md",
+      "status": "completed"
+    }
+  ],
+  "invalid_json_repairs": [],
+  "errors": [],
+  "evidence_rules": "Financial, price, market cap, valuation, revenue, cash, debt, and balance-sheet claims use company_profiles.json or are marked missing. Final categories are research classifications only, not investment advice or trading instructions."
+}

@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-12T23:04:33.399665+00:00",
+  "filing": {
+    "accessionNumber": "0001418819-26-000032",
+    "filingDate": "2026-05-14",
+    "reportDate": "2026-05-13",
+    "acceptanceDateTime": "2026-05-14T11:00:42.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-33963",
+    "filmNumber": "26975777",
+    "items": "1.01,7.01,9.01",
+    "core_type": "XBRL",
+    "size": 2973154,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "irdm-20260513.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "IRDM",
+    "cik": "0001418819",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000032/irdm-20260513.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000032/irdm-20260513.htm",
+  "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/8-K_2026-05-14_000141881926000032_irdm-20260513.htm"
+}

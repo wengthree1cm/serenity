@@ -1,0 +1,1747 @@
+[
+  {
+    "ticker": "RKLB",
+    "cik": "0001819994",
+    "company_name": "Rocket Lab Corp",
+    "sec_companyfacts_summary": {
+      "company_name": "Rocket Lab Corp",
+      "cik": 1819994,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 396,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "RKLB",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 102.39,
+      "previous_close": 26.4,
+      "fifty_two_week_high": 151.0,
+      "fifty_two_week_low": 25.24,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.175272,
+      "price_change_3m": 0.496711,
+      "price_change_6m": 0.847861,
+      "price_change_12m": 3.029516,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 200348000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -45022000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -55969000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2819941000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 555574000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 2264367000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1205499000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -50332000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/RKLB",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819994.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001819994.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corporation",
+      "cik": "0001819994",
+      "segment_hint": "Launch services and space systems",
+      "reason_for_inclusion": "Public small-launch and spacecraft systems company for initial space-sector testing."
+    }
+  },
+  {
+    "ticker": "LUNR",
+    "cik": "0001844452",
+    "company_name": "Intuitive Machines, Inc.",
+    "sec_companyfacts_summary": {
+      "company_name": "Intuitive Machines, Inc.",
+      "cik": 1844452,
+      "available_namespaces": [
+        "us-gaap",
+        "dei",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 390,
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "LUNR",
+      "exchange": "NasdaqGM",
+      "currency": "USD",
+      "current_price": 26.62,
+      "previous_close": 10.89,
+      "fifty_two_week_high": 46.75,
+      "fifty_two_week_low": 7.78,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": -0.253924,
+      "price_change_3m": 0.5125,
+      "price_change_6m": 1.393885,
+      "price_change_12m": 1.547368,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 183630000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -37387000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -39201000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1717947000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 986792000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": -334297000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 231624000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -54768000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/LUNR",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001844452.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001844452.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "LUNR",
+      "company_name": "Intuitive Machines, Inc.",
+      "cik": "0001844452",
+      "segment_hint": "Lunar infrastructure and space services",
+      "reason_for_inclusion": "Public lunar-services company included as a test case for commercial space infrastructure."
+    }
+  },
+  {
+    "ticker": "IRDM",
+    "cik": "0001418819",
+    "company_name": "Iridium Communications Inc.",
+    "sec_companyfacts_summary": {
+      "company_name": "Iridium Communications Inc.",
+      "cik": 1418819,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "us_gaap_fact_count": 510,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "IRDM",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 47.32,
+      "previous_close": 29.23,
+      "fifty_two_week_high": 53.83,
+      "fifty_two_week_low": 15.65,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.098167,
+      "price_change_3m": 0.903459,
+      "price_change_6m": 1.688636,
+      "price_change_12m": 0.652235,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 219057000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 21594000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 50713000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2532289000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 2063938000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 468351000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 111644000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 71615000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/IRDM",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001418819.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001418819.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "cik": "0001418819",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public satellite communications operator included for space connectivity coverage."
+    }
+  },
+  {
+    "ticker": "ASTS",
+    "cik": "0001780312",
+    "company_name": "AST SpaceMobile, Inc.",
+    "sec_companyfacts_summary": {
+      "company_name": "AST SpaceMobile, Inc.",
+      "cik": 1780312,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 363,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "ASTS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 82.41,
+      "previous_close": 36.92,
+      "fifty_two_week_high": 133.86,
+      "fifty_two_week_low": 36.08,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.101591,
+      "price_change_3m": -0.045518,
+      "price_change_6m": 0.215308,
+      "price_change_12m": 1.147772,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 13825000,
+        "end": "2024-12-31",
+        "filed": "2025-03-03",
+        "form": "10-K",
+        "fy": 2024,
+        "fp": "FY"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -191012000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -1434836,
+        "end": "2021-03-31",
+        "filed": "2021-05-18",
+        "form": "10-Q",
+        "fy": 2021,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 6051141000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 3390313000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 5000001,
+        "end": "2021-03-31",
+        "filed": "2021-05-18",
+        "form": "10-Q",
+        "fy": 2021,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 3029591000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -48058000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/ASTS",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001780312.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "ASTS",
+      "company_name": "AST SpaceMobile, Inc.",
+      "cik": "0001780312",
+      "segment_hint": "Direct-to-device satellite connectivity",
+      "reason_for_inclusion": "Public satellite-to-cellular company included for connectivity and constellation testing."
+    }
+  },
+  {
+    "ticker": "GSAT",
+    "cik": "0001366868",
+    "company_name": "GLOBALSTAR, INC.",
+    "sec_companyfacts_summary": {
+      "company_name": "GLOBALSTAR, INC.",
+      "cik": 1366868,
+      "available_namespaces": [
+        "dei",
+        "us-gaap"
+      ],
+      "us_gaap_fact_count": 553,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "GSAT",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 81.16,
+      "previous_close": 22.19,
+      "fifty_two_week_high": 84.7,
+      "fifty_two_week_low": 21.59,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.014211,
+      "price_change_3m": 0.383095,
+      "price_change_6m": 0.17538,
+      "price_change_12m": 2.697494,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 70064000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -17420000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 8170000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2377467000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 2034651000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 342816000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 358448000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 35227000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/GSAT",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001366868.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001366868.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "GSAT",
+      "company_name": "Globalstar, Inc.",
+      "cik": "0001366868",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public mobile satellite services company included for space connectivity coverage."
+    }
+  },
+  {
+    "ticker": "VSAT",
+    "cik": "0000797721",
+    "company_name": "VIASAT INC",
+    "sec_companyfacts_summary": {
+      "company_name": "VIASAT INC",
+      "cik": 797721,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 543,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "0331"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "VSAT",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 70.17,
+      "previous_close": 11.4,
+      "fifty_two_week_high": 89.79,
+      "fifty_two_week_low": 11.44,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.005809,
+      "price_change_3m": 0.520806,
+      "price_change_6m": 0.984446,
+      "price_change_12m": 4.569047,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 4640280000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -34086000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 108125000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 15226596000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 10497334000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 4660301000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1746835000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 1589885000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/VSAT",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797721.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0000797721.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "VSAT",
+      "company_name": "Viasat, Inc.",
+      "cik": "0000797721",
+      "segment_hint": "Satellite broadband and communications",
+      "reason_for_inclusion": "Public satellite communications company included for broadband and defense-adjacent exposure."
+    }
+  },
+  {
+    "ticker": "RDW",
+    "cik": "0001819810",
+    "company_name": "Redwire Corp",
+    "sec_companyfacts_summary": {
+      "company_name": "Redwire Corp",
+      "cik": 1819810,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 405,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "RDW",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 15.12,
+      "previous_close": 19.32,
+      "fifty_two_week_high": 26.64,
+      "fifty_two_week_low": 4.87,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": 0.319372,
+      "price_change_3m": 0.576642,
+      "price_change_6m": 1.194485,
+      "price_change_12m": -0.207547,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 96972000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -76502000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -69701000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1511128000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 346572000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 1087522000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 144506000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -6666000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/RDW",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819810.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001819810.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "RDW",
+      "company_name": "Redwire Corporation",
+      "cik": "0001819810",
+      "segment_hint": "Space infrastructure and components",
+      "reason_for_inclusion": "Public space infrastructure supplier included for spacecraft components and mission systems."
+    }
+  },
+  {
+    "ticker": "BKSY",
+    "cik": "0001753539",
+    "company_name": "BlackSky Technology Inc.",
+    "sec_companyfacts_summary": {
+      "company_name": "BlackSky Technology Inc.",
+      "cik": 1753539,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 396,
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "BKSY",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 32.42,
+      "previous_close": 11.45,
+      "fifty_two_week_high": 52.88,
+      "fifty_two_week_low": 10.8,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.212151,
+      "price_change_3m": 0.371985,
+      "price_change_6m": 0.850457,
+      "price_change_12m": 1.977043,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 20774000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -29663000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -18537000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 371748000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 290943000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 80805000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 39382000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -2356000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/BKSY",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001753539.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001753539.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "cik": "0001753539",
+      "segment_hint": "Earth observation and geospatial intelligence",
+      "reason_for_inclusion": "Public geospatial intelligence company included for space-based data services."
+    }
+  },
+  {
+    "ticker": "SPIR",
+    "cik": "0001816017",
+    "company_name": "SPIRE GLOBAL, INC.",
+    "sec_companyfacts_summary": {
+      "company_name": "SPIRE GLOBAL, INC.",
+      "cik": 1816017,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 432,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "SPIR",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 18.23,
+      "previous_close": 11.52,
+      "fifty_two_week_high": 25.93,
+      "fifty_two_week_low": 6.6,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.007621,
+      "price_change_3m": 0.677093,
+      "price_change_6m": 1.007709,
+      "price_change_12m": 0.672477,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 15834000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -25843000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -24575000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 182856000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 91650000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 91206000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 16048000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -26211000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/SPIR",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001816017.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001816017.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "SPIR",
+      "company_name": "Spire Global, Inc.",
+      "cik": "0001816017",
+      "segment_hint": "Space-based data and analytics",
+      "reason_for_inclusion": "Public satellite data company included for weather, maritime, aviation, and RF data exposure."
+    }
+  },
+  {
+    "ticker": "PL",
+    "cik": "0001836833",
+    "company_name": "Planet Labs PBC",
+    "sec_companyfacts_summary": {
+      "company_name": "Planet Labs PBC",
+      "cik": 1836833,
+      "available_namespaces": [
+        "us-gaap",
+        "dei",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 366,
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "fiscal_year_end": "0131"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "PL",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 31.15,
+      "previous_close": 5.46,
+      "fifty_two_week_high": 51.76,
+      "fifty_two_week_low": 4.9,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.235395,
+      "price_change_3m": 0.256555,
+      "price_change_6m": 0.725762,
+      "price_change_12m": 4.800745,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 94150000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -138872000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -34888000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1251431000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 807727000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 443704000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 368090000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 15440000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/PL",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001836833.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001836833.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "cik": "0001836833",
+      "segment_hint": "Earth observation",
+      "reason_for_inclusion": "Public Earth observation company included for imagery and analytics coverage."
+    }
+  },
+  {
+    "ticker": "MRCY",
+    "cik": "0001049521",
+    "company_name": "MERCURY SYSTEMS, INC.",
+    "sec_companyfacts_summary": {
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "cik": 1049521,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "us_gaap_fact_count": 480,
+      "sic": "3670",
+      "sic_description": "Electronic Components & Accessories",
+      "fiscal_year_end": "0630"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "MRCY",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 120.3,
+      "previous_close": 51.57,
+      "fifty_two_week_high": 121.369,
+      "fifty_two_week_low": 48.75,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.300541,
+      "price_change_3m": 0.53915,
+      "price_change_6m": 0.614982,
+      "price_change_12m": 1.270668,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "Revenues",
+        "unit": "USD",
+        "value": 693840000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -30471000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -14185000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2481287000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 1003615000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 1477672000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 331800000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 60235000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/MRCY",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001049521.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001049521.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "MRCY",
+      "company_name": "Mercury Systems, Inc.",
+      "cik": "0001049521",
+      "segment_hint": "Aerospace and defense electronics",
+      "reason_for_inclusion": "Public defense electronics supplier included as a space-adjacent systems test case."
+    }
+  },
+  {
+    "ticker": "KTOS",
+    "cik": "0001069258",
+    "company_name": "Kratos Defense & Security Solutions, Inc.",
+    "sec_companyfacts_summary": {
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "cik": 1069258,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 552,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1228"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "KTOS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 57.75,
+      "previous_close": 41.24,
+      "fifty_two_week_high": 134.0,
+      "fifty_two_week_low": 39.0,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.10021,
+      "price_change_3m": -0.340226,
+      "price_change_6m": -0.222327,
+      "price_change_12m": 0.382902,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 371000000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 11900000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 4700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 4042700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 632700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 3410000000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1464300000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -27400000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/KTOS",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001069258.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001069258.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "cik": "0001069258",
+      "segment_hint": "Defense, satellite ground systems, and unmanned systems",
+      "reason_for_inclusion": "Public defense technology company included for satellite ground and space-adjacent systems exposure."
+    }
+  },
+  {
+    "ticker": "SATS",
+    "cik": "0001415404",
+    "company_name": "EchoStar Corporation",
+    "sec_companyfacts_summary": {
+      "company_name": "EchoStar Corporation",
+      "cik": 1415404,
+      "available_namespaces": [
+        "dei",
+        "us-gaap"
+      ],
+      "us_gaap_fact_count": 755,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "SATS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 114.08,
+      "previous_close": 18.08,
+      "fifty_two_week_high": 147.25,
+      "fifty_two_week_low": 16.73,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.143736,
+      "price_change_3m": 0.052981,
+      "price_change_6m": 0.097662,
+      "price_change_12m": 5.774347,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 3667489000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -146885000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 392847000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 41375692000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 35698289000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 5631310000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1343780000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 238284000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "source_urls": {
+      "yahoo_chart": "https://query1.finance.yahoo.com/v8/finance/chart/SATS",
+      "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001415404.json",
+      "sec_submissions": "https://data.sec.gov/submissions/CIK0001415404.json"
+    },
+    "data_quality_warnings": [],
+    "missing_fields": [
+      "yahoo_quote_snapshot.market_cap"
+    ],
+    "seed_universe_entry": {
+      "ticker": "SATS",
+      "company_name": "EchoStar Corporation",
+      "cik": "0001415404",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public satellite communications company included for initial space-sector testing."
+    }
+  }
+]

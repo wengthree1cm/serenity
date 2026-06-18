@@ -1,0 +1,93 @@
+[
+  {
+    "ticker": "RKLB",
+    "company_name": "Rocket Lab Corporation",
+    "cik": "0001819994",
+    "segment_hint": "Launch services and space systems",
+    "reason_for_inclusion": "Public small-launch and spacecraft systems company for initial space-sector testing."
+  },
+  {
+    "ticker": "LUNR",
+    "company_name": "Intuitive Machines, Inc.",
+    "cik": "0001844452",
+    "segment_hint": "Lunar infrastructure and space services",
+    "reason_for_inclusion": "Public lunar-services company included as a test case for commercial space infrastructure."
+  },
+  {
+    "ticker": "IRDM",
+    "company_name": "Iridium Communications Inc.",
+    "cik": "0001418819",
+    "segment_hint": "Satellite communications",
+    "reason_for_inclusion": "Public satellite communications operator included for space connectivity coverage."
+  },
+  {
+    "ticker": "ASTS",
+    "company_name": "AST SpaceMobile, Inc.",
+    "cik": "0001780312",
+    "segment_hint": "Direct-to-device satellite connectivity",
+    "reason_for_inclusion": "Public satellite-to-cellular company included for connectivity and constellation testing."
+  },
+  {
+    "ticker": "GSAT",
+    "company_name": "Globalstar, Inc.",
+    "cik": "0001366868",
+    "segment_hint": "Satellite communications",
+    "reason_for_inclusion": "Public mobile satellite services company included for space connectivity coverage."
+  },
+  {
+    "ticker": "VSAT",
+    "company_name": "Viasat, Inc.",
+    "cik": "0000797721",
+    "segment_hint": "Satellite broadband and communications",
+    "reason_for_inclusion": "Public satellite communications company included for broadband and defense-adjacent exposure."
+  },
+  {
+    "ticker": "RDW",
+    "company_name": "Redwire Corporation",
+    "cik": "0001819810",
+    "segment_hint": "Space infrastructure and components",
+    "reason_for_inclusion": "Public space infrastructure supplier included for spacecraft components and mission systems."
+  },
+  {
+    "ticker": "BKSY",
+    "company_name": "BlackSky Technology Inc.",
+    "cik": "0001753539",
+    "segment_hint": "Earth observation and geospatial intelligence",
+    "reason_for_inclusion": "Public geospatial intelligence company included for space-based data services."
+  },
+  {
+    "ticker": "SPIR",
+    "company_name": "Spire Global, Inc.",
+    "cik": "0001816017",
+    "segment_hint": "Space-based data and analytics",
+    "reason_for_inclusion": "Public satellite data company included for weather, maritime, aviation, and RF data exposure."
+  },
+  {
+    "ticker": "PL",
+    "company_name": "Planet Labs PBC",
+    "cik": "0001836833",
+    "segment_hint": "Earth observation",
+    "reason_for_inclusion": "Public Earth observation company included for imagery and analytics coverage."
+  },
+  {
+    "ticker": "MRCY",
+    "company_name": "Mercury Systems, Inc.",
+    "cik": "0001049521",
+    "segment_hint": "Aerospace and defense electronics",
+    "reason_for_inclusion": "Public defense electronics supplier included as a space-adjacent systems test case."
+  },
+  {
+    "ticker": "KTOS",
+    "company_name": "Kratos Defense & Security Solutions, Inc.",
+    "cik": "0001069258",
+    "segment_hint": "Defense, satellite ground systems, and unmanned systems",
+    "reason_for_inclusion": "Public defense technology company included for satellite ground and space-adjacent systems exposure."
+  },
+  {
+    "ticker": "SATS",
+    "company_name": "EchoStar Corporation",
+    "cik": "0001415404",
+    "segment_hint": "Satellite communications",
+    "reason_for_inclusion": "Public satellite communications company included for initial space-sector testing."
+  }
+]

@@ -1,0 +1,372 @@
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:27:44.719749+00:00",
+  "skill_name": "06_COMMERCIAL_VALIDATION",
+  "warnings": [
+    "Module 06 uses company_profiles.json for financial claims. It does not infer missing market cap, valuation, backlog, customer, or segment revenue data."
+  ],
+  "validated_companies": [
+    {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 76,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 371000000, 'end': '2026-03-29', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': 11900000, 'end': '2026-03-29', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': 4700000, 'end': '2026-03-29', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 1464300000, 'end': '2026-03-29', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 632700000, 'end': '2026-03-29', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Defense, satellite ground systems, and unmanned systems",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Revenue and positive net income are present in SEC-derived metrics; segment-specific satellite ground evidence still needs verification.",
+      "rating_before_valuation": "High Priority",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "MRCY",
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "segment_name": "Secure defense electronics and RF payloads",
+      "commercial_validation_level": 2,
+      "commercial_validation_score": 70,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 693840000, 'end': '2026-03-27', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -30471000, 'end': '2026-03-27', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': -14185000, 'end': '2026-03-27', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 331800000, 'end': '2026-03-27', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 1003615000, 'end': '2026-03-27', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Aerospace and defense electronics",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Revenue, cash, and assets are present; defense electronics relevance is plausible but space-specific revenue is not isolated.",
+      "rating_before_valuation": "Watchlist",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corp",
+      "segment_name": "Spacecraft components, power, thermal, and integration",
+      "commercial_validation_level": 2,
+      "commercial_validation_score": 66,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 96972000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -76502000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': -69701000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 144506000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 346572000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Space infrastructure and components",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Space infrastructure exposure is direct, but SEC metrics show negative net income and operating income.",
+      "rating_before_valuation": "Watchlist",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corp",
+      "segment_name": "Spacecraft components, power, thermal, and integration",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 75,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 200348000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -45022000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': -55969000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 1205499000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 555574000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Launch services and space systems",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Revenue and strong cash balance are present, but 12-month price change indicates major repricing.",
+      "rating_before_valuation": "Wait for Pullback",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "segment_name": "Satellite network operators and connectivity capacity",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 72,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 219057000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': 21594000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': 50713000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 111644000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 2063938000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Satellite communications",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Revenue, positive net income, positive operating income, and operating cash flow are present.",
+      "rating_before_valuation": "Watchlist",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "VSAT",
+      "company_name": "VIASAT INC",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "commercial_validation_level": 3,
+      "commercial_validation_score": 68,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 4640280000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -34086000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': 108125000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 1746835000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 10497334000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Satellite broadband and communications",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Large revenue and operating cash flow are present, but liabilities are high and space-defense chokepoint exposure is mixed.",
+      "rating_before_valuation": "Observe",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "segment_name": "Defense ISR and geospatial data infrastructure",
+      "commercial_validation_level": 2,
+      "commercial_validation_score": 61,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 94150000, 'end': '2026-04-30', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -138872000, 'end': '2026-04-30', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': -34888000, 'end': '2026-04-30', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 368090000, 'end': '2026-04-30', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 807727000, 'end': '2026-04-30', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Earth observation",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Earth observation exposure is direct and operating cash flow is positive, but stock performance shows major repricing and net income is negative.",
+      "rating_before_valuation": "Wait for Pullback",
+      "continue_to_valuation": true
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "segment_name": "Defense ISR and geospatial data infrastructure",
+      "commercial_validation_level": 2,
+      "commercial_validation_score": 58,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence": [
+        {
+          "evidence": "SEC-derived profile metrics include revenue={'value': 20774000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.revenue'}, net_income_loss={'value': -29663000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.net_income_loss'}, operating_income_loss={'value': -18537000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.operating_income_loss'}, cash_and_equivalents={'value': 39382000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.cash_and_equivalents'}, liabilities={'value': 290943000, 'end': '2026-03-31', 'source': 'company_profiles.json:key_financial_metrics.liabilities'}.",
+          "source": "company_profiles.json:key_financial_metrics",
+          "why_it_matters": "These fields ground financial validation without inferring unavailable values."
+        }
+      ],
+      "soft_evidence": [
+        {
+          "evidence": "Earth observation and geospatial intelligence",
+          "source": "data/seed_universes/space_us_public.json",
+          "why_it_matters": "Maps the company to the relevant space or defense satellite value-chain segment."
+        }
+      ],
+      "inferences": [
+        {
+          "inference": "The company may benefit if its mapped chokepoint segment receives sustained commercial or defense spending.",
+          "supporting_evidence": [
+            "seed universe segment hint",
+            "SEC/Yahoo profile availability"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "named customer contracts",
+        "backlog by relevant segment",
+        "segment revenue materiality",
+        "market_cap",
+        "enterprise_value",
+        "gross_margin",
+        "free_cash_flow",
+        "net_debt"
+      ],
+      "validation_summary": "Geospatial exposure is direct, but revenue scale is smaller and net income is negative.",
+      "rating_before_valuation": "Wait for Pullback",
+      "continue_to_valuation": true
+    }
+  ],
+  "summary": "Commercial validation is strongest where SEC-derived revenue/cash metrics exist and the seed-universe mapping is directly tied to a chokepoint. Missing backlog and customer evidence prevents definitive high-conviction conclusions."
+}

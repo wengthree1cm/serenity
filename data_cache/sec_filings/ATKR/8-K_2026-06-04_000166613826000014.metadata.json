@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:21.657011+00:00",
+  "filing": {
+    "accessionNumber": "0001666138-26-000014",
+    "filingDate": "2026-06-04",
+    "reportDate": "2026-06-04",
+    "acceptanceDateTime": "2026-06-03T21:53:19.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-37793",
+    "filmNumber": "261062370",
+    "items": "1.01,9.01",
+    "core_type": "XBRL",
+    "size": 179120,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "atkr-20260604.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "ATKR",
+    "cik": "0001666138",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000166613826000014/atkr-20260604.htm",
+  "cached_file_path": "data_cache/sec_filings/ATKR/8-K_2026-06-04_000166613826000014_atkr-20260604.htm"
+}

@@ -1,0 +1,322 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "08_BEAR_CASE",
+  "warnings": [
+    "Bear cases do not change ratings beyond evidence-gated classifications."
+  ],
+  "bear_cases": [
+    {
+      "ticker": "MYRG",
+      "company_name": "MYR GROUP\u00a0INC.",
+      "core_bull_thesis": "MYRG is a focused electrical contractor with utility T&D and C&I/data-center adjacency, positive FCF, and less extreme sales multiples than the most crowded equipment names.",
+      "strongest_bear_case": "segment-specific data-center backlog missing; project execution and labor risk; 12m price momentum indicates partial repricing",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center backlog by customer/end market",
+        "large-load interconnection project exposure",
+        "margin durability in C&I and T&D"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 1.788, P/S 1.8146299, FCF $227.8M, 12m price change 172.8%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No major filing-search gaps from selected terms, but manual verification still needed.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep MYRG as Watchlist."
+    },
+    {
+      "ticker": "POWL",
+      "company_name": "Powell Industries, Inc.",
+      "core_bull_thesis": "POWL has the strongest filing-level evidence for backlog, switchgear/power systems, and data-center diversification, but valuation and momentum show substantial repricing.",
+      "strongest_bear_case": "EV/Sales and P/S near 9x; 12m price change above 370%; data-center-specific customer concentration missing",
+      "risk_breakdown": {
+        "valuation_risk": "high",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center backlog dollars",
+        "lead times and pricing power",
+        "customer mix and margin sustainability"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 9.006, P/S 9.485606, FCF $142.2M, 12m price change 370.7%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep POWL as Wait for Pullback."
+    },
+    {
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "core_bull_thesis": "MOD has hard filing evidence that Data Centers are 35% of fiscal 2026 net sales and offers CDUs/rear-door/immersion-adjacent solutions, but FCF is negative and valuation/momentum are stretched.",
+      "strongest_bear_case": "negative FCF; high P/E/EV multiples; customer names and segment margin missing",
+      "risk_breakdown": {
+        "valuation_risk": "high",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center customer concentration",
+        "segment margins",
+        "liquid cooling revenue mix"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 4.719, P/S 4.557522, FCF $-101.5M, 12m price change 192.9%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep MOD as Wait for Pullback."
+    },
+    {
+      "ticker": "ATKR",
+      "company_name": "Atkore Inc.",
+      "core_bull_thesis": "ATKR is cheaper and cash-generative with electrical infrastructure exposure, but data-center-specific validation is weaker and the products may be more commoditized.",
+      "strongest_bear_case": "P/E missing from market data; broad distributor exposure; less clear chokepoint power",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "medium",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "mega-project/data-center product mix",
+        "margin normalization",
+        "data-center channel demand"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 1.097, P/S 0.931367, FCF $255.0M, 12m price change 19.2%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep ATKR as Watchlist."
+    },
+    {
+      "ticker": "BDC",
+      "company_name": "BELDEN INC.",
+      "core_bull_thesis": "BDC has direct data center and Smart Infrastructure evidence with reasonable valuation versus crowded power names, but it is more network/connectivity than core power infrastructure.",
+      "strongest_bear_case": "not pure power infrastructure; segment transition/realignment; modest price momentum may reflect weaker growth",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "medium",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center revenue/margins",
+        "AI data center versus general network exposure",
+        "customer concentration"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 2.004, P/S 1.6076756, FCF $81.4M, 12m price change 7.1%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No major filing-search gaps from selected terms, but manual verification still needed.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep BDC as Watchlist."
+    },
+    {
+      "ticker": "IESC",
+      "company_name": "IES Holdings, Inc.",
+      "core_bull_thesis": "IESC has data-center and electrical services exposure with positive FCF, but valuation and price momentum are already high and exact data-center backlog is missing.",
+      "strongest_bear_case": "near 52-week high; EV/Sales over 4x for services business; segment revenue missing",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center backlog and customer mix",
+        "project margins",
+        "labor capacity"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 4.07, P/S 4.1119447, FCF $271.9M, 12m price change 186.3%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep IESC as Watchlist."
+    },
+    {
+      "ticker": "AEIS",
+      "company_name": "ADVANCED ENERGY INDUSTRIES INC",
+      "core_bull_thesis": "AEIS has power-conversion relevance and AI/energy-efficiency exposure, but market data shows high valuation and direct data-center commercial validation is incomplete.",
+      "strongest_bear_case": "EV/Sales over 7x; P/E over 70x; direct AI data-center revenue not isolated",
+      "risk_breakdown": {
+        "valuation_risk": "high",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "AI/data-center revenue",
+        "design wins",
+        "margin and FCF conversion"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 7.065, P/S 7.442041, FCF $49.2M, 12m price change 188.6%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep AEIS as Wait for Pullback."
+    },
+    {
+      "ticker": "VICR",
+      "company_name": "VICOR CORPORATION",
+      "core_bull_thesis": "VICR has technically relevant vertical power delivery for AI accelerators, but valuation is extremely stretched and commercial validation is not yet enough for a core thesis.",
+      "strongest_bear_case": "EV/Sales above 30x; P/E above 100x; large price repricing; customer concentration/design-win details missing",
+      "risk_breakdown": {
+        "valuation_risk": "high",
+        "commercial_validation_risk": "medium",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "AI accelerator customer contracts",
+        "volume ramp and margins",
+        "competitive substitution risk"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 31.519, P/S 32.449493, FCF $9.0M, 12m price change 595.9%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep VICR as Wait for Pullback."
+    },
+    {
+      "ticker": "GNRC",
+      "company_name": "GENERAC HOLDINGS INC.",
+      "core_bull_thesis": "GNRC could benefit if data centers adopt more backup/on-site power, but current evidence is more scenario optionality than proven AI data-center revenue.",
+      "strongest_bear_case": "P/E/EV multiples high; data-center revenue/backlog missing; permitting/emissions risk",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "high",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center generator orders",
+        "microgrid customer contracts",
+        "C&I margin mix"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 3.831, P/S 3.5699008, FCF $115.3M, 12m price change 110.4%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No backlog evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep GNRC as Observe."
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy, Inc.",
+      "core_bull_thesis": "FLNC has grid-storage relevance to power-constrained loads, but direct AI data-center validation is weak and FCF remains negative.",
+      "strongest_bear_case": "negative FCF; storage market competition; data-center revenue not proven",
+      "risk_breakdown": {
+        "valuation_risk": "medium",
+        "commercial_validation_risk": "high",
+        "crowding_risk": "high",
+        "execution_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "data-center/storage contracts",
+        "backlog quality",
+        "gross margin and cash conversion"
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market data: EV/Sales 1.259, P/S 1.6908195, FCF $-133.7M, 12m price change 373.3%.",
+          "source": "company_profiles.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "No segment revenue evidence found in retrieved filings.",
+          "source": "commercial_validation_ai_power.json"
+        }
+      ],
+      "recommended_adjustment": "keep",
+      "summary": "Keep FLNC as Observe."
+    }
+  ],
+  "summary": "Primary sector bear case: demand is real but highly crowded; valuation has already repriced many names; supplier-level proof remains incomplete."
+}

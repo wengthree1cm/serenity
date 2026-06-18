@@ -1,0 +1,5969 @@
+[
+  {
+    "ticker": "RKLB",
+    "cik": "0001819994",
+    "company_name": "Rocket Lab Corp",
+    "market_data": {
+      "current_price": {
+        "value": 102.39,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 114.78,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 63975190528,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 578867475,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 65184362496,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 1383351040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 138670000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -1244681040,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 679577984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 679577984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.36556,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -214999376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 95.919,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 94.13959,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -395.462,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 151.0,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 25.24,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.175272,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.496711,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.847861,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 3.029516,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.3219205298013245,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 3.056656101426308,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 1383351040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 138670000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -1244681040,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 679577984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 679577984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.36556,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -214999376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Rocket Lab Corp",
+        "cik": 1819994,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ecd",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 396,
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 200348000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -45022000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -55969000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 2819941000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 555574000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 2264367000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 1205499000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -50332000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Rocket Lab Corp",
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/RKLB",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819994.json",
+      "https://data.sec.gov/submissions/CIK0001819994.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/RKLB"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Rocket Lab Corp",
+      "cik": 1819994,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 396,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "RKLB",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 102.39,
+      "previous_close": 26.4,
+      "fifty_two_week_high": 151.0,
+      "fifty_two_week_low": 25.24,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.175272,
+      "price_change_3m": 0.496711,
+      "price_change_6m": 0.847861,
+      "price_change_12m": 3.029516,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 200348000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -45022000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -55969000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2819941000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 555574000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 2264367000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1205499000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -50332000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corporation",
+      "cik": "0001819994",
+      "segment_hint": "Launch services and space systems",
+      "reason_for_inclusion": "Public small-launch and spacecraft systems company for initial space-sector testing."
+    }
+  },
+  {
+    "ticker": "LUNR",
+    "cik": "0001844452",
+    "company_name": "Intuitive Machines, Inc.",
+    "market_data": {
+      "current_price": {
+        "value": 26.62,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 30.64,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 4271240448,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 160452309,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 6205259776,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 231624000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 455172992,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 223548992,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 334264992,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 334264992,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.096990004,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -32115124,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 18.564,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 12.7780075,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -76.95,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 46.75,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 7.78,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.253924,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.5125,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 1.393885,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 1.547368,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.4305882352941176,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 2.42159383033419,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 231624000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 455172992,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 223548992,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 334264992,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 334264992,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.096990004,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -32115124,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Intuitive Machines, Inc.",
+        "cik": 1844452,
+        "available_namespaces": [
+          "us-gaap",
+          "dei",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 390,
+        "sic": "3812",
+        "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 183630000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -37387000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -39201000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 1717947000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 986792000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": -334297000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 231624000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -54768000,
+          "end": "2026-03-31",
+          "filed": "2026-05-15",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Intuitive Machines, Inc.",
+        "sic": "3812",
+        "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/LUNR",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001844452.json",
+      "https://data.sec.gov/submissions/CIK0001844452.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/LUNR"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Intuitive Machines, Inc.",
+      "cik": 1844452,
+      "available_namespaces": [
+        "us-gaap",
+        "dei",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 390,
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "LUNR",
+      "exchange": "NasdaqGM",
+      "currency": "USD",
+      "current_price": 26.62,
+      "previous_close": 10.89,
+      "fifty_two_week_high": 46.75,
+      "fifty_two_week_low": 7.78,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": -0.253924,
+      "price_change_3m": 0.5125,
+      "price_change_6m": 1.393885,
+      "price_change_12m": 1.547368,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 183630000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -37387000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -39201000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1717947000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 986792000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": -334297000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 231624000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -54768000,
+        "end": "2026-03-31",
+        "filed": "2026-05-15",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "LUNR",
+      "company_name": "Intuitive Machines, Inc.",
+      "cik": "0001844452",
+      "segment_hint": "Lunar infrastructure and space services",
+      "reason_for_inclusion": "Public lunar-services company included as a test case for commercial space infrastructure."
+    }
+  },
+  {
+    "ticker": "IRDM",
+    "cik": "0001418819",
+    "company_name": "Iridium Communications Inc.",
+    "market_data": {
+      "current_price": {
+        "value": 47.32,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 49.91,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 5003036672,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 105727744,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 6954182656,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 111644000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 1788955008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 1677311008,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 875838016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 875838016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.7157,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 252985376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 7.94,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 5.7122855,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": 47.797977,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 15.856,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 53.83,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 15.65,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": 0.098167,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.903459,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 1.688636,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 0.652235,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.12093628088426525,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 2.023642172523962,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 111644000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 1788955008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 1677311008,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 875838016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 875838016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.7157,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 252985376,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Iridium Communications Inc.",
+        "cik": 1418819,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "srt"
+        ],
+        "us_gaap_fact_count": 510,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 219057000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": 21594000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": 50713000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 2532289000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 2063938000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 468351000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 111644000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 71615000,
+          "end": "2026-03-31",
+          "filed": "2026-04-23",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Iridium Communications Inc.",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/IRDM",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001418819.json",
+      "https://data.sec.gov/submissions/CIK0001418819.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/IRDM"
+    ],
+    "missing_fields": [],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Iridium Communications Inc.",
+      "cik": 1418819,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "us_gaap_fact_count": 510,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "IRDM",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 47.32,
+      "previous_close": 29.23,
+      "fifty_two_week_high": 53.83,
+      "fifty_two_week_low": 15.65,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.098167,
+      "price_change_3m": 0.903459,
+      "price_change_6m": 1.688636,
+      "price_change_12m": 0.652235,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 219057000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 21594000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 50713000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2532289000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 2063938000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 468351000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 111644000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 71615000,
+        "end": "2026-03-31",
+        "filed": "2026-04-23",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "cik": "0001418819",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public satellite communications operator included for space connectivity coverage."
+    }
+  },
+  {
+    "ticker": "ASTS",
+    "cik": "0001780312",
+    "company_name": "AST SpaceMobile, Inc.",
+    "market_data": {
+      "current_price": {
+        "value": 82.41,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 97.56,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 31985348608,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 298746383,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 29688967168,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 3029591040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 2991408128,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -38182912,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 84935000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 84935000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.44823003,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -1412748416,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 349.549,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 376.58618,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -93.835,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 133.86,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 36.08,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": 0.101591,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": -0.045518,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.215308,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 1.147772,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.3843567906768266,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 1.2840909090909092,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 3029591040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 2991408128,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -38182912,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 84935000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 84935000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.44823003,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -1412748416,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "AST SpaceMobile, Inc.",
+        "cik": 1780312,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ecd",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 363,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 13825000,
+          "end": "2024-12-31",
+          "filed": "2025-03-03",
+          "form": "10-K",
+          "fy": 2024,
+          "fp": "FY"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -191012000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -1434836,
+          "end": "2021-03-31",
+          "filed": "2021-05-18",
+          "form": "10-Q",
+          "fy": 2021,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 6051141000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 3390313000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 5000001,
+          "end": "2021-03-31",
+          "filed": "2021-05-18",
+          "form": "10-Q",
+          "fy": 2021,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 3029591000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -48058000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "AST SpaceMobile, Inc.",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/ASTS",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "https://data.sec.gov/submissions/CIK0001780312.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/ASTS"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "AST SpaceMobile, Inc.",
+      "cik": 1780312,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 363,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "ASTS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 82.41,
+      "previous_close": 36.92,
+      "fifty_two_week_high": 133.86,
+      "fifty_two_week_low": 36.08,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.101591,
+      "price_change_3m": -0.045518,
+      "price_change_6m": 0.215308,
+      "price_change_12m": 1.147772,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 13825000,
+        "end": "2024-12-31",
+        "filed": "2025-03-03",
+        "form": "10-K",
+        "fy": 2024,
+        "fp": "FY"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -191012000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -1434836,
+        "end": "2021-03-31",
+        "filed": "2021-05-18",
+        "form": "10-Q",
+        "fy": 2021,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 6051141000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 3390313000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 5000001,
+        "end": "2021-03-31",
+        "filed": "2021-05-18",
+        "form": "10-Q",
+        "fy": 2021,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 3029591000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -48058000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "ASTS",
+      "company_name": "AST SpaceMobile, Inc.",
+      "cik": "0001780312",
+      "segment_hint": "Direct-to-device satellite connectivity",
+      "reason_for_inclusion": "Public satellite-to-cellular company included for connectivity and constellation testing."
+    }
+  },
+  {
+    "ticker": "GSAT",
+    "cik": "0001366868",
+    "company_name": "GLOBALSTAR, INC.",
+    "market_data": {
+      "current_price": {
+        "value": 81.16,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 81.11,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 10452509696,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 128788931,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 10625445888,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 358448000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 537824000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 179376000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 283017984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 283017984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.63743,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -283683744,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 37.543,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 36.932316,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 97.324,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 84.7,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 21.59,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.014211,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.383095,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.17538,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 2.697494,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.041794569067296415,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 2.7591477535896245,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 358448000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 537824000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 179376000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 283017984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 283017984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.63743,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -283683744,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "GLOBALSTAR, INC.",
+        "cik": 1366868,
+        "available_namespaces": [
+          "dei",
+          "us-gaap"
+        ],
+        "us_gaap_fact_count": 553,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 70064000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -17420000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": 8170000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 2377467000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 2034651000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 342816000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 358448000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 35227000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Globalstar, Inc.",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/GSAT",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001366868.json",
+      "https://data.sec.gov/submissions/CIK0001366868.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/GSAT"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "GLOBALSTAR, INC.",
+      "cik": 1366868,
+      "available_namespaces": [
+        "dei",
+        "us-gaap"
+      ],
+      "us_gaap_fact_count": 553,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "GSAT",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 81.16,
+      "previous_close": 22.19,
+      "fifty_two_week_high": 84.7,
+      "fifty_two_week_low": 21.59,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.014211,
+      "price_change_3m": 0.383095,
+      "price_change_6m": 0.17538,
+      "price_change_12m": 2.697494,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 70064000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -17420000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 8170000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2377467000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 2034651000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 342816000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 358448000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 35227000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "GSAT",
+      "company_name": "Globalstar, Inc.",
+      "cik": "0001366868",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public mobile satellite services company included for space connectivity coverage."
+    }
+  },
+  {
+    "ticker": "VSAT",
+    "cik": "0000797721",
+    "company_name": "VIASAT INC",
+    "market_data": {
+      "current_price": {
+        "value": 70.17,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 72.71,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 9583043584,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 136568953,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 15191620608,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 1746834944,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 6939566080,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 5192731136,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 4640280064,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 4640280064,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.33042,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 254796880,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 3.274,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 2.0651865,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 10.687,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 89.79,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 11.44,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.005809,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.520806,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.984446,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 4.569047,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.21850985633144007,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 5.133741258741259,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 1746834944,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 6939566080,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 5192731136,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 4640280064,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 4640280064,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.33042,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 254796880,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "VIASAT INC",
+        "cik": 797721,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 543,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "0331"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 4640280000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -34086000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": 108125000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 15226596000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 10497334000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 4660301000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 1746835000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 1589885000,
+          "end": "2026-03-31",
+          "filed": "2026-05-29",
+          "form": "10-K",
+          "fy": 2026,
+          "fp": "FY"
+        }
+      },
+      "submissions_summary": {
+        "name": "VIASAT INC",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "0331"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/VSAT",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797721.json",
+      "https://data.sec.gov/submissions/CIK0000797721.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/VSAT"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "VIASAT INC",
+      "cik": 797721,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 543,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "0331"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "VSAT",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 70.17,
+      "previous_close": 11.4,
+      "fifty_two_week_high": 89.79,
+      "fifty_two_week_low": 11.44,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.005809,
+      "price_change_3m": 0.520806,
+      "price_change_6m": 0.984446,
+      "price_change_12m": 4.569047,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 4640280000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -34086000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 108125000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 15226596000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 10497334000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 4660301000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1746835000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 1589885000,
+        "end": "2026-03-31",
+        "filed": "2026-05-29",
+        "form": "10-K",
+        "fy": 2026,
+        "fp": "FY"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "VSAT",
+      "company_name": "Viasat, Inc.",
+      "cik": "0000797721",
+      "segment_hint": "Satellite broadband and communications",
+      "reason_for_inclusion": "Public satellite communications company included for broadband and defense-adjacent exposure."
+    }
+  },
+  {
+    "ticker": "RDW",
+    "cik": "0001819810",
+    "company_name": "Redwire Corp",
+    "market_data": {
+      "current_price": {
+        "value": 15.12,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 17.09,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 3007651072,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 198918728,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 3446226688,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 144506000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 131888000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -12618000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 370958016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 370958016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.12858,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -71324128,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 9.29,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 8.107794,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -19.316,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 26.64,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 4.87,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": 0.319372,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.576642,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 1.194485,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": -0.207547,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.43243243243243246,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 2.1047227926078027,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 144506000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 131888000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -12618000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 370958016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 370958016,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.12858,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -71324128,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Redwire Corp",
+        "cik": 1819810,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ecd",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 405,
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 96972000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -76502000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -69701000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 1511128000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 346572000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 1087522000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 144506000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -6666000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Redwire Corp",
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/RDW",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819810.json",
+      "https://data.sec.gov/submissions/CIK0001819810.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/RDW"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Redwire Corp",
+      "cik": 1819810,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 405,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "RDW",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 15.12,
+      "previous_close": 19.32,
+      "fifty_two_week_high": 26.64,
+      "fifty_two_week_low": 4.87,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": 0.319372,
+      "price_change_3m": 0.576642,
+      "price_change_6m": 1.194485,
+      "price_change_12m": -0.207547,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 96972000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -76502000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -69701000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1511128000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 346572000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 1087522000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 144506000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -6666000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "RDW",
+      "company_name": "Redwire Corporation",
+      "cik": "0001819810",
+      "segment_hint": "Space infrastructure and components",
+      "reason_for_inclusion": "Public space infrastructure supplier included for spacecraft components and mission systems."
+    }
+  },
+  {
+    "ticker": "BKSY",
+    "cik": "0001753539",
+    "company_name": "BlackSky Technology Inc.",
+    "market_data": {
+      "current_price": {
+        "value": 32.42,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 35.97,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 1203074432,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 37109026,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 1430195712,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 115521000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 210904992,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 95383992,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 97805000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 97805000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.69291,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -56810752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 14.623,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 12.300746,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -61.337,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 52.88,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 10.8,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.212151,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.371985,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.850457,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 1.977043,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.3869137670196672,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 2.001851851851852,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 115521000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 210904992,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 95383992,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 97805000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 97805000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.69291,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -56810752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "BlackSky Technology Inc.",
+        "cik": 1753539,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 396,
+        "sic": "3663",
+        "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 20774000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -29663000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -18537000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 371748000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 290943000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 80805000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 39382000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -2356000,
+          "end": "2026-03-31",
+          "filed": "2026-05-07",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "BlackSky Technology Inc.",
+        "sic": "3663",
+        "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/BKSY",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001753539.json",
+      "https://data.sec.gov/submissions/CIK0001753539.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/BKSY"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "BlackSky Technology Inc.",
+      "cik": 1753539,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 396,
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "BKSY",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 32.42,
+      "previous_close": 11.45,
+      "fifty_two_week_high": 52.88,
+      "fifty_two_week_low": 10.8,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.212151,
+      "price_change_3m": 0.371985,
+      "price_change_6m": 0.850457,
+      "price_change_12m": 1.977043,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 20774000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -29663000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -18537000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 371748000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 290943000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 80805000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 39382000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -2356000,
+        "end": "2026-03-31",
+        "filed": "2026-05-07",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "cik": "0001753539",
+      "segment_hint": "Earth observation and geospatial intelligence",
+      "reason_for_inclusion": "Public geospatial intelligence company included for space-based data services."
+    }
+  },
+  {
+    "ticker": "SPIR",
+    "cik": "0001816017",
+    "company_name": "SPIRE GLOBAL, INC.",
+    "market_data": {
+      "current_price": {
+        "value": 18.23,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 19.79,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 705711488,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 38711549,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 728410560,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 49457000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 11766000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -37691000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 63511000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 63511000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.42286,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 9985250,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 11.469,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 11.111642,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": 11.465408,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -9.82,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 25.93,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 6.6,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.007621,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.677093,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 1.007709,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 0.672477,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.29695333590435785,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 1.7621212121212124,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 49457000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 11766000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -37691000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 63511000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 63511000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.42286,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 9985250,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "SPIRE GLOBAL, INC.",
+        "cik": 1816017,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ecd",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 432,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 15834000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -25843000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -24575000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 182856000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 91650000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 91206000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 16048000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -26211000,
+          "end": "2026-03-31",
+          "filed": "2026-05-14",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Spire Global, Inc.",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/SPIR",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001816017.json",
+      "https://data.sec.gov/submissions/CIK0001816017.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/SPIR"
+    ],
+    "missing_fields": [],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "SPIRE GLOBAL, INC.",
+      "cik": 1816017,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 432,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "SPIR",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 18.23,
+      "previous_close": 11.52,
+      "fifty_two_week_high": 25.93,
+      "fifty_two_week_low": 6.6,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.007621,
+      "price_change_3m": 0.677093,
+      "price_change_6m": 1.007709,
+      "price_change_12m": 0.672477,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 15834000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -25843000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -24575000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 182856000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 91650000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 91206000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 16048000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -26211000,
+        "end": "2026-03-31",
+        "filed": "2026-05-14",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "SPIR",
+      "company_name": "Spire Global, Inc.",
+      "cik": "0001816017",
+      "segment_hint": "Space-based data and analytics",
+      "reason_for_inclusion": "Public satellite data company included for weather, maritime, aviation, and RF data exposure."
+    }
+  },
+  {
+    "ticker": "PL",
+    "cik": "0001836833",
+    "company_name": "Planet Labs PBC",
+    "market_data": {
+      "current_price": {
+        "value": 31.15,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 34.17,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 11101938688,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 332908730,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 11935474688,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 730835008,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 488035008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -242800000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 335612000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 335612000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.55579,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 84853752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 35.563,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 33.079685,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": -230.775,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 51.76,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 4.9,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.235395,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.256555,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.725762,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 4.800745,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.3981839258114374,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 5.357142857142857,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 730835008,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 488035008,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -242800000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 335612000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 335612000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.55579,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 84853752,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:02+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Planet Labs PBC",
+        "cik": 1836833,
+        "available_namespaces": [
+          "us-gaap",
+          "dei",
+          "ecd",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 366,
+        "sic": "3663",
+        "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+        "fiscal_year_end": "0131"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 94150000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -138872000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -34888000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 1251431000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 807727000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 443704000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 368090000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 15440000,
+          "end": "2026-04-30",
+          "filed": "2026-06-05",
+          "form": "10-Q",
+          "fy": 2027,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "Planet Labs PBC",
+        "sic": "3663",
+        "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+        "fiscal_year_end": "0131"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/PL",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001836833.json",
+      "https://data.sec.gov/submissions/CIK0001836833.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/PL"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Planet Labs PBC",
+      "cik": 1836833,
+      "available_namespaces": [
+        "us-gaap",
+        "dei",
+        "ecd",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 366,
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "fiscal_year_end": "0131"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "PL",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "current_price": 31.15,
+      "previous_close": 5.46,
+      "fifty_two_week_high": 51.76,
+      "fifty_two_week_low": 4.9,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:02+00:00",
+      "price_change_1m": -0.235395,
+      "price_change_3m": 0.256555,
+      "price_change_6m": 0.725762,
+      "price_change_12m": 4.800745,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 94150000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -138872000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -34888000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 1251431000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 807727000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 443704000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 368090000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 15440000,
+        "end": "2026-04-30",
+        "filed": "2026-06-05",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "cik": "0001836833",
+      "segment_hint": "Earth observation",
+      "reason_for_inclusion": "Public Earth observation company included for imagery and analytics coverage."
+    }
+  },
+  {
+    "ticker": "MRCY",
+    "cik": "0001049521",
+    "company_name": "MERCURY SYSTEMS, INC.",
+    "market_data": {
+      "current_price": {
+        "value": 120.3,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 119.32,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 7223207424,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 60043283,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 7489036288,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 331800000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 656472000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 324672000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 966945984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 966945984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.28683,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 97339000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 7.745,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 7.470125,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 78.179,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 121.3689,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 48.75,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": 0.300541,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.53915,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.614982,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 1.270668,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.008807033762355919,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 1.4676923076923076,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 331800000,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 656472000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 324672000,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 966945984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 966945984,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.28683,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": 97339000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "MERCURY SYSTEMS, INC.",
+        "cik": 1049521,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "srt"
+        ],
+        "us_gaap_fact_count": 480,
+        "sic": "3670",
+        "sic_description": "Electronic Components & Accessories",
+        "fiscal_year_end": "0630"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "Revenues",
+          "unit": "USD",
+          "value": 693840000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -30471000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": -14185000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 2481287000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 1003615000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 1477672000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 331800000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 60235000,
+          "end": "2026-03-27",
+          "filed": "2026-05-05",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q3"
+        }
+      },
+      "submissions_summary": {
+        "name": "MERCURY SYSTEMS INC",
+        "sic": "3670",
+        "sic_description": "Electronic Components & Accessories",
+        "fiscal_year_end": "0630"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/MRCY",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001049521.json",
+      "https://data.sec.gov/submissions/CIK0001049521.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/MRCY"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "cik": 1049521,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "us_gaap_fact_count": 480,
+      "sic": "3670",
+      "sic_description": "Electronic Components & Accessories",
+      "fiscal_year_end": "0630"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "MRCY",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 120.3,
+      "previous_close": 51.57,
+      "fifty_two_week_high": 121.369,
+      "fifty_two_week_low": 48.75,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.300541,
+      "price_change_3m": 0.53915,
+      "price_change_6m": 0.614982,
+      "price_change_12m": 1.270668,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "Revenues",
+        "unit": "USD",
+        "value": 693840000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -30471000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": -14185000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 2481287000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 1003615000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 1477672000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 331800000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 60235000,
+        "end": "2026-03-27",
+        "filed": "2026-05-05",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "MRCY",
+      "company_name": "Mercury Systems, Inc.",
+      "cik": "0001049521",
+      "segment_hint": "Aerospace and defense electronics",
+      "reason_for_inclusion": "Public defense electronics supplier included as a space-adjacent systems test case."
+    }
+  },
+  {
+    "ticker": "KTOS",
+    "cik": "0001069258",
+    "company_name": "Kratos Defense & Security Solutions, Inc.",
+    "market_data": {
+      "current_price": {
+        "value": 57.75,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 58.78,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 10829279232,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 187519984,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 9743524864,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 1464300032,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 185400000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -1278900032,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 1415200000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 1415200000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.22886999,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -106725000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 6.885,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 7.652119,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": 339.70587,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 119.994,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 134.0,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 39.0,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": 0.10021,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": -0.340226,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": -0.222327,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 0.382902,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.5690298507462687,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 0.4807692307692308,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 1464300032,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 185400000,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": -1278900032,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 1415200000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 1415200000,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.22886999,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -106725000,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:01+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "Kratos Defense & Security Solutions, Inc.",
+        "cik": 1069258,
+        "available_namespaces": [
+          "dei",
+          "us-gaap",
+          "ffd"
+        ],
+        "us_gaap_fact_count": 552,
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1228"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 371000000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": 11900000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": 4700000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 4042700000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 632700000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 3410000000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 1464300000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": -27400000,
+          "end": "2026-03-29",
+          "filed": "2026-05-06",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC.",
+        "sic": "3760",
+        "sic_description": "Guided Missiles & Space Vehicles & Parts",
+        "fiscal_year_end": "1228"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/KTOS",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001069258.json",
+      "https://data.sec.gov/submissions/CIK0001069258.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/KTOS"
+    ],
+    "missing_fields": [],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "cik": 1069258,
+      "available_namespaces": [
+        "dei",
+        "us-gaap",
+        "ffd"
+      ],
+      "us_gaap_fact_count": 552,
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "fiscal_year_end": "1228"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "KTOS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 57.75,
+      "previous_close": 41.24,
+      "fifty_two_week_high": 134.0,
+      "fifty_two_week_low": 39.0,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:01+00:00",
+      "price_change_1m": 0.10021,
+      "price_change_3m": -0.340226,
+      "price_change_6m": -0.222327,
+      "price_change_12m": 0.382902,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 371000000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 11900000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 4700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 4042700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 632700000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 3410000000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1464300000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": -27400000,
+        "end": "2026-03-29",
+        "filed": "2026-05-06",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "cik": "0001069258",
+      "segment_hint": "Defense, satellite ground systems, and unmanned systems",
+      "reason_for_inclusion": "Public defense technology company included for satellite ground and space-adjacent systems exposure."
+    }
+  },
+  {
+    "ticker": "SATS",
+    "cik": "0001415404",
+    "company_name": "EchoStar Corporation",
+    "market_data": {
+      "current_price": {
+        "value": 114.08,
+        "source": "yahoo_quote_summary.financialData.currentPrice",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "previous_close": {
+        "value": 128.13,
+        "source": "yahoo_quote_summary.summaryDetail.previousClose",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "market_cap": {
+        "value": 33061924864,
+        "source": "yahoo_quote_summary.price.marketCap",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "shares_outstanding": {
+        "value": 158465020,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.sharesOutstanding",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "enterprise_value": {
+        "value": 64905818112,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_cash": {
+        "value": 1516103040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 29242023936,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 27725920896,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 14802719744,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 14802719744,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.27082002,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -457875616,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "ev_to_sales": {
+        "value": 4.385,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_to_sales": {
+        "value": 2.2335033,
+        "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "low",
+        "computation_note": null
+      },
+      "ev_to_ebitda": {
+        "value": 40.886,
+        "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_high": {
+        "value": 147.25,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekHigh",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "fifty_two_week_low": {
+        "value": 16.73,
+        "source": "yahoo_quote_summary.summaryDetail.fiftyTwoWeekLow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "price_change_1m": {
+        "value": -0.143736,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_3m": {
+        "value": 0.052981,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_6m": {
+        "value": 0.097662,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "price_change_12m": {
+        "value": 5.774347,
+        "source": "yahoo_chart.close_history",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": null
+      },
+      "distance_from_52w_high": {
+        "value": -0.22526315789473686,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_high) / 52_week_high"
+      },
+      "distance_from_52w_low": {
+        "value": 5.818888224745965,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "(current_price - 52_week_low) / 52_week_low"
+      }
+    },
+    "financial_data": {
+      "total_cash": {
+        "value": 1516103040,
+        "source": "yahoo_quote_summary.financialData.totalCash",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "total_debt": {
+        "value": 29242023936,
+        "source": "yahoo_quote_summary.financialData.totalDebt",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "net_debt": {
+        "value": 27725920896,
+        "source": "computed",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "medium",
+        "computation_note": "total_debt - total_cash"
+      },
+      "trailing_revenue": {
+        "value": 14802719744,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "revenue_ttm": {
+        "value": 14802719744,
+        "source": "yahoo_quote_summary.financialData.totalRevenue",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "gross_margin": {
+        "value": 0.27082002,
+        "source": "yahoo_quote_summary.financialData.grossMargins",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      },
+      "free_cash_flow": {
+        "value": -457875616,
+        "source": "yahoo_quote_summary.financialData.freeCashflow",
+        "as_of_date": "2026-06-12T20:00:00+00:00",
+        "confidence": "high",
+        "computation_note": null
+      }
+    },
+    "sec_data": {
+      "companyfacts_summary": {
+        "company_name": "EchoStar Corporation",
+        "cik": 1415404,
+        "available_namespaces": [
+          "dei",
+          "us-gaap"
+        ],
+        "us_gaap_fact_count": 755,
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      },
+      "key_financial_metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "unit": "USD",
+          "value": 3667489000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "net_income_loss": {
+          "concept": "NetIncomeLoss",
+          "unit": "USD",
+          "value": -146885000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_income_loss": {
+          "concept": "OperatingIncomeLoss",
+          "unit": "USD",
+          "value": 392847000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "assets": {
+          "concept": "Assets",
+          "unit": "USD",
+          "value": 41375692000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "liabilities": {
+          "concept": "Liabilities",
+          "unit": "USD",
+          "value": 35698289000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "stockholders_equity": {
+          "concept": "StockholdersEquity",
+          "unit": "USD",
+          "value": 5631310000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "unit": "USD",
+          "value": 1343780000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "unit": "USD",
+          "value": 238284000,
+          "end": "2026-03-31",
+          "filed": "2026-05-11",
+          "form": "10-Q",
+          "fy": 2026,
+          "fp": "Q1"
+        }
+      },
+      "submissions_summary": {
+        "name": "EchoStar CORP",
+        "sic": "4899",
+        "sic_description": "Communications Services, NEC",
+        "fiscal_year_end": "1231"
+      }
+    },
+    "source_urls": [
+      "https://query1.finance.yahoo.com/v8/finance/chart/SATS",
+      "https://data.sec.gov/api/xbrl/companyfacts/CIK0001415404.json",
+      "https://data.sec.gov/submissions/CIK0001415404.json",
+      "https://query1.finance.yahoo.com/v10/finance/quoteSummary/SATS"
+    ],
+    "missing_fields": [
+      "market_data.pe_ratio"
+    ],
+    "data_quality_warnings": [],
+    "sec_companyfacts_summary": {
+      "company_name": "EchoStar Corporation",
+      "cik": 1415404,
+      "available_namespaces": [
+        "dei",
+        "us-gaap"
+      ],
+      "us_gaap_fact_count": 755,
+      "sic": "4899",
+      "sic_description": "Communications Services, NEC",
+      "fiscal_year_end": "1231"
+    },
+    "yahoo_quote_snapshot": {
+      "ticker": "SATS",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "current_price": 114.08,
+      "previous_close": 18.08,
+      "fifty_two_week_high": 147.25,
+      "fifty_two_week_low": 16.73,
+      "market_cap": null,
+      "timestamp": "2026-06-12T20:00:00+00:00",
+      "price_change_1m": -0.143736,
+      "price_change_3m": 0.052981,
+      "price_change_6m": 0.097662,
+      "price_change_12m": 5.774347,
+      "missing_fields": [
+        "market_cap"
+      ]
+    },
+    "key_financial_metrics": {
+      "revenue": {
+        "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 3667489000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "net_income_loss": {
+        "concept": "NetIncomeLoss",
+        "unit": "USD",
+        "value": -146885000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_income_loss": {
+        "concept": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 392847000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "assets": {
+        "concept": "Assets",
+        "unit": "USD",
+        "value": 41375692000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "liabilities": {
+        "concept": "Liabilities",
+        "unit": "USD",
+        "value": 35698289000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "stockholders_equity": {
+        "concept": "StockholdersEquity",
+        "unit": "USD",
+        "value": 5631310000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "cash_and_equivalents": {
+        "concept": "CashAndCashEquivalentsAtCarryingValue",
+        "unit": "USD",
+        "value": 1343780000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      "operating_cash_flow": {
+        "concept": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 238284000,
+        "end": "2026-03-31",
+        "filed": "2026-05-11",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q1"
+      }
+    },
+    "seed_universe_entry": {
+      "ticker": "SATS",
+      "company_name": "EchoStar Corporation",
+      "cik": "0001415404",
+      "segment_hint": "Satellite communications",
+      "reason_for_inclusion": "Public satellite communications company included for initial space-sector testing."
+    }
+  }
+]

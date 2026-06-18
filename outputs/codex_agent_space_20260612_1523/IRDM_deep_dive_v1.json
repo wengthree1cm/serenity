@@ -1,0 +1,382 @@
+{
+  "status": "completed",
+  "ticker": "IRDM",
+  "company_name": "Iridium Communications Inc.",
+  "generated_at": "2026-06-13T00:13:18.542994+00:00",
+  "source_run_folder": "outputs/codex_agent_space_20260612_1523",
+  "final_classification": "Watchlist",
+  "can_move_to_high_priority_research": false,
+  "business_description": {
+    "what_it_does": "Iridium Communications provides global voice and data communications services through a LEO L-band satellite constellation and related ground infrastructure. It also sells equipment and provides engineering/support services, including U.S. government gateway and network work.",
+    "satellite_infrastructure_relevance": [
+      "LEO L-band constellation",
+      "satellite airtime",
+      "government dedicated gateway services",
+      "gateway sustainment and modernization",
+      "hosted payload services including Aireon"
+    ],
+    "recurring_vs_hardware_government": {
+      "recurring_service_revenue": "Q1 2026 services revenue is the dominant disclosed recurring category: commercial services $130.404M and government services $27.625M.",
+      "hardware_equipment": "Subscriber equipment exists but this deep dive did not quantify equipment revenue by defense/satellite use case.",
+      "government_contract_exposure": "EMSS, ECS3, SITH, U.S. government revenue concentration, and government engineering/support revenue provide hard validation."
+    },
+    "less_relevant_parts": [
+      "Consumer satellite phones and general commercial connectivity can be useful infrastructure but are less directly tied to defense satellite supply-chain chokepoints than EMSS, gateway sustainment, PNT, hosted payload, or Space Force work."
+    ]
+  },
+  "serenity_thesis": {
+    "potential_chokepoint": "IRDM may be a mission-critical satellite communications infrastructure provider where LEO L-band coverage, government gateway access, and resilient global connectivity are scarce capabilities.",
+    "true_chokepoint_or_stable_operator": "The evidence supports IRDM as a stable, validated satellite communications infrastructure operator. It is less clearly a high-upside Serenity-style supply-chain chokepoint because the business is mature, visible, and service-operator oriented rather than a hidden bottleneck component supplier.",
+    "proven": [
+      "Government satellite communications contracts are disclosed.",
+      "Recurring services revenue is disclosed.",
+      "Satellite network and ground infrastructure are central to the business.",
+      "Positive free cash flow and valuation fields are populated."
+    ],
+    "inferred": [
+      "Scarcity and pricing power of the network are plausible but not fully proven by this package.",
+      "High-upside re-rating potential is not proven.",
+      "Renewal economics after the current EMSS term are not proven."
+    ]
+  },
+  "commercial_validation": {
+    "hard_evidence": [
+      {
+        "topic": "U.S. government EMSS contract",
+        "classification": "hard_evidence",
+        "source_type": "10-K",
+        "source_date": "2026-02-12",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+        "summary": "IRDM discloses a multi-year fixed-price EMSS contract providing satellite airtime services to U.S. government users. The filing states the contract had a $738.5M value at signing over seven years ending September 2026 and a current fixed annual rate of $110.5M through September 2026, with a six-month extension option.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "ECS3 and U.S. Space Force gateway sustainment",
+        "classification": "hard_evidence",
+        "source_type": "10-K",
+        "source_date": "2026-02-12",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+        "summary": "IRDM discloses the ECS3 agreement managed by the U.S. Space Force for U.S. government gateway maintenance and security sustainment, with approximately $94M total contract value and potential value of $103M based on surge requirements.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "SITH follow-on gateway modernization contract",
+        "classification": "hard_evidence",
+        "source_type": "10-K",
+        "source_date": "2026-02-12",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+        "summary": "IRDM discloses an August 2025 five-year IDIQ SITH contract managed by the U.S. Space Force to enhance the U.S. government gateway, with total contract value up to $85.8M.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "Satellite network and infrastructure relevance",
+        "classification": "hard_evidence",
+        "source_type": "10-K",
+        "source_date": "2026-02-12",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+        "summary": "IRDM describes a LEO L-band satellite network with 66 operational satellites, in-orbit spares, related ground infrastructure, and inter-satellite RF crosslinks.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "Q1 2026 revenue split and recurring services",
+        "classification": "hard_evidence",
+        "source_type": "10-Q",
+        "source_date": "2026-04-23",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/irdm-20260331.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/10-Q_2026-04-23_000141881926000026_irdm-20260331.htm",
+        "summary": "Q1 2026 services revenue included commercial services of $130.404M and government services of $27.625M. Engineering and support services revenue included government revenue of $39.465M.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "Customer concentration and government exposure",
+        "classification": "hard_evidence",
+        "source_type": "10-K / 10-Q",
+        "source_date": "2026-02-12 and 2026-04-23",
+        "source_url": "commercial_validation_KTOS_IRDM.json",
+        "cached_file_path": "outputs/codex_agent_space_20260612_1523/data/commercial_validation_KTOS_IRDM.json",
+        "summary": "The 10-K reports U.S. government revenue of $257.0M, or 29% of 2025 total revenue. The 10-Q reports approximately 45% of accounts receivable at March 31, 2026 was due from prime contracts or subcontracts with U.S. government agencies.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "high",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "Hosted payload and Aireon",
+        "classification": "hard_evidence",
+        "source_type": "10-K / 8-K",
+        "source_date": "2026-02-12 and 2026-05-14",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000032/irdm-20260513.htm",
+        "cached_file_path": "data_cache/sec_filings/IRDM/8-K_2026-05-14_000141881926000032_irdm-20260513.htm",
+        "summary": "IRDM discloses hosted payload services including Aireon. A May 2026 8-K states IRDM agreed to acquire the remaining 61% of Aireon Holdings, operator of a space-based ADS-B air traffic surveillance system, for approximately $366.7M.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "medium",
+        "proven_vs_inferred": "proven"
+      },
+      {
+        "topic": "Market data and cash flow",
+        "classification": "hard_evidence",
+        "source_type": "market_data_connector_v2",
+        "source_date": "2026-06-12T20:00:01+00:00",
+        "source_url": "outputs/codex_agent_space_20260612_1523/data/company_profiles_v2.json",
+        "cached_file_path": "outputs/codex_agent_space_20260612_1523/data/company_profiles_v2.json",
+        "summary": "Market Data Connector v2 reports market cap $5.00B, EV $6.95B, EV/Sales 7.94, P/S 5.7122855, EV/EBITDA 15.856, free cash flow $253.0M, and net debt $1.68B.",
+        "evidence_strength": "high",
+        "relevance_to_space_theme": "medium",
+        "proven_vs_inferred": "proven market and financial data; attractiveness is judgment"
+      }
+    ],
+    "soft_evidence": [
+      {
+        "topic": "Durability of LEO L-band network",
+        "classification": "soft_evidence",
+        "summary": "The filings describe global, weather-resilient L-band communications and specialized remote-area connectivity. This supports infrastructure durability, but it does not by itself prove accelerating growth or pricing power.",
+        "source": "IRDM 10-K, 2026-02-12",
+        "evidence_strength": "medium",
+        "relevance_to_space_theme": "high"
+      },
+      {
+        "topic": "Government demand continuity",
+        "classification": "soft_evidence",
+        "summary": "EMSS, ECS3, and SITH show government reliance, but the next EMSS renewal economics remain a forward-looking gap.",
+        "source": "IRDM 10-K and 10-Q excerpts in commercial_validation_KTOS_IRDM.json",
+        "evidence_strength": "medium",
+        "relevance_to_space_theme": "high"
+      }
+    ],
+    "inference": [
+      {
+        "inference": "IRDM is more clearly a satellite communications infrastructure operator than a hidden supply-chain chokepoint.",
+        "confidence": "medium-high",
+        "supporting_evidence": [
+          "LEO L-band constellation disclosure",
+          "EMSS/ECS3/SITH contract evidence",
+          "recurring service revenue split"
+        ]
+      },
+      {
+        "inference": "IRDM may be safer and more commercially validated than KTOS, but may have lower re-rating potential because the core business is mature and already visible to the market.",
+        "confidence": "medium",
+        "supporting_evidence": [
+          "positive free cash flow",
+          "government contract visibility",
+          "EV/Sales 7.94",
+          "6m price change 168.9%"
+        ]
+      }
+    ],
+    "missing_evidence": [
+      "Backlog evidence was not found in the retrieved filings; the 10-Q says contracts generally do not contain performance obligations beyond one year, so undisclosed backlog should not be inferred.",
+      "Segment revenue and segment margin for EMSS, ECS3, SITH, hosted payload, PNT, Certus, and commercial satellite services are not fully separated in the available evidence.",
+      "Current EMSS renewal economics beyond September 2026 are not proven in the cached evidence.",
+      "Satellite replacement-cycle capex timing and long-term maintenance economics need more direct support.",
+      "Latest earnings call transcript and investor presentation were not retrieved in this package.",
+      "Ownership, short interest, analyst coverage, peer valuation history, and customer/program-level concentration beyond disclosed U.S. government exposure remain missing."
+    ],
+    "us_government_contract_evidence": "Strong: EMSS, ECS3, SITH, U.S. government revenue and receivables exposure are disclosed in SEC filings.",
+    "emss_evidence": "Strong: $738.5M original seven-year value, $110.5M fixed annual rate through September 2026, unlimited authorized users, and a six-month extension option are disclosed.",
+    "ecs3_evidence": "Strong: approximately $94M contract value and potential $103M value for U.S. government gateway maintenance/security sustainment are disclosed.",
+    "recurring_revenue_evidence": "Strong: Q1 2026 services revenue categories are disclosed; services revenue is the central economic model.",
+    "hosted_payload_evidence": "Moderate to strong: Aireon hosted payload and the May 2026 Aireon acquisition agreement support space-based air traffic surveillance relevance, but segment economics require more work.",
+    "leo_constellation_durability_evidence": "Moderate: central network architecture is described, but replacement-cycle cost and durability economics require more detail.",
+    "customer_concentration": "Strong for U.S. government exposure: 29% of 2025 revenue and approximately 45% of Q1 2026 receivables tied to U.S. government prime/subcontract exposure.",
+    "margin_free_cash_flow_evidence": "Market Data Connector v2 reports gross margin 71.6% and free cash flow $253.0M.",
+    "management_commentary": "Limited: SEC filing commentary was used; latest earnings call transcript and investor presentation were not retrieved."
+  },
+  "valuation_and_crowding": {
+    "market_cap": {
+      "value": 5003036672,
+      "source": "yahoo_quote_summary.price.marketCap",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "enterprise_value": {
+      "value": 6954182656,
+      "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseValue",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "ev_to_sales": {
+      "value": 7.94,
+      "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToRevenue",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "price_to_sales": {
+      "value": 5.7122855,
+      "source": "yahoo_quote_summary.summaryDetail.priceToSalesTrailing12Months",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "ev_to_ebitda": {
+      "value": 15.856,
+      "source": "yahoo_quote_summary.defaultKeyStatistics.enterpriseToEbitda",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "pe_ratio": {
+      "value": 47.797977,
+      "source": "yahoo_quote_summary.summaryDetail.trailingPE",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "free_cash_flow": {
+      "value": 252985376,
+      "source": "yahoo_quote_summary.financialData.freeCashflow",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "high",
+      "computation_note": null
+    },
+    "net_debt": {
+      "value": 1677311008,
+      "source": "computed",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": "total_debt - total_cash"
+    },
+    "price_change_1m": {
+      "value": 0.098167,
+      "source": "yahoo_chart.close_history",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": null
+    },
+    "price_change_3m": {
+      "value": 0.903459,
+      "source": "yahoo_chart.close_history",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": null
+    },
+    "price_change_6m": {
+      "value": 1.688636,
+      "source": "yahoo_chart.close_history",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": null
+    },
+    "price_change_12m": {
+      "value": 0.652235,
+      "source": "yahoo_chart.close_history",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": null
+    },
+    "distance_from_52w_high": {
+      "value": -0.12093628088426525,
+      "source": "computed",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": "(current_price - 52_week_high) / 52_week_high"
+    },
+    "distance_from_52w_low": {
+      "value": 2.023642172523962,
+      "source": "computed",
+      "as_of_date": "2026-06-12T20:00:01+00:00",
+      "confidence": "medium",
+      "computation_note": "(current_price - 52_week_low) / 52_week_low"
+    }
+  },
+  "valuation_summary": {
+    "market_cap": "$5.00B",
+    "enterprise_value": "$6.95B",
+    "ev_to_sales": 7.94,
+    "price_to_sales": 5.7122855,
+    "ev_to_ebitda": 15.856,
+    "free_cash_flow": "$253.0M",
+    "net_debt": "$1.68B",
+    "price_change_1m": "9.8%",
+    "price_change_3m": "90.3%",
+    "price_change_6m": "168.9%",
+    "price_change_12m": "65.2%",
+    "distance_from_52w_high": "-12.1%",
+    "distance_from_52w_low": "202.4%",
+    "interpretation": "Valuation is supported by positive free cash flow and less extreme EV/EBITDA than KTOS, but price momentum is already strong and EV/Sales is not cheap for a mature communications infrastructure operator."
+  },
+  "bear_case": {
+    "not_high_upside_chokepoint": "IRDM may be a known satellite communications utility rather than an underappreciated supply-chain bottleneck.",
+    "maturity_risk": "The core network and EMSS relationship are visible and mature, which can limit surprise re-rating potential.",
+    "growth_re_rating_risk": "This package does not prove growth fast enough to justify a major re-rating from current valuation levels.",
+    "government_contract_pricing_risk": "The EMSS relationship is disclosed and may already be incorporated by the market; renewal terms remain unproven.",
+    "debt_capex_replacement_risk": "Market data shows net debt of $1.68B; filings also discuss substantial indebtedness. Satellite replacement cycles and related capex are not fully quantified here.",
+    "crowding_risk": "Price momentum is strong: 6m 168.9%, 12m 65.2%, and the stock is only 12.1% below its 52-week high. That weakens the underappreciated-entry argument."
+  },
+  "investment_grade_gate": {
+    "trend_fit_score": 78,
+    "chokepoint_score": 62,
+    "commercial_validation_score": 82,
+    "valuation_attractiveness_score": 58,
+    "crowding_risk_score": 45,
+    "evidence_quality_score": 80,
+    "downside_risk_score": 62,
+    "final_research_score": 74
+  },
+  "decision_rule_result": {
+    "satellite_infrastructure_material": true,
+    "demand_supported_by_hard_evidence": true,
+    "valuation_not_excessive_relative_to_growth_and_fcf": "mixed",
+    "clear_underappreciated_rerating_mechanism": false,
+    "result": "Keep IRDM as Watchlist. Do not upgrade to High Priority Research."
+  },
+  "final_classification_rationale": "IRDM deserves Watchlist because commercial validation is hard and directly tied to satellite communications infrastructure. It does not yet deserve High Priority Research because backlog is not disclosed, segment economics are incomplete, EMSS renewal economics are not proven, debt/capital intensity remain material, and strong recent price momentum reduces the underappreciated setup.",
+  "specific_answers": {
+    "is_true_chokepoint_or_stable_operator": "Stable satellite communications infrastructure operator; possible chokepoint in resilient LEO L-band communications, but not proven as a high-upside hidden chokepoint.",
+    "strongest_evidence": "EMSS, ECS3, SITH, U.S. government revenue exposure, Q1 service revenue split, and positive free cash flow.",
+    "weakest_link": "The re-rating mechanism is weak: the market likely understands the government satellite communications utility, and backlog/segment economics/renewal terms are incomplete.",
+    "evidence_needed_for_high_priority": [
+      "EMSS renewal or expansion economics",
+      "contracted backlog or durable performance obligations",
+      "segment revenue and margins for government satellite communications, hosted payload, PNT, and gateway services",
+      "satellite replacement capex schedule and FCF bridge",
+      "evidence of underappreciated catalyst or market mispricing"
+    ],
+    "evidence_that_would_downgrade_to_observe": [
+      "unfavorable EMSS renewal terms",
+      "declining government services revenue",
+      "debt or capex consuming free cash flow",
+      "Aireon integration or hosted payload economics weakening returns",
+      "valuation expanding while growth slows"
+    ]
+  },
+  "additional_retrieval_status": {
+    "earnings_call_transcript": "not retrieved; marked missing",
+    "investor_presentation": "not retrieved; marked missing",
+    "press_releases": "recent SEC 8-Ks were used; external IR site retrieval was not performed in this package",
+    "cached_sec_filings_used": [
+      "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-K_2026-02-12_000141881926000009_irdm-20251231.htm",
+      "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/10-Q_2026-04-23_000141881926000026_irdm-20260331.htm",
+      "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/8-K_2026-05-20_000141881926000036_irdm-20260520.htm",
+      "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/8-K_2026-05-14_000141881926000032_irdm-20260513.htm",
+      "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/IRDM/8-K_2026-04-23_000141881926000027_irdm-20260423.htm"
+    ]
+  },
+  "source_files": {
+    "company_profiles_v2": "outputs/codex_agent_space_20260612_1523/data/company_profiles_v2.json",
+    "data_quality_report_v2": "outputs/codex_agent_space_20260612_1523/data/data_quality_report_v2.json",
+    "commercial_validation": "outputs/codex_agent_space_20260612_1523/data/commercial_validation_KTOS_IRDM.json",
+    "commercial_validation_refresh": "outputs/codex_agent_space_20260612_1523/05_commercial_validation_v2_KTOS_IRDM.json",
+    "valuation_crowding_v2": "outputs/codex_agent_space_20260612_1523/06_valuation_crowding_v2.json",
+    "bear_case_v3": "outputs/codex_agent_space_20260612_1523/07_bear_case_v3_KTOS_IRDM.json",
+    "final_ranking_v3": "outputs/codex_agent_space_20260612_1523/08_final_ranking_v3_KTOS_IRDM.json",
+    "quality_gate_v3": "outputs/codex_agent_space_20260612_1523/quality_gate_audit_v3_KTOS_IRDM.json",
+    "ktos_deep_dive_v1": "outputs/codex_agent_space_20260612_1523/KTOS_deep_dive_v1.json"
+  }
+}

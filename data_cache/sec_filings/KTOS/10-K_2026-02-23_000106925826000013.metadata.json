@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-12T23:04:30.437861+00:00",
+  "filing": {
+    "accessionNumber": "0001069258-26-000013",
+    "filingDate": "2026-02-23",
+    "reportDate": "2025-12-28",
+    "acceptanceDateTime": "2026-02-23T21:48:04.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-34460",
+    "filmNumber": "26666003",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 14892730,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "ktos-20251228.htm",
+    "primaryDocDescription": "10-K",
+    "ticker": "KTOS",
+    "cik": "0001069258",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000013/ktos-20251228.htm",
+  "cached_file_path": "/Users/fuyu/Documents/Codex/2026-06-08/github-ripo/serenity/data_cache/sec_filings/KTOS/10-K_2026-02-23_000106925826000013_ktos-20251228.htm"
+}

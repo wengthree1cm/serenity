@@ -1,0 +1,181 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "03A_LEADER_BUSINESS_ANATOMY",
+  "warnings": [
+    "Leaders are used as dependency maps only; most leader companies exceed the requested market-cap range."
+  ],
+  "anchor_companies": [
+    {
+      "company_name": "Vertiv",
+      "ticker": "VRT",
+      "role_in_sector": "Critical power/cooling infrastructure leader excluded by market cap.",
+      "core_business_lines": [
+        "critical power",
+        "thermal management",
+        "integrated infrastructure",
+        "services"
+      ],
+      "critical_dependencies": [],
+      "likely_outsourced_or_supplier_dependent_areas": [
+        "components",
+        "field service labor",
+        "logistics"
+      ],
+      "potential_chokepoint_implications": [
+        "thermal management",
+        "power distribution"
+      ],
+      "evidence_needed": [
+        "supplier lead times"
+      ]
+    },
+    {
+      "company_name": "Eaton",
+      "ticker": "ETN",
+      "role_in_sector": "Electrical equipment leader excluded by market cap.",
+      "core_business_lines": [
+        "switchgear",
+        "power distribution",
+        "UPS"
+      ],
+      "critical_dependencies": [],
+      "likely_outsourced_or_supplier_dependent_areas": [
+        "components",
+        "installers",
+        "distributors"
+      ],
+      "potential_chokepoint_implications": [
+        "custom switchgear"
+      ],
+      "evidence_needed": [
+        "data-center backlog"
+      ]
+    },
+    {
+      "company_name": "Caterpillar",
+      "ticker": "CAT",
+      "role_in_sector": "Backup/on-site generation leader excluded by market cap.",
+      "core_business_lines": [
+        "generators",
+        "engines",
+        "energy systems"
+      ],
+      "critical_dependencies": [],
+      "likely_outsourced_or_supplier_dependent_areas": [
+        "integration",
+        "switchgear",
+        "fuel logistics"
+      ],
+      "potential_chokepoint_implications": [
+        "backup generation"
+      ],
+      "evidence_needed": [
+        "data-center orders"
+      ]
+    },
+    {
+      "company_name": "Quanta Services",
+      "ticker": "PWR",
+      "role_in_sector": "Grid and power infrastructure contractor excluded by market cap.",
+      "core_business_lines": [
+        "utility infrastructure",
+        "transmission/distribution"
+      ],
+      "critical_dependencies": [],
+      "likely_outsourced_or_supplier_dependent_areas": [
+        "equipment procurement",
+        "subcontractors"
+      ],
+      "potential_chokepoint_implications": [
+        "interconnection services"
+      ],
+      "evidence_needed": [
+        "data-center project evidence"
+      ]
+    }
+  ],
+  "leader_derived_chokepoint_candidates": [
+    {
+      "segment": "custom switchgear and power control systems",
+      "why_leaders_depend_on_it": "Critical power chains require qualified switching, control, and protection.",
+      "supply_constraint": "engineering/factory/testing capacity",
+      "public_company_candidates": [
+        "POWL",
+        "ATKR"
+      ],
+      "evidence_strength": "medium",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "bulkhead to 1,150 feet to support increased schedule flexibility and multiple ship lanes for the varied needs and project timelines of our customers. The incremental capacity is initially expected to support the Company\u2019s oil and gas customers but can be utilized to support each of our market sectors. Construction is e",
+          "why_it_matters": "Contains filing evidence for switchgear relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "polypropylene, fertilizer, methanol, and related petrochemical applications. In the electric utility market, we serve both the power generation and distribution end markets. Increasing global electricity demand and the focus on reliable and safe electrical distribution are driving substantial investments in global infr",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "supplier lead times",
+        "customer names"
+      ]
+    },
+    {
+      "segment": "thermal management for high-density data centers",
+      "why_leaders_depend_on_it": "AI rack density makes cooling a gating factor.",
+      "supply_constraint": "engineering/product qualification and capacity",
+      "public_company_candidates": [
+        "MOD"
+      ],
+      "evidence_strength": "high",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "nits, fan walls, rear-door heat exchangers, coolant distribution units (\u201cCDU\u201d) and immersion solutions. In addition, the Data Centers business sells modular data center solutions, replacement parts, maintenance service and control solutions for building management controls and systems. Market demand for data usage and ",
+          "why_it_matters": "Contains filing evidence for liquid cooling relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "missing_evidence": [
+        "customer identities",
+        "margins"
+      ]
+    }
+  ],
+  "segments_to_pass_to_chokepoint_scoring": [
+    "custom switchgear and power control systems",
+    "thermal management for high-density data centers",
+    "electrical contracting and interconnection services"
+  ],
+  "major_unknowns": [
+    "named supplier relationships",
+    "leader make-vs-buy boundaries"
+  ]
+}

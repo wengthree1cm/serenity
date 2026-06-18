@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:18.124909+00:00",
+  "filing": {
+    "accessionNumber": "0000080420-26-000067",
+    "filingDate": "2026-05-05",
+    "reportDate": "2026-05-05",
+    "acceptanceDateTime": "2026-05-05T08:34:27.000Z",
+    "act": "34",
+    "form": "8-K",
+    "fileNumber": "001-12488",
+    "filmNumber": "26940697",
+    "items": "8.01,9.01",
+    "core_type": "XBRL",
+    "size": 203200,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": 0,
+    "primaryDocument": "powl-20260505.htm",
+    "primaryDocDescription": "8-K",
+    "ticker": "POWL",
+    "cik": "0000080420",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000067/powl-20260505.htm",
+  "cached_file_path": "data_cache/sec_filings/POWL/8-K_2026-05-05_000008042026000067_powl-20260505.htm"
+}

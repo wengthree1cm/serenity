@@ -1,0 +1,547 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "05_COMPANY_DISCOVERY",
+  "warnings": [
+    "Universe is initial and not complete. Companies above $20B were used only as anchors and excluded from final candidate list."
+  ],
+  "candidate_universe": [
+    {
+      "ticker": "MYRG",
+      "company_name": "MYR GROUP\u00a0INC.",
+      "market_cap": 6940322304,
+      "enterprise_value": 6838652416,
+      "segment_name": "Electrical contracting, substation, and grid interconnection services",
+      "exposure_category": "high_exposure",
+      "business_relevance_score": 78,
+      "classification": "Watchlist",
+      "thesis": "MYRG is a focused electrical contractor with utility T&D and C&I/data-center adjacency, positive FCF, and less extreme sales multiples than the most crowded equipment names.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "ts. Commercial and Industrial segment. We have provided electrical contracting services for commercial and industrial construction since 1912. Our C&I segment provides services such as the design, installation, maintenance and repair of commercial and industrial wiring, the installation of intelligent transportation sy",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "th a competitive advantage over smaller or less financially secure competitors. At times we may also be required to provide a letter of credit in connection with services provided to our customers. From time to time we guarantee the obligations of our subsidiaries, including obligations under certain contracts with cus",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$6.94B",
+        "enterprise_value": "$6.84B",
+        "ev_to_sales": 1.788,
+        "price_to_sales": 1.8146299,
+        "free_cash_flow": "$227.8M",
+        "price_change_6m": "102.1%",
+        "price_change_12m": "172.8%"
+      },
+      "key_risks": [
+        "segment-specific data-center backlog missing",
+        "project execution and labor risk",
+        "12m price momentum indicates partial repricing"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog by customer/end market",
+        "large-load interconnection project exposure",
+        "margin durability in C&I and T&D"
+      ]
+    },
+    {
+      "ticker": "POWL",
+      "company_name": "Powell Industries, Inc.",
+      "market_cap": 10738228224,
+      "enterprise_value": 10195294208,
+      "segment_name": "Custom medium-voltage switchgear, power control rooms, and e-houses",
+      "exposure_category": "high_exposure",
+      "business_relevance_score": 77,
+      "classification": "Wait for Pullback",
+      "thesis": "POWL has the strongest filing-level evidence for backlog, switchgear/power systems, and data-center diversification, but valuation and momentum show substantial repricing.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "polypropylene, fertilizer, methanol, and related petrochemical applications. In the electric utility market, we serve both the power generation and distribution end markets. Increasing global electricity demand and the focus on reliable and safe electrical distribution are driving substantial investments in global infr",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "bulkhead to 1,150 feet to support increased schedule flexibility and multiple ship lanes for the varied needs and project timelines of our customers. The incremental capacity is initially expected to support the Company\u2019s oil and gas customers but can be utilized to support each of our market sectors. Construction is e",
+          "why_it_matters": "Contains filing evidence for switchgear relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$10.74B",
+        "enterprise_value": "$10.20B",
+        "ev_to_sales": 9.006,
+        "price_to_sales": 9.485606,
+        "free_cash_flow": "$142.2M",
+        "price_change_6m": "169.6%",
+        "price_change_12m": "370.7%"
+      },
+      "key_risks": [
+        "EV/Sales and P/S near 9x",
+        "12m price change above 370%",
+        "data-center-specific customer concentration missing"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog dollars",
+        "lead times and pricing power",
+        "customer mix and margin sustainability"
+      ]
+    },
+    {
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "market_cap": 14497932288,
+      "enterprise_value": 15012833280,
+      "segment_name": "Thermal management and liquid-cooling infrastructure",
+      "exposure_category": "high_exposure",
+      "business_relevance_score": 75,
+      "classification": "Wait for Pullback",
+      "thesis": "MOD has hard filing evidence that Data Centers are 35% of fiscal 2026 net sales and offers CDUs/rear-door/immersion-adjacent solutions, but FCF is negative and valuation/momentum are stretched.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "nits, fan walls, rear-door heat exchangers, coolant distribution units (\u201cCDU\u201d) and immersion solutions. In addition, the Data Centers business sells modular data center solutions, replacement parts, maintenance service and control solutions for building management controls and systems. Market demand for data usage and ",
+          "why_it_matters": "Contains filing evidence for liquid cooling relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$14.50B",
+        "enterprise_value": "$15.01B",
+        "ev_to_sales": 4.719,
+        "price_to_sales": 4.557522,
+        "free_cash_flow": "$-101.5M",
+        "price_change_6m": "92.9%",
+        "price_change_12m": "192.9%"
+      },
+      "key_risks": [
+        "negative FCF",
+        "high P/E/EV multiples",
+        "customer names and segment margin missing"
+      ],
+      "what_to_verify_next": [
+        "data-center customer concentration",
+        "segment margins",
+        "liquid cooling revenue mix"
+      ]
+    },
+    {
+      "ticker": "ATKR",
+      "company_name": "Atkore Inc.",
+      "market_cap": 2676730880,
+      "enterprise_value": 3153264128,
+      "segment_name": "Cable, conduit, raceway, and electrical infrastructure materials",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 71,
+      "classification": "Watchlist",
+      "thesis": "ATKR is cheaper and cash-generative with electrical infrastructure exposure, but data-center-specific validation is weaker and the products may be more commoditized.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "ATKR 10-K_2025-11-26",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828025054049/atkr-20250930.htm",
+          "source_date": "2025-11-26",
+          "summary": "mers through a single order across our broad product portfolio coupled with services like our ReliaRoutes hub-and-spoke fixed trucking lanes and technologies like our mobile app to track orders and schedule pickups. We primarily sell and distribute our products through electrical, industrial and specialty distributors ",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "ATKR 10-K_2025-11-26",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828025054049/atkr-20250930.htm",
+          "source_date": "2025-11-26",
+          "summary": "60,758 $ 737,098 $ ( 396,667 ) $ 340,431 During fiscal 2025, the Company recorded non-cash impairment charges totaling $ 129,907 , primarily related to customer relationships. Refer to Note 14, \u201cFair Value Measurements\u201d for further discussion of the Company\u2019s impairment review. As a result of the asset impairment charg",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$2.68B",
+        "enterprise_value": "$3.15B",
+        "ev_to_sales": 1.097,
+        "price_to_sales": 0.931367,
+        "free_cash_flow": "$255.0M",
+        "price_change_6m": "22.7%",
+        "price_change_12m": "19.2%"
+      },
+      "key_risks": [
+        "P/E missing from market data",
+        "broad distributor exposure",
+        "less clear chokepoint power"
+      ],
+      "what_to_verify_next": [
+        "mega-project/data-center product mix",
+        "margin normalization",
+        "data-center channel demand"
+      ]
+    },
+    {
+      "ticker": "BDC",
+      "company_name": "BELDEN INC.",
+      "market_cap": 4480122368,
+      "enterprise_value": 5585143296,
+      "segment_name": "Data center network and physical infrastructure connectivity",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 70,
+      "classification": "Watchlist",
+      "thesis": "BDC has direct data center and Smart Infrastructure evidence with reasonable valuation versus crowded power names, but it is more network/connectivity than core power infrastructure.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "ss, accelerated convergence of information technology systems with operational technology (IT/OT), and edge and data analytics. Segments As of December 31, 2025, we operated our business under two segments \u2013 Smart Infrastructure Solutions and Automation Solutions. A discussion of the segments is included below. In 2026",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "adjust our pricing for fluctuations in commodity prices, we can experience short-term favorable or unfavorable variances. When the costs of raw materials increase, we are generally able to recover these costs through higher pricing of our finished products. The majority of our products are sold through distribution, an",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$4.48B",
+        "enterprise_value": "$5.59B",
+        "ev_to_sales": 2.004,
+        "price_to_sales": 1.6076756,
+        "free_cash_flow": "$81.4M",
+        "price_change_6m": "-5.4%",
+        "price_change_12m": "7.1%"
+      },
+      "key_risks": [
+        "not pure power infrastructure",
+        "segment transition/realignment",
+        "modest price momentum may reflect weaker growth"
+      ],
+      "what_to_verify_next": [
+        "data-center revenue/margins",
+        "AI data center versus general network exposure",
+        "customer concentration"
+      ]
+    },
+    {
+      "ticker": "IESC",
+      "company_name": "IES Holdings, Inc.",
+      "market_cap": 14939529216,
+      "enterprise_value": 14788838400,
+      "segment_name": "Electrical contracting and infrastructure solutions",
+      "exposure_category": "high_exposure",
+      "business_relevance_score": 69,
+      "classification": "Watchlist",
+      "thesis": "IESC has data-center and electrical services exposure with positive FCF, but valuation and price momentum are already high and exact data-center backlog is missing.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "IESC 10-K_2025-11-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826825000174/iesc-20250930.htm",
+          "source_date": "2025-11-21",
+          "summary": "lder, borrowing availability or cash position, or any forward-looking statements to reflect events or circumstances that may arise after the date of this report. Forward-looking statements are provided in this Annual Report on Form 10-K pursuant to the safe harbor established under the Private Securities Litigation Ref",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "IESC 10-K_2025-11-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826825000174/iesc-20250930.htm",
+          "source_date": "2025-11-21",
+          "summary": "including mergers, acquisitions and dispositions. She began her legal career with the law firm of Sullivan & Cromwell LLP after receiving her J.D. from Harvard Law School and B.A. from Duke University. Matthew M. Allen , 51, has served as the Chief Technical Officer of the Company since July 2024. Previously, he was Vi",
+          "why_it_matters": "Contains filing evidence for datacenter relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$14.94B",
+        "enterprise_value": "$14.79B",
+        "ev_to_sales": 4.07,
+        "price_to_sales": 4.1119447,
+        "free_cash_flow": "$271.9M",
+        "price_change_6m": "65.4%",
+        "price_change_12m": "186.3%"
+      },
+      "key_risks": [
+        "near 52-week high",
+        "EV/Sales over 4x for services business",
+        "segment revenue missing"
+      ],
+      "what_to_verify_next": [
+        "data-center backlog and customer mix",
+        "project margins",
+        "labor capacity"
+      ]
+    },
+    {
+      "ticker": "AEIS",
+      "company_name": "ADVANCED ENERGY INDUSTRIES INC",
+      "market_cap": 14178576384,
+      "enterprise_value": 13460324352,
+      "segment_name": "High-density power conversion",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 66,
+      "classification": "Wait for Pullback",
+      "thesis": "AEIS has power-conversion relevance and AI/energy-efficiency exposure, but market data shows high valuation and direct data-center commercial validation is incomplete.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "AEIS 10-K_2026-02-13",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+          "source_date": "2026-02-13",
+          "summary": "the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Our products enable customers to reduce or optimize their energy consumption th",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "AEIS 10-K_2026-02-13",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+          "source_date": "2026-02-13",
+          "summary": ", and we generally do not have long-term purchase commitments from our customers. As a result, we are limited in our ability to predict the level of future revenue or commitments from our current customers, which may diminish our ability to allocate labor, materials, and equipment in the manufacturing process effective",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$14.18B",
+        "enterprise_value": "$13.46B",
+        "ev_to_sales": 7.065,
+        "price_to_sales": 7.442041,
+        "free_cash_flow": "$49.2M",
+        "price_change_6m": "63.4%",
+        "price_change_12m": "188.6%"
+      },
+      "key_risks": [
+        "EV/Sales over 7x",
+        "P/E over 70x",
+        "direct AI data-center revenue not isolated"
+      ],
+      "what_to_verify_next": [
+        "AI/data-center revenue",
+        "design wins",
+        "margin and FCF conversion"
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "company_name": "VICOR CORPORATION",
+      "market_cap": 13846263808,
+      "enterprise_value": 13449430016,
+      "segment_name": "Vertical power delivery and high-density power modules",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 64,
+      "classification": "Wait for Pullback",
+      "thesis": "VICR has technically relevant vertical power delivery for AI accelerators, but valuation is extremely stretched and commercial validation is not yet enough for a core thesis.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "ue proposition is supported by a compelling TCO, representing the cost of acquiring and operating a power system over its useful life, driven by competitive product pricing, high reliability, and demonstrably lower electricity costs. Our earliest market focus was on telecommunications infrastructure, which uses a stand",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "microprocessor input/output I/O pins on the top side of the motherboard, thereby 5 Table of Contents improving I/O speed and memory access, which are a priority for GPUs and AI ASICs in AI applications. We continue the development of our vertical power delivery solutions. Our proprietary technologies enable us to offer",
+          "why_it_matters": "Contains filing evidence for datacenter relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$13.85B",
+        "enterprise_value": "$13.45B",
+        "ev_to_sales": 31.519,
+        "price_to_sales": 32.449493,
+        "free_cash_flow": "$9.0M",
+        "price_change_6m": "217.8%",
+        "price_change_12m": "595.9%"
+      },
+      "key_risks": [
+        "EV/Sales above 30x",
+        "P/E above 100x",
+        "large price repricing",
+        "customer concentration/design-win details missing"
+      ],
+      "what_to_verify_next": [
+        "AI accelerator customer contracts",
+        "volume ramp and margins",
+        "competitive substitution risk"
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "company_name": "GENERAC HOLDINGS INC.",
+      "market_cap": 15444786176,
+      "enterprise_value": 16573331456,
+      "segment_name": "Backup generation and microgrids",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 58,
+      "classification": "Observe",
+      "thesis": "GNRC could benefit if data centers adopt more backup/on-site power, but current evidence is more scenario optionality than proven AI data-center revenue.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "GNRC 10-K_2026-02-18",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+          "source_date": "2026-02-18",
+          "summary": "t the demand for certain of our products; or (ii) result in a withdrawal or reduction of grants previously awarded to the Company; \u25cf increase in product and other liability claims, warranty costs, recalls, or other claims; \u25cf significant legal proceedings, claims, fines, penalties, tax assessments, lawsuits or governmen",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "GNRC 10-K_2026-02-18",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+          "source_date": "2026-02-18",
+          "summary": "inancial results and cause them to differ materially from those anticipated in the forward-looking statements. The forward-looking statements contained in this annual report include estimates regarding: \u25cf our business, financial and operating results, and future economic performance; \u25cf proposed new product and service ",
+          "why_it_matters": "Contains filing evidence for power relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$15.44B",
+        "enterprise_value": "$16.57B",
+        "ev_to_sales": 3.831,
+        "price_to_sales": 3.5699008,
+        "free_cash_flow": "$115.3M",
+        "price_change_6m": "65.6%",
+        "price_change_12m": "110.4%"
+      },
+      "key_risks": [
+        "P/E/EV multiples high",
+        "data-center revenue/backlog missing",
+        "permitting/emissions risk"
+      ],
+      "what_to_verify_next": [
+        "data-center generator orders",
+        "microgrid customer contracts",
+        "C&I margin mix"
+      ]
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy, Inc.",
+      "market_cap": 4370006016,
+      "enterprise_value": 3253693440,
+      "segment_name": "Grid storage and flexibility",
+      "exposure_category": "partial_exposure",
+      "business_relevance_score": 55,
+      "classification": "Observe",
+      "thesis": "FLNC has grid-storage relevance to power-constrained loads, but direct AI data-center validation is weak and FCF remains negative.",
+      "evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "e underlying raw materials, including lithium as well as softening demand from the electric vehicle (\u201cEV\u201d) sector. The market for energy storage continues to rapidly evolve and while we believe lithium-ion battery costs will continue to decline over the long-term, they may not decline or decline at the rates we expect.",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "continued to expand our battery supplier base, which includes existing suppliers in North America and new suppliers in Asia, reducing reliance on single source and single-region sourcing. Inverters are also critical to the performance and grid compatibility of our energy storage systems. We maintain relationships with ",
+          "why_it_matters": "Contains filing evidence for liquid cooling relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "market_data_summary": {
+        "market_cap": "$4.37B",
+        "enterprise_value": "$3.25B",
+        "ev_to_sales": 1.259,
+        "price_to_sales": 1.6908195,
+        "free_cash_flow": "$-133.7M",
+        "price_change_6m": "10.2%",
+        "price_change_12m": "373.3%"
+      },
+      "key_risks": [
+        "negative FCF",
+        "storage market competition",
+        "data-center revenue not proven"
+      ],
+      "what_to_verify_next": [
+        "data-center/storage contracts",
+        "backlog quality",
+        "gross margin and cash conversion"
+      ]
+    }
+  ],
+  "excluded_large_cap_anchors": [
+    "VRT",
+    "ETN",
+    "PWR",
+    "CAT",
+    "GEV",
+    "EME",
+    "HUBB",
+    "NVT",
+    "BE",
+    "FIX",
+    "STRL",
+    "MTZ"
+  ],
+  "summary": "Ten candidates within the requested market-cap range were selected across switchgear, thermal, electrical contracting, power conversion, backup generation, storage, and infrastructure materials."
+}

@@ -1,0 +1,118 @@
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T23:06:29.208004+00:00",
+  "skill_name": "09_FINAL_RANKING_v3_KTOS_IRDM",
+  "warnings": [
+    "Targeted final-ranking refresh only for KTOS and IRDM. No full workflow rerun. No investment advice or trading instructions."
+  ],
+  "final_rankings": [
+    {
+      "rank": 1,
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "final_score": 77,
+      "classification": "Watchlist",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 13,
+        "chokepoint_strength": 17,
+        "business_relevance": 8,
+        "commercial_validation": 13,
+        "valuation_discipline": 4,
+        "low_crowding_underappreciation": 3,
+        "catalyst_clarity": 4,
+        "risk_control": 3
+      },
+      "one_sentence_thesis": "KTOS has enough primary-source commercial evidence to remain provisional Watchlist, but stretched valuation and missing satellite-ground-specific backlog/contracts keep it below High Priority Research.",
+      "key_evidence": [
+        "commercial_validation_KTOS_IRDM.json: backlog/opportunity-pipeline and future program/contract award language; satellite communications and microwave electronics references.",
+        "company_profiles_v2.json: market cap, EV, valuation multiples, net cash, free cash flow, and price momentum now populated."
+      ],
+      "key_risks": [
+        "free cash flow negative",
+        "valuation stretched",
+        "named satellite-ground contracts missing",
+        "segment revenue missing",
+        "relevant backlog dollars missing"
+      ],
+      "near_term_catalysts": [
+        "new contract or award disclosure",
+        "backlog conversion",
+        "segment revenue disclosure",
+        "free-cash-flow improvement",
+        "guidance update"
+      ],
+      "what_to_verify_next": [
+        "extract exact backlog dollars by segment",
+        "confirm satellite/ground systems revenue materiality",
+        "review earnings calls for program-level commentary",
+        "check ownership and short interest",
+        "compare valuation with defense electronics peers"
+      ],
+      "why_not_higher": "High Priority Research requires stronger segment-specific backlog, named contract/customer evidence, and better valuation/free-cash-flow support.",
+      "why_not_reject": "The retrieved filings provide enough backlog/pipeline and satellite-communications relevance to support a provisional research watchlist."
+    },
+    {
+      "rank": 2,
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "segment_name": "Satellite network operators and connectivity capacity",
+      "final_score": 73,
+      "classification": "Watchlist",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 10,
+        "chokepoint_strength": 10,
+        "business_relevance": 7,
+        "commercial_validation": 13,
+        "valuation_discipline": 6,
+        "low_crowding_underappreciation": 2,
+        "catalyst_clarity": 4,
+        "risk_control": 9
+      },
+      "one_sentence_thesis": "IRDM is commercially validated as satellite communications infrastructure and can remain Watchlist, but it is more defensive/stable than a high-upside chokepoint.",
+      "key_evidence": [
+        "commercial_validation_KTOS_IRDM.json: multi-year fixed-price U.S. government EMSS contract language and ECS3 contract value language.",
+        "commercial_validation_KTOS_IRDM.json: specialized/weather-resilient LEO communications and hosted payload services references.",
+        "company_profiles_v2.json: positive free cash flow, P/E, EV/EBITDA, market cap, EV, and net debt fields populated."
+      ],
+      "key_risks": [
+        "backlog evidence not found",
+        "segment revenue evidence not found",
+        "high net debt",
+        "weaker chokepoint purity",
+        "ownership and short interest missing"
+      ],
+      "near_term_catalysts": [
+        "government contract renewal or expansion",
+        "service revenue growth",
+        "engineering/support services growth",
+        "debt reduction",
+        "free-cash-flow durability"
+      ],
+      "what_to_verify_next": [
+        "read EMSS/ECS3 contract details",
+        "quantify government revenue concentration",
+        "verify segment revenue split",
+        "review debt maturity schedule",
+        "compare valuation against satellite communications peers"
+      ],
+      "why_not_higher": "The thesis is commercially validated but less clearly a scarce supply-chain chokepoint, and backlog/segment revenue evidence remains missing.",
+      "why_not_reject": "Primary-source filings show real government satellite communications contract evidence and financial data is materially complete."
+    }
+  ],
+  "classification_summary": {
+    "high_priority_research": [],
+    "watchlist": [
+      "KTOS",
+      "IRDM"
+    ],
+    "wait_for_pullback": [],
+    "observe": [],
+    "reject": []
+  },
+  "portfolio_research_notes": "Targeted KTOS/IRDM research refresh only. Not portfolio construction and not a trading instruction.",
+  "summary": "Both KTOS and IRDM remain Watchlist after primary-source commercial validation. KTOS is closer to the theme chokepoint; IRDM is more commercially validated but more defensive/stable."
+}

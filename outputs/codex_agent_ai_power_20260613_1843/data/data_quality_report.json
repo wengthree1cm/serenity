@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-14T01:44:17.283619+00:00",
+  "profile_count": 10,
+  "tickers_with_warnings": {},
+  "tickers_with_missing_fields": {
+    "ATKR": [
+      "market_data.pe_ratio"
+    ],
+    "FLNC": [
+      "market_data.pe_ratio"
+    ]
+  },
+  "field_population": {
+    "current_price": 10,
+    "market_cap": 10,
+    "enterprise_value": 10,
+    "shares_outstanding": 10,
+    "total_cash": 10,
+    "total_debt": 10,
+    "net_debt": 10,
+    "trailing_revenue": 10,
+    "free_cash_flow": 10,
+    "ev_to_sales": 10,
+    "price_to_sales": 10,
+    "pe_ratio": 8,
+    "ev_to_ebitda": 10,
+    "price_change_6m": 10,
+    "price_change_12m": 10
+  }
+}

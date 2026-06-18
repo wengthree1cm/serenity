@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "02_THEME_RESEARCH",
+  "warnings": [
+    "Codex-agent run; no OpenAI API runner used."
+  ],
+  "theme_definition": "Infrastructure required to deliver, condition, back up, cool, and interconnect electrical power for AI-oriented data centers.",
+  "time_horizon": "3-5 years",
+  "theme_score": 83,
+  "theme_rating": "Strong",
+  "demand_drivers": [
+    {
+      "driver": "AI workloads increase data center electricity density and grid interconnection urgency.",
+      "evidence_type": "soft",
+      "evidence_summary": "Public research and reporting describe AI/hyperscale data centers as a growing contributor to electricity demand and local grid stress.",
+      "source": "arXiv 2604.06198; arXiv 2606.05420; Business Insider 2026 investigation"
+    },
+    {
+      "driver": "Hyperscaler and colocation capex flows into electrical distribution, cooling, power conversion, backup power, and grid-interconnection work.",
+      "evidence_type": "inference",
+      "evidence_summary": "Inferred from physical data center architecture and candidate filings.",
+      "source": "company_profiles.json; commercial_validation_ai_power.json"
+    }
+  ],
+  "spending_sources": [
+    "hyperscale cloud providers",
+    "colocation operators",
+    "utilities and grid operators",
+    "EPC contractors",
+    "industrial and C&I customers"
+  ],
+  "why_now": [
+    "AI compute clusters are power-dense.",
+    "Grid interconnection and power availability are becoming limiting factors.",
+    "Candidate filings explicitly reference data centers, power, backlog, or related infrastructure demand."
+  ],
+  "bottleneck_hypotheses": [
+    "custom switchgear and power control rooms",
+    "data center thermal management",
+    "electrical contracting and utility interconnection labor",
+    "high-density power conversion",
+    "backup/on-site generation and storage"
+  ],
+  "crowding_risk": "high",
+  "major_risks": [
+    "AI data center capex overbuild or pause",
+    "valuations already repriced",
+    "utility interconnection delays",
+    "hyperscalers preferring mega-cap suppliers",
+    "commodity electrical inputs have lower pricing power"
+  ],
+  "missing_data": [
+    "customer-level capex commitments by supplier",
+    "data-center-specific backlog for many candidates",
+    "ownership and short interest",
+    "peer/historical valuation bands"
+  ],
+  "continue_to_value_chain": true,
+  "summary": "The theme is real and structural, but crowded. The best Serenity candidates are likely second-order suppliers where data center demand creates hard capacity or qualification bottlenecks without fully repriced valuations."
+}

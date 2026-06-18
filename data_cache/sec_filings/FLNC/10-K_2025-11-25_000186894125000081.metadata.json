@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:29.363060+00:00",
+  "filing": {
+    "accessionNumber": "0001868941-25-000081",
+    "filingDate": "2025-11-25",
+    "reportDate": "2025-09-30",
+    "acceptanceDateTime": "2025-11-25T21:04:06.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-40978",
+    "filmNumber": "251520982",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 17085050,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "flnc-20250930.htm",
+    "primaryDocDescription": "10-K",
+    "ticker": "FLNC",
+    "cik": "0001868941",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+  "cached_file_path": "data_cache/sec_filings/FLNC/10-K_2025-11-25_000186894125000081_flnc-20250930.htm"
+}

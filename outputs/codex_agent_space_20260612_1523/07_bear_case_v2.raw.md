@@ -1,0 +1,328 @@
+# 07 Bear Case v2
+
+```json
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:47:24.248809+00:00",
+  "skill_name": "08_BEAR_CASE_v2",
+  "warnings": [
+    "Bear cases use company_profiles_v2.json for valuation, cash, debt, free cash flow, revenue, and price-momentum claims. Missing commercial evidence remains missing."
+  ],
+  "bear_cases": [
+    {
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "core_bull_thesis": "Satellite ground and defense systems remain plausible chokepoints, and v2 shows net cash plus moderate 12-month price change.",
+      "strongest_bear_case": "The strongest bear case is valuation without customer proof: EV/Sales 6.885, P/E about 339.7, EV/EBITDA about 119.99, negative free cash flow, and no segment-specific backlog or contract evidence.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "medium",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "medium",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "low",
+        "valuation_risk": "high",
+        "crowding_risk": "medium",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=10829279232; enterprise_value=9743524864; trailing_revenue=1415200000; gross_margin=0.22886999; free_cash_flow=-106725000; net_debt=-1278900032; ev_to_sales=6.885; price_to_sales=7.652119; pe_ratio=339.70587; ev_to_ebitda=119.994; price_change_6m=-0.222327; price_change_12m=0.382902; distance_from_52w_high=-0.5690298507462687; distance_from_52w_low=0.4807692307692308",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "medium",
+      "recommended_adjustment": "keep",
+      "summary": "The strongest bear case is valuation without customer proof: EV/Sales 6.885, P/E about 339.7, EV/EBITDA about 119.99, negative free cash flow, and no segment-specific backlog or contract evidence."
+    },
+    {
+      "ticker": "RDW",
+      "company_name": "Redwire Corp",
+      "core_bull_thesis": "RDW has direct spacecraft infrastructure exposure and nearly neutral net debt.",
+      "strongest_bear_case": "The strongest bear case is that valuation is demanding relative to financial quality: EV/Sales 9.29, negative EV/EBITDA, negative free cash flow, P/E not meaningful, and 6-month price change about 119% without backlog/customer proof.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "high",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "high",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "low",
+        "valuation_risk": "high",
+        "crowding_risk": "medium",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=3007651072; enterprise_value=3446226688; trailing_revenue=370958016; gross_margin=0.12858; free_cash_flow=-71324128; net_debt=-12618000; ev_to_sales=9.29; price_to_sales=8.107794; pe_ratio=not_meaningful; ev_to_ebitda=-19.316; price_change_6m=1.194485; price_change_12m=-0.207547; distance_from_52w_high=-0.43243243243243246; distance_from_52w_low=2.1047227926078027",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "downgrade",
+      "summary": "The strongest bear case is that valuation is demanding relative to financial quality: EV/Sales 9.29, negative EV/EBITDA, negative free cash flow, P/E not meaningful, and 6-month price change about 119% without backlog/customer proof."
+    },
+    {
+      "ticker": "MRCY",
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "core_bull_thesis": "MRCY maps to secure defense electronics and RF payloads, a plausible chokepoint.",
+      "strongest_bear_case": "The strongest bear case is repricing plus thin commercial proof: EV/EBITDA 78.179, EV/Sales 7.745, 12-month price change about 127%, almost at 52-week high, and no segment-specific satellite revenue, backlog, or contract evidence.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "high",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "medium",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "medium",
+        "valuation_risk": "high",
+        "crowding_risk": "high",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=7223207424; enterprise_value=7489036288; trailing_revenue=966945984; gross_margin=0.28683; free_cash_flow=97339000; net_debt=324672000; ev_to_sales=7.745; price_to_sales=7.470125; pe_ratio=not_meaningful; ev_to_ebitda=78.179; price_change_6m=0.614982; price_change_12m=1.270668; distance_from_52w_high=-0.008807033762355919; distance_from_52w_low=1.4676923076923076",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "downgrade",
+      "summary": "The strongest bear case is repricing plus thin commercial proof: EV/EBITDA 78.179, EV/Sales 7.745, 12-month price change about 127%, almost at 52-week high, and no segment-specific satellite revenue, backlog, or contract evidence."
+    },
+    {
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "core_bull_thesis": "IRDM has positive free cash flow, a meaningful communications infrastructure business, and less extreme valuation than the highest-momentum space names.",
+      "strongest_bear_case": "The strongest bear case is chokepoint purity and leverage: satellite network operations may not be a hidden supply-chain bottleneck, net debt is high, and 6-month price change about 169% suggests repricing risk.",
+      "risk_breakdown": {
+        "chokepoint_risk": "medium",
+        "business_relevance_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "medium",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "medium",
+        "valuation_risk": "medium",
+        "crowding_risk": "medium",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=5003036672; enterprise_value=6954182656; trailing_revenue=875838016; gross_margin=0.7157; free_cash_flow=252985376; net_debt=1677311008; ev_to_sales=7.94; price_to_sales=5.7122855; pe_ratio=47.797977; ev_to_ebitda=15.856; price_change_6m=1.688636; price_change_12m=0.652235; distance_from_52w_high=-0.12093628088426525; distance_from_52w_low=2.023642172523962",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "medium",
+      "recommended_adjustment": "keep",
+      "summary": "The strongest bear case is chokepoint purity and leverage: satellite network operations may not be a hidden supply-chain bottleneck, net debt is high, and 6-month price change about 169% suggests repricing risk."
+    },
+    {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corp",
+      "core_bull_thesis": "RKLB has direct launch and space-systems exposure, net cash, and strong thematic relevance.",
+      "strongest_bear_case": "The strongest bear case is valuation and crowding: EV/Sales 95.919, P/S 94.14, negative free cash flow, negative EV/EBITDA, P/E not meaningful, and 12-month price change about 303%.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "medium",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "high",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "low",
+        "valuation_risk": "high",
+        "crowding_risk": "high",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=63975190528; enterprise_value=65184362496; trailing_revenue=679577984; gross_margin=0.36556; free_cash_flow=-214999376; net_debt=-1244681040; ev_to_sales=95.919; price_to_sales=94.13959; pe_ratio=not_meaningful; ev_to_ebitda=-395.462; price_change_6m=0.847861; price_change_12m=3.029516; distance_from_52w_high=-0.3219205298013245; distance_from_52w_low=3.056656101426308",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "wait_for_pullback",
+      "summary": "The strongest bear case is valuation and crowding: EV/Sales 95.919, P/S 94.14, negative free cash flow, negative EV/EBITDA, P/E not meaningful, and 12-month price change about 303%."
+    },
+    {
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "core_bull_thesis": "BKSY has direct geospatial/ISR exposure.",
+      "strongest_bear_case": "The strongest bear case is weak validation versus valuation: EV/Sales 14.623, P/S 12.301, negative free cash flow, negative EV/EBITDA, and 12-month price change about 198% without backlog or named customer evidence.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "high",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "high",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "medium",
+        "valuation_risk": "high",
+        "crowding_risk": "high",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=1203074432; enterprise_value=1430195712; trailing_revenue=97805000; gross_margin=0.69291; free_cash_flow=-56810752; net_debt=95383992; ev_to_sales=14.623; price_to_sales=12.300746; pe_ratio=not_meaningful; ev_to_ebitda=-61.337; price_change_6m=0.850457; price_change_12m=1.977043; distance_from_52w_high=-0.3869137670196672; distance_from_52w_low=2.001851851851852",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "downgrade",
+      "summary": "The strongest bear case is weak validation versus valuation: EV/Sales 14.623, P/S 12.301, negative free cash flow, negative EV/EBITDA, and 12-month price change about 198% without backlog or named customer evidence."
+    },
+    {
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "core_bull_thesis": "PL has Earth observation exposure, positive free cash flow, and net cash.",
+      "strongest_bear_case": "The strongest bear case is hype and valuation: EV/Sales 35.563, P/S 33.08, negative EV/EBITDA, P/E not meaningful, and 12-month price change about 480% without enough segment-specific customer evidence.",
+      "risk_breakdown": {
+        "chokepoint_risk": "low",
+        "business_relevance_risk": "low",
+        "commercial_validation_risk": "high",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "high",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "low",
+        "valuation_risk": "high",
+        "crowding_risk": "high",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=11101938688; enterprise_value=11935474688; trailing_revenue=335612000; gross_margin=0.55579; free_cash_flow=84853752; net_debt=-242800000; ev_to_sales=35.563; price_to_sales=33.079685; pe_ratio=not_meaningful; ev_to_ebitda=-230.775; price_change_6m=0.725762; price_change_12m=4.800745; distance_from_52w_high=-0.3981839258114374; distance_from_52w_low=5.357142857142857",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "downgrade",
+      "summary": "The strongest bear case is hype and valuation: EV/Sales 35.563, P/S 33.08, negative EV/EBITDA, P/E not meaningful, and 12-month price change about 480% without enough segment-specific customer evidence."
+    },
+    {
+      "ticker": "VSAT",
+      "company_name": "VIASAT INC",
+      "core_bull_thesis": "VSAT has satellite communications infrastructure exposure and less extreme EV/Sales than most space peers in this set.",
+      "strongest_bear_case": "The strongest bear case is leverage and repricing: net debt about 5.19B, 12-month price change about 457%, and the run lacks segment-specific defense satellite customer or backlog evidence.",
+      "risk_breakdown": {
+        "chokepoint_risk": "medium",
+        "business_relevance_risk": "medium",
+        "commercial_validation_risk": "medium",
+        "competition_substitution_risk": "medium",
+        "margin_risk": "medium",
+        "execution_capacity_risk": "medium",
+        "balance_sheet_dilution_risk": "high",
+        "valuation_risk": "medium",
+        "crowding_risk": "high",
+        "cyclical_macro_risk": "medium"
+      },
+      "thesis_kill_conditions": [
+        "Backlog or customer award evidence does not support the mapped chokepoint exposure.",
+        "Segment revenue proves too small to affect company-level valuation.",
+        "Valuation multiples remain high while free cash flow or margins fail to improve.",
+        "Customer concentration, debt, or dilution risk worsens in filings."
+      ],
+      "evidence_against_thesis": [
+        {
+          "evidence_type": "hard",
+          "summary": "Market Data Connector v2 fields: market_cap=9583043584; enterprise_value=15191620608; trailing_revenue=4640280064; gross_margin=0.33042; free_cash_flow=254796880; net_debt=5192731136; ev_to_sales=3.274; price_to_sales=2.0651865; pe_ratio=not_meaningful; ev_to_ebitda=10.687; price_change_6m=0.984446; price_change_12m=4.569047; distance_from_52w_high=-0.21850985633144007; distance_from_52w_low=5.133741258741259",
+          "source": "data/company_profiles_v2.json"
+        },
+        {
+          "evidence_type": "missing_evidence",
+          "summary": "Backlog, named contracts, customer concentration, segment revenue, ownership, analyst coverage, and short interest remain missing.",
+          "source": "not available in company_profiles_v2.json"
+        }
+      ],
+      "bear_case_severity": "high",
+      "recommended_adjustment": "keep",
+      "summary": "The strongest bear case is leverage and repricing: net debt about 5.19B, 12-month price change about 457%, and the run lacks segment-specific defense satellite customer or backlog evidence."
+    }
+  ],
+  "summary": "The v2 bear case is sharper: valuation and price momentum now clearly penalize RKLB, PL, BKSY, MRCY, and RDW, while KTOS and IRDM remain provisional research candidates rather than high-priority names."
+}
+```

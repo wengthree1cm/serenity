@@ -17,6 +17,8 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 GPT_DIR = ROOT / "gpt"
 OUTPUTS_DIR = ROOT / "outputs"
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 
 @dataclass(frozen=True)
@@ -67,6 +69,23 @@ def parse_args() -> argparse.Namespace:
         "--dry-run",
         action="store_true",
         help="Print planned workflow and paths without calling the LLM.",
+    )
+    parser.add_argument(
+        "--use-live-data",
+        action="store_true",
+        help="Fetch SEC and Yahoo data and pass it as grounded evidence to later workflow steps.",
+    )
+    parser.add_argument(
+        "--seed-universe",
+        type=Path,
+        default=Path("data/seed_universes/space_us_public.json"),
+        help="JSON seed universe used when --use-live-data is enabled.",
+    )
+    parser.add_argument(
+        "--data-cache-dir",
+        type=Path,
+        default=Path("data_cache"),
+        help="Folder for raw SEC and Yahoo connector responses.",
     )
     return parser.parse_args()
 
@@ -121,6 +140,16 @@ def build_prompt(
         else "Return Markdown only. Do not provide trading instructions or buy/sell/hold recommendations."
     )
 
+    live_data_instruction = ""
+    if _contains_grounded_live_data(previous_output):
+        live_data_instruction = """
+Grounded live-data rule:
+The previous step output includes `grounded_live_data` from SEC and Yahoo Finance.
+Any claim about price, market cap, revenue, balance sheet, or valuation must use the
+provided data and cite the relevant field name, or explicitly mark the field as missing.
+Do not infer missing financial or market data.
+"""
+
     user_content = f"""
 You are executing one step of the Serenity-style investment research workflow.
 
@@ -149,6 +178,7 @@ Shared output formats:
 
 Required response discipline:
 {output_instruction}
+{live_data_instruction}
 """
     return [
         {"role": "system", "content": system_principles},
@@ -251,6 +281,96 @@ def save_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def _contains_grounded_live_data(value: Any) -> bool:
+    if isinstance(value, dict):
+        if "grounded_live_data" in value:
+            return True
+        return any(_contains_grounded_live_data(child) for child in value.values())
+    if isinstance(value, list):
+        return any(_contains_grounded_live_data(child) for child in value)
+    return False
+
+
+def load_seed_universe(path: Path) -> list[dict[str, Any]]:
+    resolved = path if path.is_absolute() else ROOT / path
+    if not resolved.exists():
+        raise FileNotFoundError(f"Seed universe file not found: {resolved}")
+    data = json.loads(resolved.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise ValueError("Seed universe must be a JSON array.")
+    return data
+
+
+def build_live_data_artifacts(
+    seed_universe: list[dict[str, Any]],
+    cache_dir: Path,
+    session_dir: Path,
+) -> dict[str, Any]:
+    from data_connectors.company_profile_builder import build_company_profile
+
+    output_dir = session_dir / "data"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    profiles: list[dict[str, Any]] = []
+    profile_errors: list[dict[str, str]] = []
+    for company in seed_universe:
+        ticker = str(company.get("ticker") or "").strip().upper()
+        if not ticker:
+            profile_errors.append({"ticker": "", "warning": "Seed universe entry is missing ticker."})
+            continue
+        try:
+            profile = build_company_profile(
+                ticker=ticker,
+                cik=company.get("cik"),
+                data_cache_dir=cache_dir,
+            )
+            profile["seed_universe_entry"] = company
+            profiles.append(profile)
+        except Exception as exc:
+            profile_errors.append({"ticker": ticker, "warning": str(exc)})
+            profiles.append(
+                {
+                    "ticker": ticker,
+                    "cik": company.get("cik"),
+                    "company_name": company.get("company_name"),
+                    "sec_companyfacts_summary": {},
+                    "yahoo_quote_snapshot": {},
+                    "key_financial_metrics": {},
+                    "source_urls": {},
+                    "data_quality_warnings": [str(exc)],
+                    "missing_fields": ["company_profile"],
+                    "seed_universe_entry": company,
+                }
+            )
+
+    quality_report = {
+        "profile_count": len(profiles),
+        "tickers_with_warnings": [
+            profile.get("ticker")
+            for profile in profiles
+            if profile.get("data_quality_warnings") or profile.get("missing_fields")
+        ],
+        "warnings": {
+            profile.get("ticker"): profile.get("data_quality_warnings", [])
+            for profile in profiles
+            if profile.get("data_quality_warnings")
+        },
+        "missing_fields": {
+            profile.get("ticker"): profile.get("missing_fields", [])
+            for profile in profiles
+            if profile.get("missing_fields")
+        },
+        "profile_errors": profile_errors,
+    }
+
+    save_json(output_dir / "company_profiles.json", profiles)
+    save_json(output_dir / "data_quality_report.json", quality_report)
+    return {
+        "company_profiles": profiles,
+        "data_quality_report": quality_report,
+    }
+
+
 def existing_step_output(session_dir: Path, step: WorkflowStep) -> Any:
     if step.requires_json:
         json_path = session_dir / step.json_name
@@ -319,6 +439,8 @@ def main() -> int:
 
     previous_output: Any = None
     all_outputs: dict[str, Any] = {}
+    live_data_artifacts: dict[str, Any] | None = None
+    live_data_steps = {"05_commercial_validation", "06_valuation_crowding"}
 
     for step in WORKFLOW:
         raw_path, json_path = output_paths(session_dir, step)
@@ -340,11 +462,34 @@ def main() -> int:
                 print(f"Skipping existing step: {step.skill_file}")
                 continue
 
+        if args.use_live_data and live_data_artifacts is None and step.output_stem in live_data_steps:
+            seed_universe = load_seed_universe(args.seed_universe)
+            live_data_artifacts = build_live_data_artifacts(
+                seed_universe=seed_universe,
+                cache_dir=args.data_cache_dir if args.data_cache_dir.is_absolute() else ROOT / args.data_cache_dir,
+                session_dir=session_dir,
+            )
+            metadata["live_data"] = {
+                "seed_universe": str(args.seed_universe),
+                "data_cache_dir": str(args.data_cache_dir),
+                "company_profiles_path": str(session_dir / "data" / "company_profiles.json"),
+                "data_quality_report_path": str(session_dir / "data" / "data_quality_report.json"),
+            }
+
         prompt_previous_output = (
             {"all_previous_outputs": all_outputs, "previous_step_output": previous_output}
             if not step.requires_json
             else previous_output
         )
+        if args.use_live_data and live_data_artifacts is not None and step.output_stem in live_data_steps:
+            prompt_previous_output = {
+                "previous_step_output": prompt_previous_output,
+                "grounded_live_data": live_data_artifacts,
+                "grounded_live_data_instruction": (
+                    "Claims about price, market cap, revenue, balance sheet, or valuation must use "
+                    "these provided SEC/Yahoo fields or mark the field as missing. Do not infer missing data."
+                ),
+            }
         messages = build_prompt(
             system_principles=system_principles,
             output_formats=output_formats,

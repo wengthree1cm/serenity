@@ -1,0 +1,205 @@
+# 02 Value Chain
+
+```json
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:27:44.719749+00:00",
+  "skill_name": "03_VALUE_CHAIN_DECOMPOSITION",
+  "warnings": [
+    "Segment evidence is primarily inference and seed-universe mapping; contract and backlog evidence still needs primary-source review."
+  ],
+  "value_chain_summary": "The strongest potential bottlenecks are not generic space exposure. They are qualification-heavy components, secure electronics, RF/ground infrastructure, mission software, and data services where switching costs and reliability requirements can matter.",
+  "segments": [
+    {
+      "segment_id": "S1",
+      "segment_name": "Secure defense electronics and RF payloads",
+      "value_chain_position": "component",
+      "role_in_theme": "Mission-critical electronics, RF subsystems, and hardened processing used in defense satellite infrastructure.",
+      "demand_driver": "Defense satellite and secure communications requirements.",
+      "supply_constraint": "Qualification, reliability, export-control, and customer approval barriers.",
+      "customer_switching_cost": "high",
+      "substitution_risk": "medium",
+      "margin_expansion_potential": "medium",
+      "representative_companies": [
+        "MRCY",
+        "KTOS",
+        "VSAT"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "inference",
+          "source_type": "none",
+          "source_title": "Codex-agent reasoning",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "Defense satellite electronics are likely qualification-heavy and hard to substitute quickly.",
+          "why_it_matters": "This is a reasoned conclusion from the workflow, not a verified fact.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "high"
+    },
+    {
+      "segment_id": "S2",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "value_chain_position": "software",
+      "role_in_theme": "Ground stations, command-and-control, signal processing, and mission software that connect space assets to users.",
+      "demand_driver": "More satellites and defense missions increase ground-segment complexity.",
+      "supply_constraint": "Integration, security, and mission assurance requirements.",
+      "customer_switching_cost": "high",
+      "substitution_risk": "medium",
+      "margin_expansion_potential": "medium",
+      "representative_companies": [
+        "KTOS",
+        "VSAT",
+        "IRDM"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "inference",
+          "source_type": "none",
+          "source_title": "Codex-agent reasoning",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "Ground infrastructure becomes more valuable as constellations and mission complexity rise.",
+          "why_it_matters": "This is a reasoned conclusion from the workflow, not a verified fact.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "high"
+    },
+    {
+      "segment_id": "S3",
+      "segment_name": "Spacecraft components, power, thermal, and integration",
+      "value_chain_position": "component",
+      "role_in_theme": "Power, thermal, structures, deployables, and integrated spacecraft subsystems needed before mission deployment.",
+      "demand_driver": "Commercial and defense spacecraft production cadence.",
+      "supply_constraint": "Flight heritage, quality systems, and long qualification cycles.",
+      "customer_switching_cost": "medium",
+      "substitution_risk": "medium",
+      "margin_expansion_potential": "medium",
+      "representative_companies": [
+        "RDW",
+        "RKLB"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "soft_evidence",
+          "source_type": "other",
+          "source_title": "seed_universe.segment_hint",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "RDW and RKLB are included in the seed universe for space infrastructure, components, launch, and space systems.",
+          "why_it_matters": "Shows thematic relevance but not enough by itself to prove demand or valuation.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "high"
+    },
+    {
+      "segment_id": "S4",
+      "segment_name": "Defense ISR and geospatial data infrastructure",
+      "value_chain_position": "service",
+      "role_in_theme": "Satellite imagery, RF/weather/maritime data, analytics, and tasking workflows for defense and commercial customers.",
+      "demand_driver": "Persistent monitoring, autonomy, and geospatial intelligence demand.",
+      "supply_constraint": "Constellation capacity, data rights, analytic workflows, and customer integration.",
+      "customer_switching_cost": "medium",
+      "substitution_risk": "medium",
+      "margin_expansion_potential": "medium",
+      "representative_companies": [
+        "PL",
+        "BKSY",
+        "SPIR"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "soft_evidence",
+          "source_type": "other",
+          "source_title": "seed_universe.segment_hint",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "PL, BKSY, and SPIR are included in the seed universe for Earth observation, geospatial intelligence, and space-based data.",
+          "why_it_matters": "Shows thematic relevance but not enough by itself to prove demand or valuation.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "medium"
+    },
+    {
+      "segment_id": "S5",
+      "segment_name": "Launch cadence and integrated space systems",
+      "value_chain_position": "service",
+      "role_in_theme": "Launch capacity and space-systems manufacturing required to put payloads and spacecraft into operation.",
+      "demand_driver": "Constellation replenishment and responsive launch demand.",
+      "supply_constraint": "Manufacturing, launch reliability, range access, propulsion, and mission integration.",
+      "customer_switching_cost": "medium",
+      "substitution_risk": "medium",
+      "margin_expansion_potential": "medium",
+      "representative_companies": [
+        "RKLB",
+        "LUNR"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "soft_evidence",
+          "source_type": "other",
+          "source_title": "seed_universe.segment_hint",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "RKLB and LUNR are included in the seed universe for launch, space systems, and lunar services.",
+          "why_it_matters": "Shows thematic relevance but not enough by itself to prove demand or valuation.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "medium"
+    },
+    {
+      "segment_id": "S6",
+      "segment_name": "Satellite network operators and connectivity capacity",
+      "value_chain_position": "service",
+      "role_in_theme": "Operational satellite networks delivering communications capacity to commercial, telecom, and defense users.",
+      "demand_driver": "Resilient communications, IoT, broadband, and direct-to-device connectivity.",
+      "supply_constraint": "Spectrum rights, orbital assets, capital intensity, and customer adoption.",
+      "customer_switching_cost": "medium",
+      "substitution_risk": "high",
+      "margin_expansion_potential": "unknown",
+      "representative_companies": [
+        "IRDM",
+        "GSAT",
+        "ASTS",
+        "VSAT",
+        "SATS"
+      ],
+      "evidence": [
+        {
+          "evidence_type": "soft_evidence",
+          "source_type": "other",
+          "source_title": "seed_universe.segment_hint",
+          "source_url": "",
+          "source_date": "2026-06-12",
+          "summary": "Multiple seed companies are satellite communications operators or direct-to-device connectivity companies.",
+          "why_it_matters": "Shows thematic relevance but not enough by itself to prove demand or valuation.",
+          "confidence": "medium"
+        }
+      ],
+      "initial_attractiveness": "medium"
+    }
+  ],
+  "segments_to_score_next": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "major_unknowns": [
+    "backlog by segment",
+    "customer concentration",
+    "named defense or commercial awards",
+    "margin by relevant segment",
+    "market-cap and enterprise-value data"
+  ]
+}
+```

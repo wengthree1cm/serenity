@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "parameters": {
+    "theme": "AI data center power infrastructure",
+    "market": "US stocks",
+    "market_cap_min": 300000000,
+    "market_cap_max": 20000000000,
+    "max_companies": 10,
+    "use_live_data": true
+  },
+  "execution_mode": "Codex-agent reasoning; no OpenAI API runner",
+  "network_used": true,
+  "data_sources": [
+    "Yahoo Finance endpoints via local connector",
+    "SEC companyfacts/submissions/filings via local connectors",
+    "cached SEC filings",
+    "web search for theme context"
+  ],
+  "web_sources": [
+    {
+      "title": "Business Insider 2026 US data center power investigation",
+      "url": "https://www.businessinsider.com/us-ai-data-center-power-electricity-use-consumption-2026-6"
+    },
+    {
+      "title": "2026 arXiv AI data center regional power-system stress paper",
+      "url": "https://arxiv.org/abs/2604.06198"
+    },
+    {
+      "title": "2026 arXiv US hyperscale data center energy consumption paper",
+      "url": "https://arxiv.org/abs/2606.05420"
+    },
+    {
+      "title": "Guardian summary of IEA Energy and AI report",
+      "url": "https://www.theguardian.com/technology/2025/apr/10/energy-demands-from-ai-datacentres-to-quadruple-by-2030-says-report"
+    }
+  ],
+  "invalid_json_repairs": [],
+  "constraints_observed": [
+    "did not modify gpt investment logic",
+    "did not run OpenAI API runner",
+    "did not build web app",
+    "did not add trading/brokerage/portfolio/auto-buy features"
+  ],
+  "output_files": [
+    "01_theme_research.json",
+    "01_theme_research.raw.md",
+    "02_value_chain.json",
+    "02_value_chain.raw.md",
+    "03A_leader_business_anatomy.json",
+    "03A_leader_business_anatomy.raw.md",
+    "03B_leader_future_optionality.json",
+    "03B_leader_future_optionality.raw.md",
+    "03_chokepoint_scores.json",
+    "03_chokepoint_scores.raw.md",
+    "04_company_discovery.json",
+    "04_company_discovery.raw.md",
+    "05_commercial_validation.json",
+    "05_commercial_validation.raw.md",
+    "06_valuation_crowding.json",
+    "06_valuation_crowding.raw.md",
+    "07_bear_case.json",
+    "07_bear_case.raw.md",
+    "08_final_ranking.json",
+    "08_final_ranking.raw.md",
+    "data/candidate_cik_map.json",
+    "data/commercial_validation_ai_power.json",
+    "data/commercial_validation_ai_power.md",
+    "data/company_profiles.json",
+    "data/data_quality_report.json",
+    "final_report.md",
+    "quality_gate_audit.json",
+    "quality_gate_audit.md"
+  ]
+}

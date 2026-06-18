@@ -1,0 +1,427 @@
+# 08 Final Ranking v2
+
+```json
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:47:24.248809+00:00",
+  "skill_name": "09_FINAL_RANKING_v2",
+  "warnings": [
+    "No company reaches High Priority Research because backlog, named customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing. Categories are research classifications only."
+  ],
+  "final_rankings": [
+    {
+      "rank": 1,
+      "ticker": "KTOS",
+      "company_name": "Kratos Defense & Security Solutions, Inc.",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "final_score": 74,
+      "classification": "Watchlist",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 13,
+        "chokepoint_strength": 17,
+        "business_relevance": 8,
+        "commercial_validation": 11,
+        "valuation_discipline": 4,
+        "low_crowding_underappreciation": 3,
+        "catalyst_clarity": 3,
+        "risk_control": 3
+      },
+      "one_sentence_thesis": "KTOS still deserves provisional Watchlist because it has relevant ground/defense systems exposure, net cash, and moderate price momentum, but stretched valuation and missing customer/backlog evidence cap the rating.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=10829279232; enterprise_value=9743524864; trailing_revenue=1415200000; gross_margin=0.22886999; free_cash_flow=-106725000; net_debt=-1278900032; ev_to_sales=6.885; price_to_sales=7.652119; pe_ratio=339.70587; ev_to_ebitda=119.994; price_change_6m=-0.222327; price_change_12m=0.382902; distance_from_52w_high=-0.5690298507462687; distance_from_52w_low=0.4807692307692308"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 2,
+      "ticker": "IRDM",
+      "company_name": "Iridium Communications Inc.",
+      "segment_name": "Satellite network operators and connectivity capacity",
+      "final_score": 70,
+      "classification": "Watchlist",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 10,
+        "chokepoint_strength": 11,
+        "business_relevance": 7,
+        "commercial_validation": 11,
+        "valuation_discipline": 6,
+        "low_crowding_underappreciation": 2,
+        "catalyst_clarity": 4,
+        "risk_control": 7
+      },
+      "one_sentence_thesis": "IRDM can return to provisional Watchlist because v2 shows positive free cash flow and less extreme valuation, though high net debt and weaker chokepoint purity prevent a higher rating.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=5003036672; enterprise_value=6954182656; trailing_revenue=875838016; gross_margin=0.7157; free_cash_flow=252985376; net_debt=1677311008; ev_to_sales=7.94; price_to_sales=5.7122855; pe_ratio=47.797977; ev_to_ebitda=15.856; price_change_6m=1.688636; price_change_12m=0.652235; distance_from_52w_high=-0.12093628088426525; distance_from_52w_low=2.023642172523962"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 3,
+      "ticker": "RDW",
+      "company_name": "Redwire Corp",
+      "segment_name": "Spacecraft components, power, thermal, and integration",
+      "final_score": 63,
+      "classification": "Observe",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 13,
+        "chokepoint_strength": 16,
+        "business_relevance": 9,
+        "commercial_validation": 8,
+        "valuation_discipline": 2,
+        "low_crowding_underappreciation": 1,
+        "catalyst_clarity": 2,
+        "risk_control": 0
+      },
+      "one_sentence_thesis": "RDW remains downgraded because direct space infrastructure exposure is offset by EV/Sales 9.29, negative free cash flow, negative EV/EBITDA, P/E not meaningful, and missing backlog/customer evidence.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=3007651072; enterprise_value=3446226688; trailing_revenue=370958016; gross_margin=0.12858; free_cash_flow=-71324128; net_debt=-12618000; ev_to_sales=9.29; price_to_sales=8.107794; pe_ratio=not_meaningful; ev_to_ebitda=-19.316; price_change_6m=1.194485; price_change_12m=-0.207547; distance_from_52w_high=-0.43243243243243246; distance_from_52w_low=2.1047227926078027"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 4,
+      "ticker": "MRCY",
+      "company_name": "MERCURY SYSTEMS, INC.",
+      "segment_name": "Secure defense electronics and RF payloads",
+      "final_score": 61,
+      "classification": "Observe",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 14,
+        "chokepoint_strength": 17,
+        "business_relevance": 8,
+        "commercial_validation": 8,
+        "valuation_discipline": 2,
+        "low_crowding_underappreciation": 0,
+        "catalyst_clarity": 2,
+        "risk_control": -2
+      },
+      "one_sentence_thesis": "MRCY remains downgraded because v2 shows stretched valuation, high momentum, and weak company-specific space/satellite validation despite a plausible defense electronics chokepoint.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=7223207424; enterprise_value=7489036288; trailing_revenue=966945984; gross_margin=0.28683; free_cash_flow=97339000; net_debt=324672000; ev_to_sales=7.745; price_to_sales=7.470125; pe_ratio=not_meaningful; ev_to_ebitda=78.179; price_change_6m=0.614982; price_change_12m=1.270668; distance_from_52w_high=-0.008807033762355919; distance_from_52w_low=1.4676923076923076"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 5,
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corp",
+      "segment_name": "Spacecraft components, power, thermal, and integration",
+      "final_score": 60,
+      "classification": "Wait for Pullback",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 13,
+        "chokepoint_strength": 15,
+        "business_relevance": 9,
+        "commercial_validation": 11,
+        "valuation_discipline": 0,
+        "low_crowding_underappreciation": 0,
+        "catalyst_clarity": 3,
+        "risk_control": -3
+      },
+      "one_sentence_thesis": "RKLB remains Wait for Pullback rather than Observe because business relevance is direct, but EV/Sales 95.919, P/S 94.14, negative free cash flow, and 303% 12-month price change make valuation/crowding the dominant issue.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=63975190528; enterprise_value=65184362496; trailing_revenue=679577984; gross_margin=0.36556; free_cash_flow=-214999376; net_debt=-1244681040; ev_to_sales=95.919; price_to_sales=94.13959; pe_ratio=not_meaningful; ev_to_ebitda=-395.462; price_change_6m=0.847861; price_change_12m=3.029516; distance_from_52w_high=-0.3219205298013245; distance_from_52w_low=3.056656101426308"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 6,
+      "ticker": "VSAT",
+      "company_name": "VIASAT INC",
+      "segment_name": "Satellite ground infrastructure and mission software",
+      "final_score": 54,
+      "classification": "Observe",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 10,
+        "chokepoint_strength": 10,
+        "business_relevance": 6,
+        "commercial_validation": 8,
+        "valuation_discipline": 5,
+        "low_crowding_underappreciation": 0,
+        "catalyst_clarity": 2,
+        "risk_control": 1
+      },
+      "one_sentence_thesis": "VSAT stays Observe because valuation multiples are less extreme, but high net debt, very high 12-month price momentum, and mixed chokepoint purity keep it out of Watchlist.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=9583043584; enterprise_value=15191620608; trailing_revenue=4640280064; gross_margin=0.33042; free_cash_flow=254796880; net_debt=5192731136; ev_to_sales=3.274; price_to_sales=2.0651865; pe_ratio=not_meaningful; ev_to_ebitda=10.687; price_change_6m=0.984446; price_change_12m=4.569047; distance_from_52w_high=-0.21850985633144007; distance_from_52w_low=5.133741258741259"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 7,
+      "ticker": "BKSY",
+      "company_name": "BlackSky Technology Inc.",
+      "segment_name": "Defense ISR and geospatial data infrastructure",
+      "final_score": 47,
+      "classification": "Observe",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 11,
+        "chokepoint_strength": 12,
+        "business_relevance": 7,
+        "commercial_validation": 5,
+        "valuation_discipline": 1,
+        "low_crowding_underappreciation": 0,
+        "catalyst_clarity": 2,
+        "risk_control": -3
+      },
+      "one_sentence_thesis": "BKSY is too weakly validated for Wait for Pullback: EV/Sales 14.623, negative free cash flow, negative EV/EBITDA, and strong price momentum require more customer/backlog evidence.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=1203074432; enterprise_value=1430195712; trailing_revenue=97805000; gross_margin=0.69291; free_cash_flow=-56810752; net_debt=95383992; ev_to_sales=14.623; price_to_sales=12.300746; pe_ratio=not_meaningful; ev_to_ebitda=-61.337; price_change_6m=0.850457; price_change_12m=1.977043; distance_from_52w_high=-0.3869137670196672; distance_from_52w_low=2.001851851851852"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    },
+    {
+      "rank": 8,
+      "ticker": "PL",
+      "company_name": "Planet Labs PBC",
+      "segment_name": "Defense ISR and geospatial data infrastructure",
+      "final_score": 45,
+      "classification": "Observe",
+      "score_breakdown": {
+        "theme_strength": 12,
+        "value_chain_importance": 11,
+        "chokepoint_strength": 12,
+        "business_relevance": 7,
+        "commercial_validation": 5,
+        "valuation_discipline": 0,
+        "low_crowding_underappreciation": 0,
+        "catalyst_clarity": 2,
+        "risk_control": -4
+      },
+      "one_sentence_thesis": "PL is too expensive and momentum-driven for a stronger category in this run despite positive free cash flow and net cash; EV/Sales 35.563 and 480% 12-month price change dominate.",
+      "key_evidence": [
+        "company_profiles_v2.json: market_cap=11101938688; enterprise_value=11935474688; trailing_revenue=335612000; gross_margin=0.55579; free_cash_flow=84853752; net_debt=-242800000; ev_to_sales=35.563; price_to_sales=33.079685; pe_ratio=not_meaningful; ev_to_ebitda=-230.775; price_change_6m=0.725762; price_change_12m=4.800745; distance_from_52w_high=-0.3981839258114374; distance_from_52w_low=5.357142857142857"
+      ],
+      "key_risks": [
+        "Backlog missing",
+        "Named customer contracts missing",
+        "Segment revenue missing",
+        "Customer concentration missing",
+        "Ownership, analyst coverage, and short interest missing",
+        "Valuation or momentum risk where multiples and price changes are high"
+      ],
+      "near_term_catalysts": [
+        "next earnings report",
+        "backlog or contract disclosure",
+        "segment revenue detail",
+        "guidance update",
+        "margin or free-cash-flow improvement",
+        "balance sheet improvement"
+      ],
+      "what_to_verify_next": [
+        "latest 10-K/10-Q backlog and segment revenue",
+        "last two earnings calls",
+        "named contract awards and 8-Ks",
+        "customer concentration",
+        "peer valuation comparison",
+        "ownership and short interest"
+      ],
+      "why_not_higher": "Backlog, customer contracts, segment revenue, ownership, analyst coverage, and short interest remain missing; valuation is stretched for several names.",
+      "why_not_reject": "The company remains plausibly tied to a space/defense satellite infrastructure segment and now has richer market-data evidence."
+    }
+  ],
+  "classification_summary": {
+    "high_priority_research": [],
+    "watchlist": [
+      "KTOS",
+      "IRDM"
+    ],
+    "wait_for_pullback": [
+      "RKLB"
+    ],
+    "observe": [
+      "RDW",
+      "MRCY",
+      "VSAT",
+      "BKSY",
+      "PL"
+    ],
+    "reject": []
+  },
+  "portfolio_research_notes": "Not portfolio construction and not a trading instruction. This is a refreshed research-quality screen using Market Data Connector v2.",
+  "summary": "Market Data Connector v2 improves valuation confidence. KTOS remains provisional Watchlist; IRDM returns to provisional Watchlist; RKLB remains Wait for Pullback; RDW, MRCY, BKSY, PL, and VSAT remain Observe because valuation, momentum, or commercial evidence gaps are still material."
+}
+```

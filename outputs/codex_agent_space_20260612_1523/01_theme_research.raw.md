@@ -1,0 +1,78 @@
+# 01 Theme Research
+
+```json
+{
+  "status": "completed",
+  "theme": "commercial space and defense satellite infrastructure supply chain",
+  "generated_at": "2026-06-12T22:27:44.719749+00:00",
+  "skill_name": "02_THEME_RESEARCH",
+  "warnings": [
+    "This Codex-agent run used local SEC/Yahoo connector data for company-level fields, but did not perform external web research beyond connector outputs."
+  ],
+  "theme_definition": "US-listed companies exposed to commercial space, defense satellite infrastructure, and the supply chain for launch, spacecraft systems, RF communications, ISR data, secure electronics, and ground infrastructure.",
+  "time_horizon": "3-5 years",
+  "theme_score": 77,
+  "theme_rating": "Strong",
+  "demand_drivers": [
+    {
+      "driver": "Defense and national-security demand for resilient satellite communications, ISR, and space domain awareness.",
+      "evidence_type": "inference",
+      "evidence_summary": "The seed universe contains satellite communications, geospatial intelligence, defense electronics, and ground systems companies; this supports a plausible demand map but does not itself prove contract acceleration.",
+      "source": "seed_universe plus Codex-agent reasoning"
+    },
+    {
+      "driver": "Commercial constellation and launch cadence growth requiring repeatable spacecraft, components, ground links, and mission software.",
+      "evidence_type": "inference",
+      "evidence_summary": "The company set includes launch, spacecraft systems, Earth observation, satellite data, and connectivity providers, indicating multiple value-chain exposures.",
+      "source": "seed_universe plus Codex-agent reasoning"
+    },
+    {
+      "driver": "Customer need for secure, qualified, mission-critical hardware rather than generic electronics.",
+      "evidence_type": "inference",
+      "evidence_summary": "Defense satellite infrastructure generally rewards qualification, reliability, and mission assurance; this needs follow-up source validation.",
+      "source": "Codex-agent reasoning"
+    }
+  ],
+  "spending_sources": [
+    "US defense and intelligence customers",
+    "commercial satellite operators",
+    "telecom and direct-to-device partners",
+    "Earth observation and geospatial analytics customers",
+    "launch and spacecraft mission customers"
+  ],
+  "why_now": [
+    "Satellite infrastructure is increasingly tied to defense resilience and commercial connectivity.",
+    "Launch and spacecraft system cadence may create bottlenecks in qualified components, ground systems, mission software, and secure electronics.",
+    "Several seed tickers already report recent revenue, cash, assets, liabilities, and price movement in company_profiles.json, enabling a first grounded watchlist pass."
+  ],
+  "bottleneck_hypotheses": [
+    "secure defense electronics and RF payloads",
+    "satellite ground infrastructure and mission software",
+    "spacecraft power, thermal, and mission-critical components",
+    "defense ISR and geospatial data infrastructure",
+    "launch cadence and integrated space systems"
+  ],
+  "crowding_risk": "high",
+  "major_risks": [
+    "Market-cap and valuation fields are missing from the Yahoo chart connector for all seed tickers.",
+    "Several space-exposed names show very large 12-month price changes in company_profiles.json, increasing repricing risk.",
+    "Company-level customer, backlog, and contract data were not fetched by the connector layer, so commercial validation is incomplete."
+  ],
+  "missing_data": [
+    "market_cap for all seed tickers",
+    "enterprise_value",
+    "EV/Sales",
+    "EV/EBITDA",
+    "gross_margin",
+    "free_cash_flow",
+    "net_debt",
+    "backlog",
+    "named customer contracts",
+    "short interest",
+    "institutional ownership",
+    "analyst coverage"
+  ],
+  "continue_to_value_chain": true,
+  "summary": "The theme is worth researching because satellite defense infrastructure has plausible chokepoints in qualified hardware, ground systems, ISR data, and spacecraft components. The run should remain valuation-disciplined because market cap and EV metrics are missing and multiple tickers have already repriced sharply."
+}
+```

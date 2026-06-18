@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-06-14T01:44:27.158399+00:00",
+  "filing": {
+    "accessionNumber": "0000700923-26-000007",
+    "filingDate": "2026-02-25",
+    "reportDate": "2025-12-31",
+    "acceptanceDateTime": "2026-02-25T21:08:32.000Z",
+    "act": "34",
+    "form": "10-K",
+    "fileNumber": "001-08325",
+    "filmNumber": "26678572",
+    "items": "",
+    "core_type": "XBRL",
+    "size": 12859567,
+    "isXBRL": 1,
+    "isInlineXBRL": 1,
+    "isXBRLNumeric": null,
+    "primaryDocument": "myrg-20251231.htm",
+    "primaryDocDescription": "10-K",
+    "ticker": "MYRG",
+    "cik": "0000700923",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm"
+  },
+  "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+  "cached_file_path": "data_cache/sec_filings/MYRG/10-K_2026-02-25_000070092326000007_myrg-20251231.htm"
+}

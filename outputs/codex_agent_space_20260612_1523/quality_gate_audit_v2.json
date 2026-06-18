@@ -1,0 +1,338 @@
+{
+  "status": "completed",
+  "audit_type": "quality_gate_v2",
+  "generated_at": "2026-06-12T22:47:24.248809+00:00",
+  "audited_run_folder": "outputs/codex_agent_space_20260612_1523",
+  "overall_quality_gate": "closer_but_not_investment_grade",
+  "overall_reason": "Market Data Connector v2 fixes valuation and market-cap confidence, but investment-grade research still requires backlog, named customer contracts, segment revenue, customer concentration, ownership, analyst coverage, and short-interest evidence.",
+  "company_audits": [
+    {
+      "ticker": "KTOS",
+      "current_rating": "Watchlist",
+      "evidence_strength_score": 72,
+      "data_completeness_score": 72,
+      "valuation_confidence_score": 70,
+      "commercial_validation_confidence_score": 55,
+      "crowding_confidence_score": 62,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Watchlist",
+      "reason": "KTOS still deserves provisional Watchlist. V2 fixes valuation data and shows net cash and moderate momentum, but valuation is stretched and customer/backlog/segment revenue evidence is still missing.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "IRDM",
+      "current_rating": "Watchlist",
+      "evidence_strength_score": 70,
+      "data_completeness_score": 74,
+      "valuation_confidence_score": 68,
+      "commercial_validation_confidence_score": 50,
+      "crowding_confidence_score": 52,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Upgrade from Observe audit view to Watchlist",
+      "reason": "IRDM can return to provisional Watchlist because v2 shows market cap, EV, P/E, EV/EBITDA, positive free cash flow, and gross margin. Chokepoint purity and high net debt still cap the rating.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "RDW",
+      "current_rating": "Observe",
+      "evidence_strength_score": 58,
+      "data_completeness_score": 68,
+      "valuation_confidence_score": 45,
+      "commercial_validation_confidence_score": 42,
+      "crowding_confidence_score": 38,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Observe",
+      "reason": "RDW should remain downgraded to Observe because v2 confirms demanding EV/Sales, negative free cash flow, negative EV/EBITDA, P/E not meaningful, and strong 6-month momentum without backlog/customer proof.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "MRCY",
+      "current_rating": "Observe",
+      "evidence_strength_score": 58,
+      "data_completeness_score": 69,
+      "valuation_confidence_score": 45,
+      "commercial_validation_confidence_score": 40,
+      "crowding_confidence_score": 32,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Observe",
+      "reason": "MRCY should remain downgraded to Observe. V2 shows positive free cash flow, but valuation and momentum are stretched and space/satellite revenue, backlog, and customer evidence are missing.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "current_rating": "Wait for Pullback",
+      "evidence_strength_score": 68,
+      "data_completeness_score": 70,
+      "valuation_confidence_score": 18,
+      "commercial_validation_confidence_score": 56,
+      "crowding_confidence_score": 15,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Wait for Pullback",
+      "reason": "RKLB remains Wait for Pullback rather than Observe because direct business relevance is strong, but v2 shows extreme EV/Sales, P/S, negative free cash flow, negative EV/EBITDA, and very high 12-month price change.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "VSAT",
+      "current_rating": "Observe",
+      "evidence_strength_score": 55,
+      "data_completeness_score": 72,
+      "valuation_confidence_score": 60,
+      "commercial_validation_confidence_score": 38,
+      "crowding_confidence_score": 12,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Observe",
+      "reason": "VSAT has less extreme valuation multiples but high net debt, very high price momentum, and mixed chokepoint purity. Observe remains appropriate.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "BKSY",
+      "current_rating": "Observe",
+      "evidence_strength_score": 48,
+      "data_completeness_score": 66,
+      "valuation_confidence_score": 28,
+      "commercial_validation_confidence_score": 35,
+      "crowding_confidence_score": 20,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Observe",
+      "reason": "BKSY is too weakly validated and too expensive for Wait for Pullback. V2 shows demanding EV/Sales/P/S, negative free cash flow, negative EV/EBITDA, and high price momentum.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    },
+    {
+      "ticker": "PL",
+      "current_rating": "Observe",
+      "evidence_strength_score": 50,
+      "data_completeness_score": 68,
+      "valuation_confidence_score": 22,
+      "commercial_validation_confidence_score": 36,
+      "crowding_confidence_score": 10,
+      "should_keep_rating": true,
+      "suggested_rating_change": "Keep Observe",
+      "reason": "PL appears too hype-driven/expensive for a stronger rating. V2 shows positive free cash flow and net cash, but EV/Sales and P/S are very high and 12-month price change is extreme.",
+      "live_data_now_supported": [
+        "market_cap",
+        "enterprise_value",
+        "shares_outstanding",
+        "total_cash",
+        "total_debt",
+        "net_debt",
+        "revenue_ttm",
+        "gross_margin",
+        "free_cash_flow",
+        "EV/Sales",
+        "Price/Sales",
+        "EV/EBITDA",
+        "price performance",
+        "distance from 52-week high/low"
+      ],
+      "critical_missing_evidence": [
+        "backlog",
+        "named customer contracts",
+        "segment revenue",
+        "customer concentration",
+        "ownership",
+        "analyst coverage",
+        "short interest"
+      ]
+    }
+  ],
+  "summary": {
+    "companies_upgraded": [
+      "IRDM"
+    ],
+    "companies_downgraded": [],
+    "watchlist": [
+      "KTOS",
+      "IRDM"
+    ],
+    "wait_for_pullback": [
+      "RKLB"
+    ],
+    "observe": [
+      "RDW",
+      "MRCY",
+      "VSAT",
+      "BKSY",
+      "PL"
+    ],
+    "reject": [],
+    "biggest_remaining_blocker": "Commercial validation: backlog, named customer contracts, segment revenue, and customer concentration remain missing.",
+    "close_to_high_priority_research": [
+      "KTOS is closest, but still blocked by stretched valuation and missing customer/backlog/segment revenue evidence."
+    ],
+    "answers": {
+      "KTOS": "Still deserves provisional Watchlist, not High Priority Research.",
+      "RDW_MRCY_IRDM": "IRDM can return to provisional Watchlist; RDW and MRCY should remain Observe.",
+      "RKLB": "Remains Wait for Pullback based on extreme valuation and price momentum, not downgraded to Observe because direct business relevance remains strong.",
+      "BKSY_PL": "Both are too expensive/momentum-driven and too weakly validated for Wait for Pullback; both should be Observe.",
+      "High Priority Research": "No company is close enough for High Priority Research until backlog/customer/segment-revenue evidence improves."
+    }
+  }
+}

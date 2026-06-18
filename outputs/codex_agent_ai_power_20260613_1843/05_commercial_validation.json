@@ -1,0 +1,369 @@
+{
+  "status": "completed",
+  "theme": "AI data center power infrastructure",
+  "generated_at": "2026-06-14T01:52:18.899674+00:00",
+  "skill_name": "06_COMMERCIAL_VALIDATION",
+  "warnings": [
+    "Automated filing search is useful but not investment-grade by itself; excerpts require manual review."
+  ],
+  "validated_companies": [
+    {
+      "ticker": "MYRG",
+      "company_name": "MYR GROUP\u00a0INC.",
+      "commercial_validation_score": 72,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence_count": 28,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "ts. Commercial and Industrial segment. We have provided electrical contracting services for commercial and industrial construction since 1912. Our C&I segment provides services such as the design, installation, maintenance and repair of commercial and industrial wiring, the installation of intelligent transportation sy",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MYRG 10-K_2026-02-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000007/myrg-20251231.htm",
+          "source_date": "2026-02-25",
+          "summary": "th a competitive advantage over smaller or less financially secure competitors. At times we may also be required to provide a letter of credit in connection with services provided to our customers. From time to time we guarantee the obligations of our subsidiaries, including obligations under certain contracts with cus",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 50,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": []
+    },
+    {
+      "ticker": "POWL",
+      "company_name": "Powell Industries, Inc.",
+      "commercial_validation_score": 82,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence_count": 28,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "polypropylene, fertilizer, methanol, and related petrochemical applications. In the electric utility market, we serve both the power generation and distribution end markets. Increasing global electricity demand and the focus on reliable and safe electrical distribution are driving substantial investments in global infr",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "POWL 10-K_2025-11-19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000152/powl-20250930.htm",
+          "source_date": "2025-11-19",
+          "summary": "d, all references to \u201cwe,\u201d \u201cus,\u201d \u201cour,\u201d \u201cPowell\u201d or \u201cthe Company\u201d include Powell Industries, Inc. and its consolidated subsidiaries. This Annual Report on Form 10-K (Annual Report) contains \u201cforward-looking statements\u201d within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the S",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 61,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "commercial_validation_score": 80,
+      "validation_stage_label": "Hard Evidence Emerging",
+      "hard_evidence_count": 20,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": "rants. We help customers across industries solve complex thermal management challenges and meet increasingly stringent indoor and outdoor air, energy, and water standards. We sell customer-centric thermal management solutions in a wide array of commercial, industrial, and building heating, ventilating, air conditioning",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "MOD 10-K_2026-05-27",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm",
+          "source_date": "2026-05-27",
+          "summary": ", Porsche, Scania, and International); and Volvo (including Mack Trucks and Renault Trucks). In addition, our Climate Solutions segment includes significant sales to three customers of our Data Centers business, with which we are party to confidentiality agreements. Generally, we supply products to our customers on the",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 71,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "ATKR",
+      "company_name": "Atkore Inc.",
+      "commercial_validation_score": 55,
+      "validation_stage_label": "Soft Evidence Only",
+      "hard_evidence_count": 18,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "ATKR 10-K_2025-11-26",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828025054049/atkr-20250930.htm",
+          "source_date": "2025-11-26",
+          "summary": "mers through a single order across our broad product portfolio coupled with services like our ReliaRoutes hub-and-spoke fixed trucking lanes and technologies like our mobile app to track orders and schedule pickups. We primarily sell and distribute our products through electrical, industrial and specialty distributors ",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "ATKR 10-K_2025-11-26",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1666138/000162828025054049/atkr-20250930.htm",
+          "source_date": "2025-11-26",
+          "summary": "60,758 $ 737,098 $ ( 396,667 ) $ 340,431 During fiscal 2025, the Company recorded non-cash impairment charges totaling $ 129,907 , primarily related to customer relationships. Refer to Note 14, \u201cFair Value Measurements\u201d for further discussion of the Company\u2019s impairment review. As a result of the asset impairment charg",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 54,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "BDC",
+      "company_name": "BELDEN INC.",
+      "commercial_validation_score": 66,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence_count": 20,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "ss, accelerated convergence of information technology systems with operational technology (IT/OT), and edge and data analytics. Segments As of December 31, 2025, we operated our business under two segments \u2013 Smart Infrastructure Solutions and Automation Solutions. A discussion of the segments is included below. In 2026",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "BDC 10-K_2026-02-17",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000009/bdc-20251231.htm",
+          "source_date": "2026-02-17",
+          "summary": "adjust our pricing for fluctuations in commodity prices, we can experience short-term favorable or unfavorable variances. When the costs of raw materials increase, we are generally able to recover these costs through higher pricing of our finished products. The majority of our products are sold through distribution, an",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 44,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": []
+    },
+    {
+      "ticker": "IESC",
+      "company_name": "IES Holdings, Inc.",
+      "commercial_validation_score": 68,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence_count": 23,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "IESC 10-K_2025-11-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826825000174/iesc-20250930.htm",
+          "source_date": "2025-11-21",
+          "summary": "lder, borrowing availability or cash position, or any forward-looking statements to reflect events or circumstances that may arise after the date of this report. Forward-looking statements are provided in this Annual Report on Form 10-K pursuant to the safe harbor established under the Private Securities Litigation Ref",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "IESC 10-K_2025-11-21",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826825000174/iesc-20250930.htm",
+          "source_date": "2025-11-21",
+          "summary": "including mergers, acquisitions and dispositions. She began her legal career with the law firm of Sullivan & Cromwell LLP after receiving her J.D. from Harvard Law School and B.A. from Duke University. Matthew M. Allen , 51, has served as the Chief Technical Officer of the Company since July 2024. Previously, he was Vi",
+          "why_it_matters": "Contains filing evidence for datacenter relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 50,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "AEIS",
+      "company_name": "ADVANCED ENERGY INDUSTRIES INC",
+      "commercial_validation_score": 60,
+      "validation_stage_label": "Early Validation",
+      "hard_evidence_count": 19,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "AEIS 10-K_2026-02-13",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+          "source_date": "2026-02-13",
+          "summary": "the utility or the building facility and convert it into various types of highly controllable, usable power that is predictable, repeatable, and customizable to meet the necessary requirements for powering a wide range of complex equipment. Our products enable customers to reduce or optimize their energy consumption th",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "AEIS 10-K_2026-02-13",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/927003/000110465926014731/aeis-20251231x10k.htm",
+          "source_date": "2026-02-13",
+          "summary": ", and we generally do not have long-term purchase commitments from our customers. As a result, we are limited in our ability to predict the level of future revenue or commitments from our current customers, which may diminish our ability to allocate labor, materials, and equipment in the manufacturing process effective",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 60,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "company_name": "VICOR CORPORATION",
+      "commercial_validation_score": 58,
+      "validation_stage_label": "Soft Evidence Only",
+      "hard_evidence_count": 27,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "ue proposition is supported by a compelling TCO, representing the cost of acquiring and operating a power system over its useful life, driven by competitive product pricing, high reliability, and demonstrably lower electricity costs. Our earliest market focus was on telecommunications infrastructure, which uses a stand",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "VICR 10-K_2026-03-02",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526085102/vicr-20251231.htm",
+          "source_date": "2026-03-02",
+          "summary": "microprocessor input/output I/O pins on the top side of the motherboard, thereby 5 Table of Contents improving I/O speed and memory access, which are a priority for GPUs and AI ASICs in AI applications. We continue the development of our vertical power delivery solutions. Our proprietary technologies enable us to offer",
+          "why_it_matters": "Contains filing evidence for datacenter relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 51,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "GNRC",
+      "company_name": "GENERAC HOLDINGS INC.",
+      "commercial_validation_score": 52,
+      "validation_stage_label": "Soft Evidence Only",
+      "hard_evidence_count": 20,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "GNRC 10-K_2026-02-18",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
+          "source_date": "2026-02-18",
+          "summary": "t the demand for certain of our products; or (ii) result in a withdrawal or reduction of grants previously awarded to the Company; \u25cf increase in product and other liability claims, warranty costs, recalls, or other claims; \u25cf significant legal proceedings, claims, fines, penalties, tax assessments, lawsuits or governmen",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-Q",
+          "source_title": "GNRC 10-Q_2026-05-05",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926014882/gnrc20260331_10q.htm",
+          "source_date": "2026-05-05",
+          "summary": "t end of period $ 265,530 $ 187,464 See notes to condensed consolidated financial statements. 4 Table of Contents Generac Holdings Inc. Notes to Condensed Consolidated Financial Statements ( U.S. Dollars in Thousands, Except Share and Per Share Data) (Unaudited) 1. Description of Business and Basis of Presentation Foun",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 76,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No backlog evidence found in retrieved filings."
+      ]
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy, Inc.",
+      "commercial_validation_score": 50,
+      "validation_stage_label": "Soft Evidence Only",
+      "hard_evidence_count": 22,
+      "hard_evidence": [
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "e underlying raw materials, including lithium as well as softening demand from the electric vehicle (\u201cEV\u201d) sector. The market for energy storage continues to rapidly evolve and while we believe lithium-ion battery costs will continue to decline over the long-term, they may not decline or decline at the rates we expect.",
+          "why_it_matters": "Contains filing evidence for data center relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        },
+        {
+          "evidence_type": "hard",
+          "source_type": "10-K",
+          "source_title": "FLNC 10-K_2025-11-25",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm",
+          "source_date": "2025-11-25",
+          "summary": "lity to compete, liquidity and access to capital, the timing of future revenue recognition, future capital expenditures and debt service obligations, the Company\u2019s expected growth and demand for our energy storage solutions, services, and digital application offerings and the industry generally, relationships with new ",
+          "why_it_matters": "Contains filing evidence for backlog relevant to AI data center power infrastructure.",
+          "confidence": "medium"
+        }
+      ],
+      "soft_evidence_count": 65,
+      "inferences": [
+        "Exposure is based on matching company products/services to data center power-chain needs unless filing evidence explicitly names data centers."
+      ],
+      "missing_evidence": [
+        "No segment revenue evidence found in retrieved filings."
+      ]
+    }
+  ],
+  "source_evidence_file": "outputs/codex_agent_ai_power_20260613_1843/data/commercial_validation_ai_power.json",
+  "summary": "Commercial validation is strongest for POWL and MOD, moderate for MYRG/IESC/BDC, and weaker or more scenario-driven for GNRC/FLNC."
+}
