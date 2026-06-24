@@ -2,6 +2,7 @@
 
 import { create } from 'zustand'
 import type { Direction, Stock } from '@/types'
+import { DEFAULT_MODEL } from '@/lib/models'
 
 type Layer = 0 | 1 | 2 | 3
 
@@ -9,12 +10,14 @@ interface DigStore {
   layer: Layer
   loading: boolean
   error: string | null
+  model: string
   layer1Directions: Direction[]
   layer2Directions: Direction[]
   finalStocks: Stock[]
   selectedLayer1: Direction | null
   selectedLayer2: Direction | null
 
+  setModel: (model: string) => void
   startDig: () => Promise<void>
   selectLayer1: (direction: Direction) => Promise<void>
   selectLayer2: (direction: Direction) => Promise<void>
@@ -38,16 +41,19 @@ export const useDigStore = create<DigStore>((set, get) => ({
   layer: 0,
   loading: false,
   error: null,
+  model: DEFAULT_MODEL,
   layer1Directions: [],
   layer2Directions: [],
   finalStocks: [],
   selectedLayer1: null,
   selectedLayer2: null,
 
+  setModel: (model) => set({ model }),
+
   startDig: async () => {
     set({ loading: true, error: null, layer: 1 })
     try {
-      const data = await post<{ directions: Direction[] }>('/dig/layer1')
+      const data = await post<{ directions: Direction[] }>('/dig/layer1', { model: get().model })
       set({ layer1Directions: data.directions, loading: false })
     } catch {
       set({ error: '加载失败，请重试', loading: false })
@@ -57,7 +63,7 @@ export const useDigStore = create<DigStore>((set, get) => ({
   selectLayer1: async (direction) => {
     set({ loading: true, error: null, selectedLayer1: direction, layer: 2 })
     try {
-      const data = await post<{ directions: Direction[] }>('/dig/layer2', { direction })
+      const data = await post<{ directions: Direction[] }>('/dig/layer2', { direction, model: get().model })
       set({ layer2Directions: data.directions, loading: false })
     } catch {
       set({ error: '加载失败，请重试', loading: false })
@@ -70,6 +76,7 @@ export const useDigStore = create<DigStore>((set, get) => ({
       const data = await post<{ stocks: Stock[] }>('/dig/stocks', {
         layer1: get().selectedLayer1,
         layer2: direction,
+        model: get().model,
       })
       set({ finalStocks: data.stocks, loading: false })
     } catch {
@@ -85,6 +92,7 @@ export const useDigStore = create<DigStore>((set, get) => ({
       const data = await post<{ directions: Direction[] }>('/dig/layer2', {
         direction: selectedLayer1,
         deeper: true,
+        model: get().model,
       })
       set({ layer2Directions: data.directions, loading: false })
     } catch {

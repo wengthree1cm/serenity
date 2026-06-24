@@ -1,8 +1,10 @@
 import { NextResponse } from 'next/server'
 import { readPrompt, callOpenAI } from '@/lib/openai'
 
-export async function POST() {
+export async function POST(req: Request) {
   try {
+    const body = await req.json().catch(() => ({}))
+    const model: string = body.model
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
       readPrompt('02_THEME_RESEARCH.md'),
@@ -26,7 +28,7 @@ export async function POST() {
   ]
 }`
 
-    const data = await callOpenAI(systemPrompt, userMessage)
+    const data = await callOpenAI(systemPrompt, userMessage, model)
     return NextResponse.json(data)
   } catch (err) {
     console.error('[layer1]', err)

@@ -9,7 +9,7 @@ interface Layer2Request {
 
 export async function POST(req: Request) {
   try {
-    const { direction, deeper = false }: Layer2Request = await req.json()
+    const { direction, deeper = false, model }: Layer2Request & { model?: string } = await req.json()
 
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
@@ -47,7 +47,7 @@ ${deeper ? '\n用户已看过第一轮，请挖掘更深一层、更细分的上
   ]
 }`
 
-    const data = await callOpenAI(systemPrompt, userMessage)
+    const data = await callOpenAI(systemPrompt, userMessage, model)
     return NextResponse.json(data)
   } catch (err) {
     console.error('[layer2]', err)

@@ -9,7 +9,7 @@ interface StocksRequest {
 
 export async function POST(req: Request) {
   try {
-    const { layer1, layer2 }: StocksRequest = await req.json()
+    const { layer1, layer2, model }: StocksRequest & { model?: string } = await req.json()
 
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
@@ -78,7 +78,7 @@ export async function POST(req: Request) {
   ]
 }`
 
-    const data = await callOpenAI(systemPrompt, userMessage)
+    const data = await callOpenAI(systemPrompt, userMessage, model)
     return NextResponse.json(data)
   } catch (err) {
     console.error('[stocks]', err)

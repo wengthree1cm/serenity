@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { DirectionCard } from '@/components/DirectionCard'
 import { StockCard } from '@/components/StockCard'
+import { ModelSelector } from '@/components/ModelSelector'
 import { useDigStore } from '@/store/useDigStore'
 
 const LAYER_LABELS = ['', '选择中下游方向', '选择上游子方向', '挖掘结果']
@@ -68,7 +69,10 @@ export default function DigPage() {
           <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             ← 返回首页
           </Link>
-          <LayerIndicator current={layer || 1} />
+          <div className="flex items-center gap-3">
+            <ModelSelector />
+            <LayerIndicator current={layer || 1} />
+          </div>
         </div>
 
         {/* Breadcrumb */}

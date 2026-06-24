@@ -1,16 +1,14 @@
 import OpenAI from 'openai'
 import fs from 'fs'
 import path from 'path'
+import { DEFAULT_MODEL } from './models'
 
 export const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
 
-// 本地: code/frontend/ → ../../gpt/prompts
-// Vercel: outputFileTracingRoot 把 gpt/prompts 打包到 serverless bundle 里，
-//         路径仍然是相对于 code/frontend 的 ../../gpt/prompts
 function resolvePromptsDir(): string {
   const candidates = [
-    path.join(process.cwd(), '../../gpt/prompts'),  // 本地开发 & Vercel bundle
-    path.join(process.cwd(), 'gpt/prompts'),         // 备用
+    path.join(process.cwd(), '../../gpt/prompts'),
+    path.join(process.cwd(), 'gpt/prompts'),
   ]
   for (const dir of candidates) {
     if (fs.existsSync(dir)) return dir
@@ -24,15 +22,23 @@ export function readPrompt(filename: string): string {
   return fs.readFileSync(path.join(PROMPTS_DIR, filename), 'utf-8')
 }
 
-export async function callOpenAI(systemPrompt: string, userMessage: string): Promise<unknown> {
+export async function callOpenAI(
+  systemPrompt: string,
+  userMessage: string,
+  model: string = DEFAULT_MODEL,
+): Promise<unknown> {
+  const isReasoning = model.startsWith('o')
+
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o',
+    model,
     messages: [
       { role: 'system', content: systemPrompt },
       { role: 'user', content: userMessage },
     ],
     response_format: { type: 'json_object' },
-    temperature: 0.7,
+    // 推理模型（o系列）不支持 temperature
+    ...(!isReasoning && { temperature: 0.7 }),
   })
+
   return JSON.parse(response.choices[0].message.content!)
 }
