@@ -15,7 +15,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-GPT_DIR = ROOT / "gpt"
+GPT_DIR = ROOT / "prompts"
 OUTPUTS_DIR = ROOT / "outputs"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))

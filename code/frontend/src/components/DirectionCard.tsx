@@ -10,12 +10,28 @@ interface Props {
   disabled?: boolean
 }
 
+function ChokepointBar({ score }: { score: number }) {
+  const color =
+    score >= 85 ? 'bg-emerald-500' :
+    score >= 70 ? 'bg-primary' :
+    'bg-amber-500'
+
+  return (
+    <div className="flex items-center gap-2">
+      <div className="flex-1 h-1 bg-border rounded-full overflow-hidden">
+        <div className={`h-full rounded-full transition-all ${color}`} style={{ width: `${score}%` }} />
+      </div>
+      <span className="text-xs font-mono text-muted-foreground tabular-nums">{score}</span>
+    </div>
+  )
+}
+
 export function DirectionCard({ direction, index, onSelect, disabled }: Props) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.08, duration: 0.35 }}
+      transition={{ delay: index * 0.08, duration: 0.3 }}
     >
       <button
         onClick={() => onSelect(direction)}
@@ -35,6 +51,13 @@ export function DirectionCard({ direction, index, onSelect, disabled }: Props) {
         <p className="text-sm text-muted-foreground leading-relaxed">
           {direction.logic}
         </p>
+
+        {direction.chokepointScore !== undefined && (
+          <div className="space-y-1">
+            <p className="text-xs text-muted-foreground">卡脖子得分</p>
+            <ChokepointBar score={direction.chokepointScore} />
+          </div>
+        )}
 
         {direction.exampleCompany && (
           <p className="text-xs text-muted-foreground/70">

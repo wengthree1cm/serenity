@@ -7,20 +7,20 @@ This project includes a local CLI runner for the Serenity-style investment resea
 Run a dry run first:
 
 ```bash
-python scripts/run_serenity_workflow.py --theme "AI data center power infrastructure" --dry-run
+python gpt/scripts/run_serenity_workflow.py --theme "AI data center power infrastructure" --dry-run
 ```
 
 Run the workflow:
 
 ```bash
 export OPENAI_API_KEY="your_api_key"
-python scripts/run_serenity_workflow.py --theme "AI data center power infrastructure"
+python gpt/scripts/run_serenity_workflow.py --theme "AI data center power infrastructure"
 ```
 
 Optional inputs:
 
 ```bash
-python scripts/run_serenity_workflow.py \
+python gpt/scripts/run_serenity_workflow.py \
   --theme "AI data center power infrastructure" \
   --market "US stocks" \
   --market-cap-min 300000000 \
@@ -31,17 +31,17 @@ python scripts/run_serenity_workflow.py \
 Resume an existing session:
 
 ```bash
-python scripts/run_serenity_workflow.py \
+python gpt/scripts/run_serenity_workflow.py \
   --theme "AI data center power infrastructure" \
-  --session-dir outputs/2026-06-08_ai_data_center_power_infrastructure
+  --session-dir gpt/outputs/2026-06-08_ai_data_center_power_infrastructure
 ```
 
 Rerun all steps in a session:
 
 ```bash
-python scripts/run_serenity_workflow.py \
+python gpt/scripts/run_serenity_workflow.py \
   --theme "AI data center power infrastructure" \
-  --session-dir outputs/2026-06-08_ai_data_center_power_infrastructure \
+  --session-dir gpt/outputs/2026-06-08_ai_data_center_power_infrastructure \
   --force
 ```
 
