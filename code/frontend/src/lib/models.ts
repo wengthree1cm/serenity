@@ -7,6 +7,12 @@ export interface ModelOption {
 
 export const MODELS: ModelOption[] = [
   {
+    id: 'gpt-4.1-nano',
+    label: 'GPT-4.1 Nano',
+    desc: '最便宜，测试用',
+    tier: 'cheap',
+  },
+  {
     id: 'gpt-4o-mini',
     label: 'GPT-4o Mini',
     desc: '便宜快速，适合快速验证',
@@ -27,13 +33,19 @@ export const MODELS: ModelOption[] = [
   {
     id: 'gpt-4.1',
     label: 'GPT-4.1',
-    desc: '旗舰模型，分析更深',
+    desc: '最新旗舰，分析更深',
+    tier: 'best',
+  },
+  {
+    id: 'o3-mini',
+    label: 'o3-mini',
+    desc: '推理模型，比 o4-mini 便宜',
     tier: 'best',
   },
   {
     id: 'o4-mini',
     label: 'o4-mini',
-    desc: '深度推理，最适合投资分析',
+    desc: '最强推理，最适合投资分析',
     tier: 'best',
   },
 ]

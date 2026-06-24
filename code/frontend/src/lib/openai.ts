@@ -40,5 +40,6 @@ export async function callOpenAI(
     ...(!isReasoning && { temperature: 0.7 }),
   })
 
+  console.log(`[OpenAI] model used: ${response.model}`)
   return JSON.parse(response.choices[0].message.content!)
 }
