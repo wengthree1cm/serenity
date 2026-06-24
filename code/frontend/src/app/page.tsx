@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { ModelSelector } from '@/components/ModelSelector'
 
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6">
+      <div className="absolute top-5 right-6">
+        <ModelSelector />
+      </div>
       <div className="max-w-2xl w-full text-center space-y-10">
 
         <div className="space-y-4">
