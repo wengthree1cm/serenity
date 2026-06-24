@@ -5,6 +5,7 @@ export async function POST(req: Request) {
   try {
     const body = await req.json().catch(() => ({}))
     const model: string = body.model
+    console.log(`[layer1] model: ${model}`)
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
       readPrompt('02_THEME_RESEARCH.md'),

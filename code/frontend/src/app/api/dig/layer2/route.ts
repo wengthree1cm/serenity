@@ -10,7 +10,7 @@ interface Layer2Request {
 export async function POST(req: Request) {
   try {
     const { direction, deeper = false, model }: Layer2Request & { model?: string } = await req.json()
-
+    console.log(`[layer2] model: ${model}`)
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
       readPrompt('03_VALUE_CHAIN_DECOMPOSITION.md'),

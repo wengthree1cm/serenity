@@ -10,7 +10,7 @@ interface StocksRequest {
 export async function POST(req: Request) {
   try {
     const { layer1, layer2, model }: StocksRequest & { model?: string } = await req.json()
-
+    console.log(`[stocks] model: ${model}`)
     const systemPrompt = [
       readPrompt('00_SYSTEM_PRINCIPLES.md'),
       readPrompt('05_COMPANY_DISCOVERY.md'),
